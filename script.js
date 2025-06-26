@@ -26,7 +26,7 @@ function showAllQuestions() {
     shuffleArray(opts);
     // Loại bỏ số thứ tự đầu câu hỏi nếu có
     let quesText = q.question.replace(/^\d+\.?\s*/, '');
-    html += `<div class="question">${quesText}</div><ul class="options">`;
+    html += `<div class="question"><b>Câu ${idx + 1}.</b> ${quesText}</div><ul class="options">`;
     opts.forEach((opt, oidx) => {
       html += `<li><label><input type="radio" name="q${idx}" value="${opt}"> ${String.fromCharCode(65+oidx)}. ${opt}</label></li>`;
     });
