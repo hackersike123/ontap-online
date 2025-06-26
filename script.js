@@ -77,16 +77,22 @@ function showSummary(score, userAnswers) {
   if (wrongs.length > 0) {
     html += '<div style="margin-top:16px;"><b>Các câu trả lời sai:</b><ol>';
     wrongs.forEach((ans, idx) => {
-      let selectedText = ans.selectedText ? `${ans.selected}. ${ans.selectedText}` : 'Không chọn';
       let correctText = ans.correctText ? `${ans.correct}. ${ans.correctText}` : 'Không xác định';
       html += `<li><div style='margin-bottom:4px;'>${ans.question}</div>`;
-      html += `<div>Đáp án của bạn: <b>${selectedText}</b></div>`;
       html += `<div>Đáp án đúng: <b>${correctText}</b></div>`;
-      html += '<ul>';
-      ans.options.forEach((opt, oidx) => {
-        html += `<li>${String.fromCharCode(65+oidx)}. ${opt}</li>`;
-      });
-      html += '</ul></li>';
+      html += '</li>';
+    });
+    html += '</ol></div>';
+  }
+  // Hiển thị đáp án đúng của mình nếu chọn đúng
+  let corrects = userAnswers.filter(ans => ans.selected === ans.correct);
+  if (corrects.length > 0) {
+    html += '<div style="margin-top:16px;"><b>Các câu trả lời đúng:</b><ol>';
+    corrects.forEach((ans, idx) => {
+      let selectedText = ans.selectedText ? `${ans.selected}. ${ans.selectedText}` : 'Không chọn';
+      html += `<li><div style='margin-bottom:4px;'>${ans.question}</div>`;
+      html += `<div>Đáp án đúng của bạn: <b>${selectedText}</b></div>`;
+      html += '</li>';
     });
     html += '</ol></div>';
   }
