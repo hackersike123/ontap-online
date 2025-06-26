@@ -1,0 +1,1212 @@
+TRẮC NGHIỆM CSDL1.
+1. Từ khóa SQL nào được sử dụng để lấy các bản ghi duy nhất?
+A. DISTINCT
+B. UNIQUE
+C. SELECT
+D. DIFFERENT
+2. Khóa chính trong cơ sở dữ liệu là gì?
+A. Một khóa dùng để sắp xếp các bản ghi.
+B. Một khóa ngoại liên kết nhiều bảng.
+C. Một định danh duy nhất cho mỗi bản ghi trong một bảng.
+D. Một khóa dùng để mã hóa dữ liệu.
+3. Đâu là mô hình cơ sở dữ liệu?
+A. Hierarchical
+B. Flat-file
+C. Network
+D. Tất cả đúng
+4. Bảng ở dạng chuẩn nào thì không có bất kỳ bất thường nào (cao nhất)?
+A. First Normal Form (1NF)
+B. Second Normal Form (2NF)
+C. Third Normal Form (3NF)
+D. Boyce-Codd Normal Form (BCNF)
+5. Câu lệnh SQL nào được sử dụng để lọc các bản ghi?
+A. WHERE
+B. FILTER
+C. SORT
+D. SELECT
+6. Câu lệnh SQL nào được sử dụng để chèn dữ liệu mới vào cơ sở dữ liệu?
+A. INSERT INTO
+B. ADD NEW
+C. UPDATE
+D. CREATE
+7. Khóa ngoại là gì?
+A. Khóa để bảo vệ dữ liệu
+B. Khóa tham chiếu đến khóa chính của bảng khác
+C. Một kiểu dữ liệu
+D. Một bảng phụ
+8. Đâu là câu lệnh SQL tạo bảng mới?
+A. ADD TABLE
+B. NEW TABLE
+C. CREATE TABLE
+D. TABLE CREATE
+9. Các hàm nào sau đây KHÔNG phải là một hàm hợp lệ trong SQL?
+A. SUM
+B. AVG
+C. COUNT
+D. MAXLENGTH
+10. Phép JOIN trong SQL được sử dụng để làm gì?
+A. Để kết hợp các hàng từ hai hoặc nhiều bảng
+B. Để thêm các cột mới vào một bảng
+C. Để xóa các hàng khỏi một bảng
+D. Để cập nhật các bản ghi hiện có
+11. Cơ sở dữ liệu (CSDL) là gì?
+A. Một tập hợp các chương trình máy tính
+B. Một tập hợp các dữ liệu có cấu trúc và mối quan hệ với nhau
+C. Một tập hợp các lệnh SQL
+D. Một tập hợp các bảng dữ liệu
+12. điểm Đâu là ưu điểm của việc sử dụng CSDL?
+A. Giảm thiểu sự trùng lặp dữ liệu
+B. Tăng tính nhất quán của dữ liệu
+C. Dễ dàng truy cập và quản lý dữ liệu
+D. Tất cả các đáp án trên
+13. Hệ quản trị cơ sở dữ liệu (DBMS) là gì?
+A. Một phần mềm dùng để tạo và quản lý CSDL
+B. Một ngôn ngữ lập trình
+C. Một loại phần cứng
+D. Một tập hợp các quy tắc
+14. Đâu là một số DBMS phổ biến?
+A. MySQL, PostgreSQL, Oracle, SQL Server
+B. Java, Python, C++
+C. Windows, macOS, Linux
+D. Word, Excel, PowerPoint
+15. Mô hình dữ liệu nào được sử dụng phổ biến nhất hiện nay?
+A. Mô hình quan hệ
+B. Mô hình hướng đối tượng
+C. Mô hình phân tán
+D. Mô hình NoSQL
+16. Bảng (table) trong mô hình quan hệ là gì?
+A. Một tập hợp các bản ghi
+B. Một tập hợp các thuộc tính
+C. Một tập hợp các mối quan hệ
+D. Một tập hợp các khóa
+17. Bản ghi (record) trong mô hình quan hệ là gì?
+A. Một hàng trong bảng
+B. Một cột trong bảng
+C. Một giá trị trong bảng
+D. Một mối quan hệ giữa các bảng
+18. Thuộc tính (attribute) trong mô hình quan hệ là gì?
+A. Một cột trong bảng
+B. Một hàng trong bảng
+C. Một giá trị trong bảng
+D. Một mối quan hệ giữa các bảng
+19. Khóa chính (primary key) là gì?
+A. Một thuộc tính duy nhất định danh mỗi bản ghi
+B. Một thuộc tính liên kết giữa các bảng
+C. Một thuộc tính chứa dữ liệu
+D. Một thuộc tính tùy chọn
+20. Khóa ngoại (foreign key) là gì?
+A. Một thuộc tính liên kết giữa các bảng
+B. Một thuộc tính duy nhất định danh mỗi bản ghi
+C. Một thuộc tính chứa dữ liệu
+D. Một thuộc tính tùy chọn
+21. SQL là gì?
+A. Ngôn ngữ truy vấn có cấu trúc
+B. Ngôn ngữ lập trình
+C. Ngôn ngữ đánh dấu
+D. Ngôn ngữ kịch bản
+22. Lệnh nào được sử dụng để tạo bảng trong SQL?
+A. CREATE TABLE
+B. INSERT INTO
+C. SELECT
+D. UPDATE
+23. Lệnh nào được sử dụng để chèn dữ liệu vào bảng trong SQL?
+A. INSERT INTO
+B. CREATE TABLE
+C. SELECT
+D. UPDATE
+24. Lệnh nào được sử dụng để truy vấn dữ liệu từ bảng trong SQL?
+A. SELECT
+B. CREATE TABLE
+C. INSERT INTO
+D. UPDATE
+25. Lệnh nào được sử dụng để cập nhật dữ liệu trong bảng SQL?
+A. UPDATE
+B. CREATE TABLE
+C. INSERT INTO
+D. SELECT
+26. Chuẩn hóa dữ liệu (normalization) là gì?
+A. Quá trình giảm thiểu sự trùng lặp dữ liệu
+B. Quá trình tăng tính nhất quán của dữ liệu
+C. Quá trình tối ưu hóa truy vấn
+D. Tất cả các đáp án trên
+27. Index là gì?
+A. Một cấu trúc dữ liệu giúp tăng tốc độ truy vấn
+B. Một loại khóa trong CSDL
+C. Một ngôn ngữ truy vấn
+D. Một mô hình dữ liệu
+28. View là gì?
+A. Một bảng ảo được tạo từ kết quả truy vấn
+B. Một loại khóa trong CSDL
+C. Một ngôn ngữ truy vấn
+D. Một mô hình dữ liệu
+29. Mô hình dữ liệu quan hệ được đề xuất bởi ai?
+A. Bill Gates
+B. Edgar F. Codd
+C. Larry Ellison
+D. Steve Jobs
+30. Thuộc tính khóa chính (Primary Key) trong cơ sở dữ liệu quan hệ có đặc điểm gì?
+A. Có thể chứa giá trị NULL
+B. Phải là duy nhất và không được trùng lặp
+C. Có thể trùng lặp
+D. Không cần thiết trong bảng
+31. Một bảng trong cơ sở dữ liệu quan hệ được gọi là gì?
+A. Query
+B. Relation
+C. Schema
+D. Index
+32. Một bảng có thể có bao nhiêu khóa chính?
+A. 0
+B. 1
+C. 2
+D. Nhiều hơn 2
+33. Câu lệnh SQL nào dùng để xóa toàn bộ dữ liệu trong bảng nhưng không xóa cấu trúc
+bảng?
+A. DELETE
+B. DROP TABLE
+C. TRUNCATE TABLE
+D. REMOVE
+34. Ràng buộc toàn vẹn thực thể (Entity Integrity) đảm bảo điều gì?
+A. Khóa chính không được NULL
+B. Khóa ngoại không được NULL
+C. Dữ liệu phải nhất quán
+D. Dữ liệu phải duy nhất
+35. Ràng buộc toàn vẹn tham chiếu (Referential Integrity) đảm bảo điều gì?
+A. Khóa chính không được NULL
+B. Khóa ngoại phải tham chiếu đến một khóa chính tồn tại
+C. Dữ liệu phải nhất quán
+D. Dữ liệu phải duy nhất
+36. Ràng buộc toàn vẹn miền (Domain Integrity) đảm bảo điều gì?
+A. Dữ liệu phải thuộc một miền giá trị cụ thể
+B. Khóa chính không được NULL
+C. Khóa ngoại phải tham chiếu đến một khóa chính tồn tại
+D. Dữ liệu phải duy nhất
+37. Ràng buộc NOT NULL trong SQL đảm bảo điều gì?
+A. Dữ liệu trong cột không được NULL
+B. Dữ liệu trong cột phải là duy nhất
+C. Dữ liệu trong cột phải tham chiếu đến một khóa chính
+D. Dữ liệu trong cột phải thuộc một miền giá trị cụ thể
+38. Chuẩn hóa cơ sở dữ liệu nhằm mục đích gì?
+A. Giảm dư thừa dữ liệu
+B. Tăng tốc độ truy vấn
+C. Tăng tính bảo mật
+D. Tăng tính nhất quán
+39. Dạng chuẩn 1NF (First Normal Form) yêu cầu điều gì?
+A. Mỗi cột phải chứa dữ liệu nguyên tử
+B. Mỗi bảng phải có khóa chính
+C. Mỗi bảng phải có khóa ngoại
+D. Mỗi bảng phải có ít nhất một cột
+40. Dạng chuẩn 2NF (Second Normal Form) yêu cầu điều gì?
+A. Bảng phải đạt 1NF và mọi thuộc tính không khóa phải phụ thuộc đầy đủ vào khóa chính
+B. Bảng phải đạt 1NF và mọi thuộc tính không khóa phải phụ thuộc trực tiếp vào khóa chính
+C. Bảng phải đạt 1NF và mọi thuộc tính không khóa phải phụ thuộc vào khóa ngoại
+D. Bảng phải đạt 1NF và mọi thuộc tính không khóa phải phụ thuộc vào một thuộc tính khác
+41. Dạng chuẩn 3NF (Third Normal Form) yêu cầu điều gì?
+A. Bảng phải đạt 2NF và mọi thuộc tính không khóa phải không phụ thuộc bắc cầu vào khóa
+chính
+B. Bảng phải đạt 2NF và mọi thuộc tính không khóa phải phụ thuộc trực tiếp vào khóa chính
+C. Bảng phải đạt 2NF và mọi thuộc tính không khóa phải phụ thuộc vào khóa ngoại
+D. Bảng phải đạt 2NF và mọi thuộc tính không khóa phải phụ thuộc vào một thuộc tính khác
+42. Dạng chuẩn BCNF (Boyce-Codd Normal Form) yêu cầu điều gì?
+A. Bảng phải đạt 3NF và mọi phụ thuộc hàm phải có vế trái là siêu khóa
+B. Bảng phải đạt 3NF và mọi phụ thuộc hàm phải có vế trái là khóa chính
+C. Bảng phải đạt 3NF và mọi phụ thuộc hàm phải có vế trái là khóa ngoại
+D. Bảng phải đạt 3NF và mọi phụ thuộc hàm phải có vế trái là một thuộc tính
+43. Giao dịch (Transaction) trong cơ sở dữ liệu là gì?
+A. Một chuỗi các thao tác trên cơ sở dữ liệu được thực hiện như một đơn vị công việc
+B. Một câu lệnh SQL
+C. Một bảng trong cơ sở dữ liệu
+D. Một khóa chính
+44. Câu lệnh SQL nào dùng để cấp quyền cho người dùng?
+A. GRANT
+B. REVOKE
+C. ALLOW
+D. PERMIT
+45. Câu lệnh SQL nào dùng để thu hồi quyền của người dùng?
+A. GRANT
+B. REVOKE
+C. DENY
+D. REMOVE
+46. Vai trò (Role) trong cơ sở dữ liệu là gì?
+A. Một tập hợp các quyền được gán cho người dùng
+B. Một tập hợp các bảng trong cơ sở dữ liệu
+C. Một tập hợp các câu lệnh SQL
+D. Một tập hợp các khóa chính
+47. Câu lệnh SQL nào dùng để tạo vai trò?
+A. CREATE ROLE
+B. CREATE USER
+C. CREATE PRIVILEGE
+D. CREATE PERMISSION
+48. Câu lệnh SQL nào dùng để xóa vai trò?
+A. DROP ROLE
+B. DELETE ROLE
+C. REMOVE ROLE
+D. CREATE ROLE
+49. Khóa (Lock) trong điều khiển tương tranh dùng để làm gì?
+A. Đảm bảo tính nhất quán của dữ liệu khi có nhiều giao dịch cùng truy cập Đảm bảo tính
+nhất quán
+B. của dữ liệu khi có một giao dịch truy cập
+C. Đảm bảo tính nhất quán của dữ liệu khi không có giao dịch nào truy cập Đảm bảo tính nhất
+quán
+D. của dữ liệu khi có lỗi xảy ra
+50. Một hệ quản trị CSDL không có chức năng nào trong các chức năng dưới đây?
+A. Cung cấp môi trường tạo lập CSDL
+B. Cung cấp môi trường cập nhật và khai thác dữ liệu
+C. Cung cấp công cụ quản lí bộ nhớ
+D. Cung cấp công cụ kiểm soát, điều khiển truy cập vào CSDL.
+51. Trong cơ sở dữ liệu bán hàng với các quan hệ HH, KH, DDH, và CTDDH, ràng buộc
+toàn vẹn nào sau đây có thể tồn tại?
+A. Mã số khách hàng (MSKH) trong bảng KH phải là duy nhất.
+B. Số lượng hàng tồn kho (SoTon) trong bảng HH phải lớn hơn hoặc bằng 0.
+C. Mã số đơn đặt hàng (SODDH) trong bảng DDH phải tồn tại trong bảng CTDDH.
+D. Tất cả các đáp án trên.
+52. Yếu tố nào sau đây không phải là một phần của ràng buộc toàn vẹn (RBTV)?
+A. Bối cảnh của RBTV
+B. Điều kiện của RBTV
+C. Bảng tầm ảnh hưởng
+D. Ngôn ngữ lập trình
+53. Ràng buộc toàn vẹn RB1 được mô tả như sau: "Trong quan hệ HH, mỗi mặt hàng phải
+có 1 mã số (MSHH) phân biệt với các mặt hàng khác". Điều kiện nào sau đây thể hiện
+đúng ràng buộc này?
+A. ∀q,q ∈ HH: q.MSHH = q.MSHH => i = j
+i j i j
+B. ∀q,q ∈ HH: MSHH <> q.MSHH => i <> j
+i j qi. j
+C. ∀q ∈ HH: q.MSHH <> NULL
+i i
+D. ∀q,q ∈ HH: q.MSHH > q.MSHH
+i j i j
+54. Biểu thức:
+∀q ∈ TketQuaHT : (q.Diem = NULL) ˅ (q.Diem >= 0 ˄ q.Diem <= 10) ˄ (q.Diem*4) mod
+2 = 0)
+mô tả điều kiện gì cho thuộc tính "Diem" trong bảng "KetQuaHT"?
+A. Điểm phải là một số nguyên từ 0 đến 10.
+B. Điểm có thể là NULL hoặc một số thực từ 0 đến 10 và chia hết cho 0.5.
+C. Điểm phải là một số thực dương bất kỳ.
+D. Điểm phải là một chuỗi ký tự không rỗng.
+55. Ràng buộc liên bộ trên một quan hệ trong bảng GIAOVIEN(MaGV, TenGV, Hocvi,
+Heso, Mucluong) được mô tả như sau: "Các giáo viên có cùng học vị và cùng hệ số
+lương thì mức lương sẽ bằng nhau". Biểu thức nào sau đây thể hiện đúng ràng buộc
+này?
+A. ∀gv,gv ∈ GIAOVIEN: (gv.Hocvi = gv.Hocvi) => (gv.Mucluong = gv.Mucluong)
+i j i j i j
+B. ∀gv,gv ∈ GIAOVIEN: (gv.Heso = gv.Heso) => (gv.Mucluong = gv.Mucluong)
+i j i j i j
+C. ∀gv,gv ∈ GIAOVIEN: (gv.Hocvi = gv.Hocvi) ^ (gv.Heso = gv.Heso) => (gv.Mucluong
+i j i j i j i
+= gv.Mucluong)
+j
+D. ∀gv,gv ∈ GIAOVIEN: (gv.Hocvi ≠ gv.Hocvi) v (gv.Heso ≠ gv.Heso) =>
+i j i j i j
+(gv.Mucluong ≠ gv.Mucluong)
+i j
+56. Ràng buộc liên bộ liên quan hệ nào sau đây được mô tả trong ví dụ về bảng HoaDon và
+ChiTietHoaDon?
+A. Tổng số lượng hàng trong ChiTietHoaDon phải bằng số lượng hàng trong HoaDon.
+B.Trị giá của mỗi hóa đơn trong HoaDon phải bằng tổng số lượng nhân với đơn giá của các
+mặt hàng trong ChiTietHoaDon tương ứng.
+C. Mã khách hàng (MaKH) trong HoaDon phải tồn tại trong ChiTietHoaDon.
+D. Ngày hóa đơn (NgayHD) trong HoaDon phải sau ngày mua hàng trong ChiTietHoaDon.
+57. Ràng buộc phụ thuộc tồn tại (tham chiếu, khóa ngoại) được mô tả như thế nào trong ví
+dụ về bảng KETQUATHI và MONHOC?
+A. Mã môn học (MaMH) trong bảng KETQUATHI phải là duy nhất.
+B. Mã sinh viên (MaSV) trong bảng KETQUATHI phải tồn tại trong bảng MONHOC.
+C. Mã môn học (MaMH) trong bảng KETQUATHI phải tồn tại trong bảng MONHOC.
+D. Điểm (Diem) trong bảng KETQUATHI phải lớn hơn 0.
+58. Ràng buộc phụ thuộc tồn tại giữa hai bảng KETQUATHI và MONHOC được thể hiện
+bằng biểu thức nào sau đây?
+A. ∀k ∈ KETQUATHI: k.MaMH ∈ MONHOC.MaMH
+B. ∀m ∈ MONHOC: m.MaMH ∈ KETQUATHI.MaMH
+C. ∃k ∈ KETQUATHI: k.MaMH = MONHOC.MaMH
+D. ∃m ∈ MONHOC: m.MaMH = KETQUATHI.MaMH
+59. Ràng buộc liên bộ liên quan hệ nào sau đây được mô tả trong ví dụ về bảng HoaDon và
+ChiTietHoaDon?
+A. Tổng số lượng hàng trong ChiTietHoaDon phải bằng số lượng hàng trong HoaDon.
+B. Trị giá của mỗi hóa đơn trong HoaDon phải bằng tổng số lượng nhân với đơn giá của các
+mặt hàng trong ChiTietHoaDon tương ứng.
+C. Mã khách hàng (MaKH) trong HoaDon phải tồn tại trong ChiTietHoaDon.
+D. Ngày hóa đơn (NgayHD) trong HoaDon phải sau ngày mua hàng trong ChiTietHoaDon.
+60. Ràng buộc liên thuộc tính - liên quan hệ nào sau đây được mô tả trong ví dụ về bảng HH
+và CTDDH?
+A. Mã số hàng hóa (MsHH) trong bảng HH phải là duy nhất.
+B. Số lượng hàng bán (SL) trong bảng CTDDH phải lớn hơn 0.
+C. Đối với cùng mặt hàng, số lượng bán trong CTDDH phải nhỏ hơn hoặc bằng số lượng tồn
+trong quan hệ hàng hóa.
+D. Đơn giá bán (DG_Ban) trong bảng CTDDH phải lớn hơn đơn giá mua (ĐG_Mua) trong
+bảng HH.
+61. Trong biểu diễn lược đồ cơ sở dữ liệu (CSDL) dưới dạng đồ thị, điều kiện nào sau đây
+cho thấy sự hiện diện của chu trình trong lược đồ CSDL?
+A. Đồ thị có một đường thẳng nối tất cả các quan hệ.
+B. Đồ thị có một đường khép kín với số đỉnh quan hệ lớn hơn hoặc bằng 3.
+C. Đồ thị có một đỉnh quan hệ duy nhất.
+D. Đồ thị có một đường khép kín với số đỉnh thuộc tính lớn hơn hoặc bằng 3.
+62. Trong lược đồ cơ sở dữ liệu với các quan hệ GIAOVIEN, GIANGDAY và MONHOC,
+điều kiện nào sau đây cho thấy sự hiện diện của chu trình?
+A. Quan hệ GIAOVIEN liên kết trực tiếp với quan hệ MONHOC.
+B. Quan hệ GIANGDAY liên kết trực tiếp với quan hệ MONHOC.
+C. Có một đường khép kín đi qua các quan hệ GIAOVIEN, GIANGDAY và MONHOC.
+D. Tất cả các quan hệ đều có thuộc tính khóa ngoại tham chiếu đến nhau.
+63. Trong lược đồ cơ sở dữ liệu với các quan hệ GIAOVIEN, GIANGDAY và MONHOC,
+ràng buộc nào sau đây có thể xảy ra do sự hiện diện của chu trình?
+A. Giáo viên chỉ được phân công giảng dạy những môn thuộc khoa giáo viên đó phụ trách.
+B. Giáo viên phải được phân công giảng dạy tất cả những môn thuộc khoa giáo viên đó phụ
+trách.
+C. Có thể phân công giáo viên giảng dạy bất kỳ môn học nào.
+D. Tất cả các đáp án trên.
+64. Có tất cả bao nhiêu loại ràng buộc có thể có trong một cơ sở dữ liệu?
+A. 2
+B. 4
+C. 5
+D. 7
+65. Cho một phần cơ sở dữ liệu quản lý sinh viên gồm các lo quan hệ sau:
+LOP(MALOP, SISO)
+SV(MSSV, HOTEN, MALOP)
+thuộc tính gạch chân là khóa chính, gạch nét đứt là khóa ngoại. Với ràng buộc “Sĩ số
+của một lớp là tổng số Sinh viên thuộc lớp đó”. Đây là loại ràng buộc toàn vẹn gì?
+A. Ràng buộc liên quan đến miền giá trị
+B. Ràng buộc liên thuộc tính
+C. Ràng buộc liên thuộc tính-Liên quan hệ
+D. Ràng buộc thuộc tính tổng hợp
+66. Ba yếu tố của ràng buộc toàn vẹn gồm: *
+A. Thuộc tính, tân từ, dữ liệu
+B. Thuộc tính, bối cảnh, tầm ảnh hưởng
+C. Bối cảnh, điều kiện, bảng tầm ảnh hưởng
+D. Bối cảnh, điều kiện, phát biểu
+67. Cho lược đồ quan hệ VATTU(MAVT, TENVT, SLTON). Ràng buộc: “Tên vật tư là duy
+nhất” thuộc lại ràng buộc toàn vẹn nào?
+A. Liên quan đến miền giá trị
+B. Liên bộ
+C. Liên thuộc tính
+D. Phụ thuộc tồn tại
+68. Cho một phần cơ sở dữ liệu quản lý bán hàng gồm các quan hệ sau:
+HOADON(SOHD, NGAYLAP), PHIEUGIAOHANG(SOPG, NGAYGIAO, SOHD)
+Thuộc tính gạch chân là khóa chính, gạch nét đứt là khóa ngoại.
+Với ràng buộc “Ngày giao hàng phải sau hoặc bằng ngày lập hóa đơn”. Đây là loại ràng
+buộc toàn vẹn gì?
+A. Liên quan đến miền giá trị
+B. Liên thuộc tính
+C. Liên thuộc tính-Liên quan hệ
+D. Thuộc tính tổng hợp
+69. Cho lược đồ quan hệ VATTU(MAVT, TENVT, SLTON). Ràng buộc: “số lượng tồn
+>=0” thuộc loại ràng buộc toàn vẹn nào?
+A. Ràng buộc miền giá trị
+B. Ràng buộc liên bộ
+C. Ràng buộc liên thuộc tính
+D. Ràng buộc phụ thuộc tồn tại
+70. Mô tả: Khi khách hàng (KHACHHANG) có nhu cầu mua hàng, một hóa đơn
+(HOADON) bán hàng sẽ được lập. Khi khách hàng chọn mặt hàng và nhập số lượng yêu
+cầu vào HOADON, hệ thống phải đảm bảo mặt hàng này có số lượng đủ đáp ứng yêu
+cầu của khách. Trong trường hợp, số lượng hàng tồn không đủ theo yêu cầu của khách
+hàng, hệ thống sẽ đưa ra đề nghị số lượng mua bằng với số lượng tồn kho cho khách
+hàng lựa chọn.
+Hãy cho biết Ràng Buộc Toàn Vẹn nêu trên thuộc loại nào?
+A. Ràng buộc liên bộ
+B. Ràng buộc miền giá trị
+C. Ràng buộc liên thuộc tính
+D. Ràng buộc liên thuộc tính liên quan hệ
+71. Cho lược đồ cơ sở dữ liệu sau: NhaCungCap(MaNCC, TenNCC, ThanhPho)
+HangHoa(MaHang, TenHang, MauSac, DonGia) CungUng(MaNCC, MaHang,
+SoLuong) Hãy chỉ ra phát biểu sai?
+A. Giá trị MaNCC hoặc MaHang trong CungUng được phép nhận giá trị NULL
+B. SoLuong trong CungUng luôn có giá trị > 0
+C. Giá trị MaHang trong CungUng được phép lặp lại nhiều lần
+D. MaHang trong HangHoa không được phép có giá trị trùng nhau
+72. Cho loại quan hệ SINHVIEN(MSSV, HoTen, Ngaysinh, NgayVaoDoan). Phát biểu:
+“Ngày vào Đoàn (NgayVaoDoan) > Ngày sinh (Ngaysinh)” thuộc loại ràng buộc toàn vẹn
+gì?
+A. Miền giá trị của thuộc tính
+B. Liên thuộc tính trên cùng loại quan hệ
+C. Liên thuộc tính liên quan hệ
+D. Do thuộc tính tổng hợp
+73. Cho lược đồ quan hệ sau: BIENLAI(Số_BL, MãHV, Điểm, Kếtquả, Xếploại)
+Ràng buộc toàn vẹn: “Với mọi biên lai, kết quả cuối khóa là ‘Đậu’ nếu điểm từ 5 trở lên,
+ngược lại là ‘Không đậu” thuộc loại ràng buộc nào?
+A. Tham chiếu
+B. Liên thuộc tính trên cùng loại quan hệ
+C. Liên bộ - Liên quan hệ
+D. Miền giá trị của thuộc tính
+74. Câu nào sai trong các câu dưới đây?
+A. Mỗi bảng chỉ có một khóa
+B. Nên chọn khóa chính là khóa có ít thuộc tính nhất
+C. Trong một bảng có thể có nhiều khóa chính
+D. Việc xác định khóa có thể dùng phụ thuộc hàm
+75. Khóa ngoại trong một quan hệ dùng để?
+A. Liên kết các quan hệ, tạo ràng buộc tồn tại
+B. Bảo đám tính đúng của dữ liệu trong quan hệ đó
+C. Không cần thiết có khóa ngoại
+D. Khi nhập dữ liệu thì kiểm tra khóa ngoại
+76. Tại sao khóa chính không cho phép có giá trị NULL?
+A. Khó xác định khóa ngoại
+B. Khó xác định tính duy nhất của các cột
+C. Khó kết nối các bảng
+D. Khó xác định tính duy nhất của các hàng
+77. … của một loại quan hệ sẽ trở thành các cột trong một Table tương ứng. *
+A. Các bộ (tupe)
+B. Các kiểu dữ liệu
+C. Các thuộc tính
+D. Các miền giá trị
+78. Cho quan hệ R=(ABCD) với ABCD là các thuộc tính, phát biểu B phải nằm trong
+khoảng từ x đến y thuộc loại ràng buộc toàn vẹn nào ?
+A. Liên thuộc tính trên một quan hệ
+B. Miền giá trị của thuộc tính
+C. Liên bộ trên một quan hệ
+D. Thuộc tính tổng hợp
+79. Cho hai quan hệ Sinh_Viên và Bảng_Điểm phát biểu : ‘Sinh viên chỉ có điểm của những
+môn học mà sinh viên đó đã thi’ thuộc loại ràng buộc nào ?
+A. Liên thuộc tính, liên quan hệ
+B. Tham chiếu
+C. Liên bộ, liên quan hệ
+D. Miền giá trị của thuộc tính
+80. Cho 2 quan hệ Hóa_Đơn và Chi_Tiết_Hóa_Đơn, phát biểu: ‘Trị giá hóa đơn phải bằng
+tổng số lượng và đơn giá các mặt hàng có trong hóa đơn đó’ thuộc loại ràng buộc nào?
+A. Tham chiếu
+B. Liên thuộc tính, liên quan hệ
+C. Thuộc tính tổng hợp
+D. Miền giá trị
+81. Cho lược đồ quan hệ Q(A, B, C) và phụ thuộc hàm A → B. Phát biểu nào sau đây là
+đúng?
+A. Nếu q .A ≠ q .A thì q .B = q .B
+1 2 1 2
+B. Nếu q .A = q .A thì q .B = q .B
+1 2 1 2
+C. A → B là phụ thuộc hàm hiển nhiên khi A ⊆ B
+D. A → B là phụ thuộc hàm hiển nhiên khi A ∩ B = ∅
+82. Cho lược đồ quan hệ Q(A, B, C) và phụ thuộc hàm A → B. Phát biểu nào sau đây là
+đúng khi A → B là phụ thuộc hàm nguyên tố (phụ thuộc hàm đầy đủ)?
+A. Tồn tại A' là tập con của A sao cho A' → B.
+B. Không tồn tại A' là tập con thực sự của A sao cho A' → B.
+C. A → B là phụ thuộc hàm hiển nhiên.
+D. B không phụ thuộc vào A.
+83. Cho lược đồ quan hệ Q. Tập phụ thuộc hàm của Q được ký hiệu là F . Phát biểu nào
+Q
+sau đây là đúng?
+A. F là một phụ thuộc hàm duy nhất trên Q.
+Q
+B. F là tập hợp tất cả các thuộc tính của Q.
+Q
+C. F là tập hợp tất cả các phụ thuộc hàm xác định trên Q.
+Q
+D. F là tập hợp các bộ giá trị của Q.
+Q
+84. Cho lược đồ quan hệ SINHVIEN(MaNV, TenNV, DiaChi, ThanhPho) và phụ thuộc hàm
+(MaNV, DiaChi) → DiaChi. Phát biểu nào sau đây là đúng?
+A. Phụ thuộc hàm này là phụ thuộc hàm nguyên tố.
+B. Phụ thuộc hàm này là phụ thuộc hàm đầy đủ.
+C. Phụ thuộc hàm này là phụ thuộc hàm hiển nhiên.
+D. Phụ thuộc hàm này không tồn tại.
+85. Cho lược đồ quan hệ SINHVIEN(MaNV, TenNV, Lop, Khoa) với MaNV là mã số sinh
+viên (MSSV) và TenNV là tên sinh viên. Biết rằng mỗi MSSV xác định duy nhất một
+TenSV. Phát biểu nào sau đây luôn đúng?
+A. Hai sinh viên có cùng MSSV chắc chắn có cùng TenNV.
+B. Hai sinh viên có cùng TenNV chắc chắn có cùng MSSV.
+C. Phụ thuộc hàm MSSV → TenNV là phụ thuộc hàm hiển nhiên.
+D. Phụ thuộc hàm MSSV → TenNV là phụ thuộc hàm nguyên tố.
+86. Cho lược đồ quan hệ SinhVien(MSSV, TênSV, Lớp, Khoa) và các phụ thuộc hàm đã
+phân tích. Phát biểu nào sau đây KHÔNG đúng?
+A. MSSV → Khoa là một phụ thuộc hàm bắc cầu.
+B. Không có phụ thuộc hàm hiển nhiên nào trong lược đồ quan hệ SinhVien.
+C. MSSV → TênSV là một phụ thuộc hàm nguyên tố.
+D. TênSV → MSSV là một phụ thuộc hàm nguyên tố.
+87. Cho quan hệ R có tập thuộc tính Q = {a, b, c, d, e} và dữ liệu quan hệ như trong bảng.
+Hãy cho biết phụ thuộc hàm nào sau đây không thể được suy ra từ dữ liệu của quan hệ
+R?
+R( a b c d e )
+a1 b2 c1 d1 e1
+a1 b2 g3 d1 h2
+h2 c3 n1 a2 k1
+c2 d2 n1 b2 d3
+A. a → b
+B. a → d
+C. c → a
+D. c → d
+88. Cho X = {MaNV, TenNV, DiaChi} và Y = {DiaChi}. Phát biểu nào sau đây là đúng khi
+áp dụng Luật 1 Amstrong về phụ thuộc hàm?
+A. X → Y là phụ thuộc hàm nguyên tố.
+B. X → Y là phụ thuộc hàm đầy đủ.
+C. X → Y là phụ thuộc hàm hiển nhiên.
+D. X → Y không phải là phụ thuộc hàm.
+89. Cho lược đồ quan hệ NhanVien(MaNV, TenNV, DiaChi, ThanhPho) và các tập thuộc
+tính X = {MaNV}, Y = {TenNV}, W = {DiaChi, ThanhPho}, Z = {ThanhPho}.
+Biết rằng MaNV → TenNV.
+Áp dụng Luật 2 - Amstrong, phụ thuộc hàm nào sau đây có thể được suy ra?
+A. {MaNV, DiaChi} → {TenNV, DiaChi}
+B. {MaNV, DiaChi} → {TenNV, ThanhPho}
+C. {MaNV, ThanhPho} → {TenNV, DiaChi}
+D. {MaNV, DiaChi, ThanhPho} → {TenNV, ThanhPho}
+90. Cho lược đồ quan hệ NhanVien(MSSV, Lớp, Khoa) và các tập thuộc tính X = {MSSV},
+Y = {Lớp}, Z = {Khoa}. Biết rằng MSSV → Lớp và Lớp → Khoa.
+Áp dụng Luật 3 - Amstrong (Luật bắc cầu), phụ thuộc hàm nào sau đây có thể được suy
+ra?
+A. MSSV → Lớp
+B. Lớp → Khoa
+C. MSSV → Khoa
+D. Khoa → MSSV
+91. Cho lược đồ quan hệ NhanVien(MaNV, TenNV, PhongBan, DiaChi) và các tập thuộc
+tính X = {MaNV}, Y = {TenNV}, Z = {PhongBan}. Biết rằng MaNV → {TenNV,
+PhongBan}.
+Áp dụng Luật 4 - Amstrong (Luật phân rã), phụ thuộc hàm nào sau đây KHÔNG thể
+được suy ra?
+A. MaNV → TenNV
+B. MaNV → PhongBan
+C. TenNV → PhongBan
+D. Không có phụ thuộc hàm nào khác ngoài a và b.
+92. Cho lược đồ quan hệ NhanVien(MaNV, TenNV, PhongBan, DiaChi) và các tập thuộc
+tính X = {MaNV}, Y = {TenNV}, Z = {PhongBan}. Biết rằng MaNV → TenNV và MaNV
+→ PhongBan.
+Áp dụng Luật 5 (Luật hợp nhất), phụ thuộc hàm nào sau đây có thể được suy ra?
+A. MaNV → TenNV
+B. MaNV → PhongBan
+C. MaNV → {TenNV, PhongBan}
+D. TenNV → PhongBan
+93. Cho lược đồ quan hệ NhanVien(MaNV, PhongBan, TruongPhong, DiaChi) và các tập
+thuộc tính X = {MaNV}, Y = {PhongBan}, Z = {DiaChi}, W = {TruongPhong}.
+Biết rằng MaNV → PhongBan và {PhongBan, DiaChi} → TruongPhong.
+Áp dụng Luật 6 (Luật giả bắc cầu), phụ thuộc hàm nào sau đây có thể được suy ra?
+A. MaNV → TruongPhong
+B. PhongBan → TruongPhong
+C. {MaNV, DiaChi} → TruongPhong
+D. DiaChi → TruongPhong
+Cho lược đồ quan hệ R(U), với U={A,B,C,D,E}, F= {A→BC, C→DE, D→A}. Tập
+94. thuộc tính không khóa của R(U) là?
+A. {B,E}
+B. {B,C,E}
+C. {B,C,D,E}
+D. {}
+95. Xét lược đồ quan hệ u= < R,F > , với R = {M,T,G,A,H,D,L} và F = {H → D, M → T, MA
+→ G, MH → L}. Hãy xác định khóa của lược đồ cơ sở dữ liệu.
+A. {AMG}
+B. {HMA}
+C. {MTG}
+D. {AGT}
+96. Cho lược đồ quan hệ u= < Q,F > với Q=(a,b,c,d,e) và F={a→b, b→ac, ad→e, e→b}. Tìm
+tập khóa của u?
+A. {ad, bd}
+B. {bd}
+C. {ed,ad,bd}
+D. {bde,ace}
+97. Cho lược đồ quan hệ R=(Q,F) với Q=(A,B,C,D,E,G,H) và F ={B → A; DA → CE; D →
+H; GH→ C; AC → D}.
+Tìm bao đóng của tập thuộc tính {AC}
+A. {ACDEH}
+B. {ABCDEH}
+C. {ACEH}
+D. {ACDE}
+98. Cho lược đồ quan hệ u= < Q,F > với Q=(a,b,c,d,e,g) và F={ad→b, eg→a, bc→g} xác định
+tập khóa của u?
+A. {acde, bcde}
+B. {acd, cde, cdeg}
+C. {cdeg,bcde, acde}
+D. {bcdg, bcde,bcda}
+99. Cho lược đồ quan hệ u= < Q,F > với Q=(a,b,c,d,e,g,h) và F={b→ac, hd→ae, ac→be,
+e→h, a→d, g→e}. Tìm tập khóa của u?
+A. {bdg,acg}
+B. {bg,cdg}
+C. {bdg, cdg}
+D. {acg,bg,cdg}
+100. Cho lược đồ quan hệ u= < Q,F > với Q=(a,b,c,d,e,h) vàF={bc→e, d→a,c→a,
+ae→d,be→ch}. Tìm tập khóa của u?
+A. {bc,be}
+B. {bc,bd}
+C. {be,ae}
+D. {cd,ae}
+101. Cho lược đồ quan hệ u= < Q,F> với Q=(a,b,c,d,e) và F={ac→e, de→b, bc→d}. Tìm tập
+khóa của u?
+A. {ac}
+B. {bc,ac}
+C. {acd, ace}
+D. {abc, acd}
+102. Cho lược đồ quan hệ u= < Q,F > với Q=(a,b,c,d,e,g,h) và F={d→b, de→h, g→c, ch→g,
+e→a, dh→ae }. Tìm tập khóa của u?
+A. {cde,dgh}
+B. {dghe, dghc}
+C. {cde,cdh, deg}
+D. {dce,dch,deg,dgh}
+103. Cho u= < R,F > với R=(A,B,C,D,E,G) và tập phụ thuộc hàm F = {AE → C, CG → A, BE
+→ D, GA → E}. Tập thuộc tính không khóa của u là:
+A. {A}
+B. {B}
+C. {C}
+D. {D}
+104. Cho lược đồ quan hệ r=(U,F), với U=(A,B,C,D,E) và F= {A→BC, C→DE}. Khóa của r
+là?
+A. {A}
+B. {A,C}
+C. {A,D}
+D. {A,B,C}
+105. Cho lược đồ quan hệ u=(Q,F) với Q=(a,b,c,d,e,g,h) và F={cd→h, e→b, d→g, bh→e,
+ch→dg, c→a}. Tìm tập khóa của u?
+A. {cdh, bcd}
+B. {ace, abd}
+C. {cde, bce}
+D. {cde,bch}
+106. Cho lược đồ cơ sở dữ liệu sau. NhaCungCap(MaNCC, TenNCC, ThanhPho),
+HangHoa(MaHang, TenHang, MauSac, DonGia) CungUng(MaNCC, MaHang,
+SoLuong) Hãy chỉ ra phát biểu sai?
+A. Giá trị MaNCC hoặc MaHang trong CungUng được phép nhận giá trị NULL
+B. SoLuong trong CungUng luôn có giá trị > 0
+C. Giá trị MaHang trong CungUng được phép lặp lại nhiều lần
+D. MaHang trong HangHoa không được phép có giá trị trùng nhau
+107. Cho loại quan hệ SINHVIEN(MSSV, HoTen, Ngaysinh, NgayVaoDoan). Phát biểu:
+“Ngày vào Đoàn (NgayVaoDoan) > Ngày sinh (Ngaysinh)” thuộc loại ràng buộc toàn vẹn
+gì?
+A. Miền giá trị của thuộc tính
+B. Liên thuộc tính trên cùng loại quan hệ
+C. Liên thuộc tính liên quan hệ
+D. Do thuộc tính tổng hợp
+108. Cho lược đồ quan hệ sau: BIENLAI(Số_BL, MãHV, Điểm, Kếtquả, Xếploại)
+Ràng buộc toàn vẹn: “Với mọi biên lai, kết quả cuối khóa là ‘Đậu’ nếu điểm từ 5 trở lên,
+ngược lại là ‘Không đậu” thuộc loại ràng buộc nào?
+A. Tham chiếu
+B. Liên thuộc tính trên cùng loại quan hệ
+C. Liên bộ - Liên quan hệ
+D. Miền giá trị của thuộc tính
+109. Câu nào sai trong các câu dưới đây?
+A. Mỗi bảng chỉ có một khóa
+B. Nên chọn khóa chính là khóa có ít thuộc tính nhất
+C. Trong một bảng có thể có nhiều khóa chính
+D. Việc xác định khóa có thể dùng phụ thuộc hàm
+110. Khóa ngoại trong một quan hệ dùng để?
+A. Liên kết các quan hệ, tạo ràng buộc tồn tại
+B. Bảo đám tính đúng của dữ liệu trong quan hệ đó
+C. Không cần thiết có khóa ngoại
+D. Khi nhập dữ liệu thì kiểm tra khóa ngoại
+111. Tại sao khóa chính không cho phép có giá trị NULL?
+A. Khó xác định khóa ngoại
+B. Khó xác định tính duy nhất của các cột
+C. Khó kết nối các bảng
+D. Khó xác định tính duy nhất của các hàng
+112. … của một loại quan hệ sẽ trở thành các cột trong một Table tương ứng. *
+A. Các bộ (tupe)
+B. Các kiểu dữ liệu
+C. Các thuộc tính
+D. Các miền giá trị
+113. Cho quan hệ R=(ABCD) với ABCD là các thuộc tính, phát biểu B phải nằm trong
+khoảng từ x đến y thuộc loại ràng buộc toàn vẹn nào ?
+A. Liên thuộc tính trên một quan hệ
+B. Miền giá trị của thuộc tính
+C. Liên bộ trên một quan hệ
+D. Thuộc tính tổng hợp
+114. Cho hai quan hệ Sinh_Viên và Bảng_Điểm phát biểu : ‘Sinh viên chỉ có điểm của những
+môn học mà sinh viên đó đã thi’ thuộc loại ràng buộc nào ?
+A. Liên thuộc tính, liên quan hệ
+B. Tham chiếu
+C. Liên bộ, liên quan hệ
+D. Miền giá trị của thuộc tính
+115. Cho 2 quan hệ Hóa_Đơn và Chi_Tiết_Hóa_Đơn, phát biểu: ‘Trị giá hóa đơn phải bằng
+tổng số lượng và đơn giá các mặt hàng có trong hóa đơn đó’ thuộc loại ràng buộc nào?
+A. Tham chiếu
+B. Liên thuộc tính, liên quan hệ
+C. Thuộc tính tổng hợp
+D. Miền giá trị
+116. Để thực hiện phép giao giữa 2 loại quan hệ, trong SQL, ta sử dụng toán tử.
+A. ADD
+B. MINUS
+C. EXCEPT
+D. INTERSECT
+117. Kết nối bằng nhau các quan hệ theo thuộc tính là *
+A. Thực hiện tích Đề Các và phép chọn
+B. Thực hiện tích Đề Các và phép chiếu
+C. Thực hiện phép chiếu và chia
+D. Thực hiện phép chiếu và phép chọn
+118. Phép chọn được thực hiện trong mệnh đề nào?
+A. GROUP BY HAVING
+B. WHERE
+C. SELECT
+D. FROM
+119. Để nhóm dữ liệu ta sử dụng mệnh đề nào?
+A. SELECT
+B. FROM
+C. GROUP BY
+D. WHERE
+120. Câu lệnh nào được dùng để tính tổng số dòng trong bảng NHANVIEN?
+A. Select rowcount from NHANVIEN
+B. Select sum(*) from NHANVIEN
+C. Select count(*) from NHANVIEN
+D. Select count_rows from NHANVIEN
+121. Giả sử bảng KHACHHANG chưa có mẩu tin MAKH với giá trị 10, dùng câu lệnh nào
+sau đây để thêm mẫuu tin này với các giá trị tương ứng cho 6 cột?
+A. INSERT INTO KHACHHANG VALUES (‘KH010’,’Lan’, ‘Truong Thi’, ’TP.HCM’,
+‘TP.HCM’, ‘VietNam’)
+B. INSERT INTO KHACHHANG (MAKH, TENKH, HOKH, City, Country) VALUES
+(‘KH010’,’Lan’, ‘Truong Thi’,’TP.HCM’, ‘TP.HCM’, ‘VietNam’)
+C. INSERT INTO KHACHHANG VALUE (‘KH010’,’Lan’, ‘Truong Thi’,’TP.HCM’,
+‘TP.HCM’, ‘VietNam’)
+D. INSERT INTO KHACHHANG (‘KH010’,’Lan’, ‘Truong Thi’,’TP.HCM’, ‘TP.HCM’,
+‘VietNam’)
+122. Chúng ta muốn liệt kê tất cả các hàng trong bảng KHACHHANG nhưng chỉ lấy giá trị
+của 2 cột TENKH và cột HOKH (không có các hàng trùng nhau), dùng câu lệnh nào sau
+đây?
+A. SELECT DISTINCT TENKH, HOKH FROM KHACHHANG
+B. SELECT ALL TENKH, HOKH FROM KHACHHANG
+C. SELECT TENKH, HOKH FROM KHACHHANG
+D. SELECT TENKH.*, HOKH .* FROM KHACHHANG
+123. Câu lệnh nào dùng để xóa trong bảng KHACHHANG các khách hàng có cột TEN là
+‘Lan’ và cột DIACHI là ‘TP.HCM’?
+A. DELETE * FROM KHACHHANG WHERE TEN='Lan' and DIACHI =’TP.HCM’
+B. DELETE ALL FROM KHACHHANG WHERE TEN='Lan' and diachi=’TP.HCM’
+C. DELETE *.* FROM KHACHHANG WHERE TEN='Lan' and DIACHI =’TP.HCM’
+D. DELETE FROM KHACHHANG WHERE TEN='Lan' and diachi =’TP.HCM’
+124. Câu lệnh nào trả về từ bảng BÁNH các mặt hàng TÊN là ‘Chocolate’ hoặc ‘Chocopie’?
+A. Select * from BÁNH where TÊN LIKE ‘Choco*’
+B. Select from BÁNH where TÊN = ‘Choco%’
+C. Select * from BÁNH where TÊN LIKE ‘Choco%’
+D. Select * from BÁNH where TÊN LIKE ‘%Choco?’
+125. Chỉ ra câu lệnh đồng loạt tăng giá sách (Book_Price) lên 10% trong bảng BookDetail
+A. UPDATE BookDetails SET Book_Price*10/100
+B. UPDATE BookDetails SET Book_Price=Book_Price*10/100
+C. UPDATE Book_Price=Book_Price+Book_Price*10/100 FROM BookDetails
+D. UPDATE BookDetails SET Book_Price=Book_Price+Book_Price*10/100
+126. Trong bảng BIENLAI, để xem thông tin trong khoảng từ 10/02/2011 đến 20/02/2011, ta
+dùng câu lệnh nào dưới đây
+A. SELECT * FROM BIENLAI WHERE NGAY_DK BETWEEN ‘10/02/2011’ or
+‘20/02/2011’
+B. SELECT * FROM BIENLAI WHERE NGAY_DK BETWEEN ‘10/02/2011’ AND
+‘20/02/2011’
+C. SELECT * FROM BIENLAI WHERE NGAY_DK NOT BETWEEN ‘10/02/2011’ AND
+‘20/02/2011’
+D. SELECT * FROM BIENLAI WHERE ‘10/02/2011’ <= NGAY_DK <= ‘20/02/2011’ 38.
+1 điểm
+127. Cho bảng NHANVIEN(MANV, TENNV, PHONG, MUCLUONG). Câu lệnh nào dưới
+đây trả về số lượng nhân viên trong một công ty?
+A. Select count(MANV) from NHANVIEN
+B. Select sum(MANV) from NHANVIEN
+C. Select max(MANV) from NHANVIEN
+D. Select MANV from NHANVIEN where count(MANV) > 0
+128. Trong lược đồ quan hệ CHUYÊN_MÔN (MÃGV, MÔN), thuộc tính nào không phải là
+thuộc tính đơn?
+A. MÃGV
+B. MÔN
+C. Cả hai thuộc tính đều là thuộc tính đơn
+D. Không có thuộc tính nào là thuộc tính đơn
+129. Lược đồ quan hệ CHUYÊN_MÔN (MÃGV, MÔN) ở hình sau KHÔNG đạt dạng chuẩn
+1 (1NF) vì:
+A. Thuộc tính MÃGV không phải là thuộc tính đơn.
+B. Thuộc tính MÔN không phải là thuộc tính đơn.
+C. Cả hai thuộc tính MÃGV và MÔN đều không phải là thuộc tính đơn.
+D. Lược đồ quan hệ này đã đạt dạng chuẩn 1.
+130. Điều kiện nào sau đây là bắt buộc để một lược đồ quan hệ Q đạt dạng chuẩn 1 (1NF)?
+A. Lược đồ quan hệ Q phải có khóa chính.
+B. Tất cả các thuộc tính của Q phải là thuộc tính đơn.
+C. Lược đồ quan hệ Q phải có ít nhất một thuộc tính.
+D. Lược đồ quan hệ Q phải có ít nhất một dòng dữ liệu.
+131. Thế nào là phụ thuộc đầy đủ của thuộc tính A vào tập thuộc tính X?
+A. X → A là phụ thuộc hàm bất kỳ.
+B. X → A là phụ thuộc hàm nguyên tố và không tồn tại X' ⊂ X mà X' → A.
+C. X → A là phụ thuộc hàm không nguyên tố.
+D. A → X là phụ thuộc hàm nguyên tố.
+132. Lược đồ quan hệ Q ở dạng chuẩn 2 (2NF) khi nào?
+A. Q ở dạng chuẩn 1 và mọi thuộc tính không khóa của Q đều phụ thuộc hàm vào khóa của Q.
+B. Q ở dạng chuẩn 1 và mọi thuộc tính không khóa của Q đều phụ thuộc đầy đủ vào các khóa
+của Q.
+C. Q ở dạng chuẩn 1 và mọi thuộc tính của Q đều phụ thuộc hàm vào khóa của Q.
+D. Q ở dạng chuẩn 1 và mọi thuộc tính của Q đều phụ thuộc đầy đủ vào các khóa của Q.
+133. Thuộc tính không khóa là thuộc tính như thế nào?
+A. Thuộc tính tham gia vào khóa chính.
+B. Thuộc tính không tham gia vào khóa chính.
+C. Thuộc tính có giá trị duy nhất.
+D. Thuộc tính có nhiều giá trị.
+134. Điều kiện nào sau đây là bắt buộc để lược đồ quan hệ Q đạt dạng chuẩn 2 (2NF)?
+A. Q phải ở dạng chuẩn 1.
+B. Mọi thuộc tính không khóa của Q phải phụ thuộc đầy đủ vào khóa của Q.
+C. Cả A và B đều đúng.
+D. Q phải có ít nhất một thuộc tính không khóa.
+135. Mục đích của dạng chuẩn 2 (2NF) là gì?
+A. Loại bỏ sự dư thừa dữ liệu do phụ thuộc hàm không đầy đủ.
+B. Loại bỏ sự dư thừa dữ liệu do phụ thuộc hàm bắc cầu.
+C. Loại bỏ sự dư thừa dữ liệu do thuộc tính đa trị.
+D. Loại bỏ sự dư thừa dữ liệu do thuộc tính phức tạp.
+136. Trong quan hệ QLHT (MSSV, TEN, NS, PHAI, ĐC, MSLOP, TENLOP, MSMH,
+TENMH, DIEM), khóa chính là:
+A. MSSV
+B. MSLOP
+C. MSMH
+D. {MSMH, MSSV}
+137. Tại sao quan hệ QLHT (MSSV, TEN, NS, PHAI, ĐC, MSLOP, TENLOP, MSMH,
+TENMH, DIEM) không đạt dạng chuẩn 2 (2NF)?
+A. Do có thuộc tính không khóa phụ thuộc hàm bắc cầu vào khóa chính.
+B. Do có thuộc tính không khóa phụ thuộc hàm không đầy đủ vào khóa chính.
+C. Do có thuộc tính khóa phụ thuộc vào thuộc tính không khóa.
+D. Do quan hệ chưa đạt dạng chuẩn 1.
+138. Cho quan hệ QLHT(MSSV, TEN, NS, PHAI, ĐC, MSLOP, TENLOP, MSMH,
+TENMH, DIEM) Thuộc tính nào sau đây không phụ thuộc đầy đủ vào khóa chính
+{MSMH, MSSV}?
+A. TEN
+B. DIEM
+C. TENMH
+D. TENLOP
+139. Thế nào là phụ thuộc hàm bắc cầu A → C trong ví dụ F = {A → B, B → C}?
+A. A phụ thuộc trực tiếp vào C.
+B. A phụ thuộc gián tiếp vào C thông qua B.
+C. A và C không có mối quan hệ phụ thuộc.
+D. A chỉ phụ thuộc vào B.
+140. Điều kiện nào sau đây là bắt buộc để một thuộc tính A phụ thuộc bắc cầu vào tập thuộc
+tính X thông qua Y?
+A. X → Y và Y → A
+B. X → Y và Y → A, đồng thời Y không phụ thuộc hàm vào X.
+C. X → A và Y → A.
+D. X → A và X → Y.
+141. Thuộc tính A được gọi là phụ thuộc bắc cầu vào tập thuộc tính X nếu thỏa mãn điều
+kiện nào sau đây?
+A. X → A
+B. Tồn tại Y sao cho X → Y và Y → A, đồng thời Y phụ thuộc hàm vào X.
+C. Tồn tại Y sao cho X → Y và Y → A, đồng thời Y không phụ thuộc hàm vào X và A không
+thuộc (X ∪ Y).
+D. Tồn tại Y sao cho X → Y và A → Y.
+142. Điều kiện nào sau đây là bắt buộc để một lược đồ quan hệ Q đạt dạng chuẩn 3 (3NF)?
+A. Q phải ở dạng chuẩn 1 và chuẩn 2.
+B. Q phải ở dạng chuẩn 1 và mọi thuộc tính không khóa đều không phụ thuộc hàm vào bất kỳ
+thuộc tính không khóa nào khác.
+C. Q phải ở dạng chuẩn 1 và mọi thuộc tính không khóa đều không phụ thuộc bắc cầu vào bất
+kỳ khóa nào.
+D. Tất cả các đáp án trên đều đúng.
+143. Mục đích của dạng chuẩn 3 (3NF) là gì?
+A. Loại bỏ sự dư thừa dữ liệu do phụ thuộc hàm không đầy đủ.
+B. Loại bỏ sự dư thừa dữ liệu do phụ thuộc hàm bắc cầu.
+C. Loại bỏ sự dư thừa dữ liệu do thuộc tính đa trị.
+D. Loại bỏ sự dư thừa dữ liệu do thuộc tính phức tạp.
+144. Thuộc tính không khóa trong lược đồ quan hệ Q ở dạng chuẩn 3 (3NF) phải thỏa mãn
+điều kiện nào?
+A. Phụ thuộc đầy đủ vào khóa chính.
+B. Không phụ thuộc bắc cầu vào khóa chính.
+C. Phụ thuộc hàm vào khóa chính.
+D. Cả A và B.
+145. Trong quan hệ SINHVIEN (MsSV, Ten, NS, Phai, ĐC, MsLop, tenLop), khóa chính là:
+A. MsSV
+B. MsLop
+C. {MsSV, MsLop}
+D. tenLop
+146. Tại sao quan hệ SINHVIEN (MsSV, Ten, NS, Phai, ĐC, MsLop, tenLop) không đạt
+dạng chuẩn 3 (3NF)?
+A. Do có thuộc tính không khóa phụ thuộc hàm không đầy đủ vào khóa chính.
+B. Do có thuộc tính không khóa phụ thuộc hàm bắc cầu vào khóa chính.
+C. Do có thuộc tính không khóa phụ thuộc hàm vào thuộc tính không khóa khác.
+D. Do quan hệ chưa đạt dạng chuẩn 2.
+147. Thuộc tính nào sau đây gây ra sự trùng lặp thông tin trong quan hệ SINHVIEN (MsSV,
+Ten, NS, Phai, ĐC, MsLop, tenLop) do phụ thuộc bắc cầu?
+A. Ten
+B. NS
+C. MsLop
+D. tenLop
+148. Điều kiện nào sau đây là bắt buộc để một lược đồ quan hệ Q đạt dạng chuẩn Boyce-
+Codd (BC)?
+A. Q phải ở dạng chuẩn 1 và mọi thuộc tính không khóa đều không phụ thuộc hàm vào bất kỳ
+thuộc tính không khóa nào khác.
+B. Q phải ở dạng chuẩn 1 và mọi phụ thuộc hàm không hiển nhiên xác định trên Q đều có vế
+trái là một siêu khóa.
+C. Q phải ở dạng chuẩn 1 và mọi thuộc tính không khóa đều không phụ thuộc bắc cầu vào bất
+kỳ khóa nào.
+D. Tất cả các đáp án trên đều đúng.
+149. Siêu khóa là gì?
+A. Một thuộc tính duy nhất xác định mỗi bản ghi trong quan hệ.
+B. Một tập hợp các thuộc tính xác định duy nhất mỗi bản ghi trong quan hệ.
+C. Một thuộc tính không khóa.
+D. Một tập hợp các thuộc tính không khóa.
+150. Tại sao lược đồ quan hệ ĐẶT_HÀNG (SỐĐH, NgàyĐH, MãKH),
+Khóa chính: SỐĐH (Số đơn hàng)
+Phụ thuộc hàm: F = {SỐĐH → NgàyĐH, MãKH}
+đạt dạng chuẩn Boyce-Codd (BC)?
+A. Vì lược đồ quan hệ này chỉ có một thuộc tính khóa chính.
+B. Vì tất cả các thuộc tính đều phụ thuộc hàm vào khóa chính SỐĐH.
+C. Vì không có phụ thuộc hàm bắc cầu trong lược đồ quan hệ.
+D. Vì vế trái của phụ thuộc hàm là siêu khóa.
+151. Dạng chuẩn của lược đồ cơ sở dữ liệu (LĐCSDL) được xác định như thế nào?
+A. Dạng chuẩn cao nhất trong số các lược đồ quan hệ của LĐCSDL.
+B. Dạng chuẩn trung bình trong số các lược đồ quan hệ của LĐCSDL.
+C. Dạng chuẩn thấp nhất trong số các lược đồ quan hệ của LĐCSDL.
+D. Dạng chuẩn bất kỳ trong số các lược đồ quan hệ của LĐCSDL.
+152. Dạng chuẩn cao nhất của lược đồ quan hệ Q1(ABC) với F1 = {A → BC, C → B} là:
+A. 1NF
+B. 2NF
+C. 3NF
+D. BCNF
+153. Lược đồ quan hệ Q2(BC) với F2 = {C → B} ở dạng chuẩn nào?
+A. 1NF
+B. 2NF
+C. 3NF
+D. BCNF
+154. Cho lược đồ CSDL gồm hai lược đồ quan hệ sau :
+Q1(ABC), F1={A → BC, C → B}
+Q2(BC), F2={C → B}
+Cho biết LĐCSDL trên ở dạng chuẩn cao nhất nào ?
+A. 1NF
+B. 2NF
+C. 3NF
+D. BCNF
+155. Cho lược đồ CSDL gồm hai lược đồ quan hệ sau :
+Q1(ABC), F1={A → BC, C → B}
+Tại sao Q1(ABC) chỉ đạt dạng chuẩn 2NF?
+A. Do có phụ thuộc hàm không đầy đủ.
+B. Do có phụ thuộc hàm bắc cầu vào khóa.
+C. Do có thuộc tính đa trị.
+D. Do có thuộc tính phức tạp.
+156. Cho lược đồ quan hệ r = (U, F), với U = {A, B, C, D} và F = {A → BC, C → D}.
+Lược đồ quan hệ r ở dạng chuẩn cao nhất nào?
+A. Dạng chuẩn 1 (1NF)
+B. Dạng chuẩn 2 (2NF)
+C. Dạng chuẩn 3 (3NF)
+D. Dạng chuẩn Boyce-Codd (BCNF)
+157. Phương pháp phân rã lược đồ quan hệ nhằm mục đích: *
+A. Loại bỏ dữ liệu trùng lặp.
+B. Chuẩn hóa lược đồ quan hệ để đạt các dạng chuẩn cao hơn (3NF, BCNF).
+C. Bảo toàn thông tin và phụ thuộc hàm.
+D. Tất cả các đáp án trên.
+158. Theo định lý Delobel (1973), nếu A → B thuộc F+ trong lược đồ quan hệ
+R(ABC) thì phép tách nào sau đây là phép tách không mất thông tin?
+A. R = π (R) và R = π (R)
+1 AB 2 BC
+B. R = π (R) và R = π (R)
+1 AC 2 BC
+C. R = π (R) và R = π (R)
+1 AB 2 AC
+D. R = π (R) và R = π (R)
+1 ABC 2 AB
+159. Theo định lý Rissanen (1977), điều kiện nào sau đây đảm bảo phép phân rã p(R1, R2)
+của lược đồ quan hệ <R, F> thành R1 và R2 là phép tách không tổn thất?
+A. R1 ∩ R2 → R1
+B. R1 ∩ R2 → R2
+C. R2 ∩ R1 → R2
+D. Tất cả các đáp án trên.
+160. Phương pháp phân rã lược đồ quan hệ nhằm mục đích chính là gì?
+A. Tăng tốc độ truy vấn dữ liệu.
+B. Chuẩn hóa lược đồ quan hệ để đạt các dạng chuẩn cao hơn.
+C. Giảm dung lượng lưu trữ cơ sở dữ liệu.
+D. Tăng tính bảo mật của dữ liệu.
+161. Lược đồ quan hệ đầu vào của phương pháp phân rã bao gồm những thành phần nào?
+A. Tập thuộc tính Q và tập phụ thuộc hàm F.
+B. Tập các bản ghi dữ liệu.
+C. Tập các khóa chính và khóa ngoại.
+D. Tập các ràng buộc toàn vẹn.
+162. Kết quả đầu ra của phương pháp phân rã là gì?
+A. Một lược đồ quan hệ duy nhất ở dạng chuẩn cao nhất.
+B. Tập các lược đồ quan hệ (QF) sao cho mỗi lược đồ đều là phép chiếu của F.
+C. Tập các ràng buộc toàn vẹn mới.
+D. Tập các chỉ mục (index) để tối ưu truy vấn.
+163. Bước đầu tiên của thuật toán phân rã là gì?
+A. Chọn một phụ thuộc hàm vi phạm BCNF.
+B. Phân rã lược đồ quan hệ ban đầu thành hai lược đồ con.
+C. Khởi tạo phép tách chỉ bao gồm lược đồ quan hệ ban đầu.
+D. Kiểm tra xem lược đồ quan hệ đã ở dạng chuẩn BCNF hay chưa.
+164. Điều kiện nào sau đây dẫn đến việc chọn một phụ thuộc hàm X → A để phân rã lược đồ
+quan hệ S?
+A. S đã ở dạng chuẩn BCNF.
+B. X là siêu khóa của S.
+C. X không là siêu khóa của S và A ⊆ X.
+D. X không là siêu khóa của S và A ⊂ X.
+165. Tại sao thuật toán phân rã chỉ chọn phụ thuộc hàm vi phạm định nghĩa BCNF?
+A. Để đảm bảo tính toàn vẹn dữ liệu.
+B. Để giảm thiểu số lượng lược đồ quan hệ sau phân rã.
+C. Để lược đồ quan hệ đạt dạng chuẩn cao nhất có thể.
+D. Để đơn giản hóa quá trình phân rã.
+166. Nếu lược đồ quan hệ S đã ở dạng chuẩn BCNF, bước tiếp theo của thuật toán là gì?
+A. Chọn một phụ thuộc hàm vi phạm 3NF.
+B. Phân rã S thành hai lược đồ con.
+C. Kiểm tra lược đồ quan hệ tiếp theo trong phép tách.
+D. Kết thúc thuật toán.
+167. Thuật toán phân rã tiếp tục cho đến khi nào?
+A. Khi tất cả các lược đồ quan hệ đều ở dạng chuẩn 3NF.
+B. Khi tất cả các lược đồ quan hệ đều ở dạng chuẩn BCNF.
+C. Khi không còn phụ thuộc hàm nào vi phạm BCNF.
+D. Khi đạt được một số lượng lược đồ quan hệ nhất định.
+168. Phép chiếu của F lên lược đồ quan hệ con được sử dụng để làm gì?
+A. Kiểm tra xem lược đồ con có bảo toàn phụ thuộc hàm hay không.
+B. Tính toán khóa chính cho lược đồ con.
+C. Tối ưu hóa truy vấn trên lược đồ con.
+D. Xác định các ràng buộc toàn vẹn cho lược đồ con.
+169. Lợi ích chính của việc chuẩn hóa lược đồ quan hệ bằng phương pháp phân rã là gì?
+A. Tăng tốc độ truy vấn dữ liệu.
+B. Giảm dung lượng lưu trữ dữ liệu.
+C. Loại bỏ sự dư thừa dữ liệu và đảm bảo tính nhất quán.
+D. Tăng tính bảo mật của dữ liệu.
+170. Nhận xét nào sau đây về phương pháp phân rã lược đồ quan hệ là đúng?
+A. Phương pháp phân rã luôn bảo toàn thông tin và bảo toàn phụ thuộc hàm.
+B. Phương pháp phân rã luôn bảo toàn thông tin nhưng có khả năng không bảo toàn phụ thuộc
+hàm.
+C. Phương pháp phân rã không bảo toàn thông tin nhưng luôn bảo toàn phụ thuộc hàm.
+D. Phương pháp phân rã không bảo toàn thông tin và không bảo toàn phụ thuộc hàm.
+171. Quy tắc Amstrong được sử dụng để làm gì trong quá trình phân rã lược đồ quan hệ?
+A. Xác định khóa chính của lược đồ quan hệ.
+B. Kiểm tra tính dư thừa dữ liệu trong lược đồ quan hệ.
+C. Suy ra các phụ thuộc hàm (PTH) mới từ các PTH đã biết.
+D. Xác định dạng chuẩn của lược đồ quan hệ.
+172. Trong lược đồ quan hệ u = <Q, F> với Q = (CTHRSG) và tập phụ thuộc hàm
+F = {
+C → T : Mỗi Course có một thầy (Teacher) duy nhất.
+HR → C : Tại một thời điểm (Hour) ở tại phòng học (Room) chỉ có một Course duy
+nhất.
+HT → R : Tại một thời điểm (Hour) và một Teacher chỉ ở một Room duy nhất
+CS → G : Một sinh viên (Student) học một Course thì chỉ ở một nhóm (Group) duy
+nhất.
+HS → R: Một sinh viên(Student) , tại một thời điểm (Hour) nhất định chỉ ở trong một
+phòng (Room) duy nhất.
+}
+được cho, dạng chuẩn cao nhất mà lược đồ quan hệ này đạt được là gì?
+A. 1NF
+B. 2NF
+C. 3NF
+D. BCNF
+173. Trong lược đồ quan hệ Q(A, B, C), phụ thuộc hàm A → B được gọi là phụ thuộc hàm
+hiển nhiên nếu:
+A. A = B
+B. A ⊂ B
+C. B ⊂ A
+D. A ∩ B = Ø
+174. Trong lược đồ quan hệ Q(A, B, C), phụ thuộc hàm A → B có nghĩa là: *
+A. Giá trị của thuộc tính A xác định duy nhất giá trị của thuộc tính C.
+B. Giá trị của thuộc tính B xác định duy nhất giá trị của thuộc tính A.
+C. Giá trị của thuộc tính A xác định duy nhất giá trị của thuộc tính B.
+D. Giá trị của thuộc tính B xác định duy nhất giá trị của thuộc tính C.
+175. Phụ thuộc hàm A → B được gọi là phụ thuộc hàm nguyên tố (phụ thuộc hàm đầy đủ)
+khi:
+A. Không tồn tại A' ⊂ A sao cho A' → B.
+B. Tồn tại A' ⊂ A sao cho A' → B.
+C. A = B.
+D. A ∩ B = ∅.
+176. Tập phụ thuộc hàm <F,Q> là: *
+A. Tập hợp tất cả các thuộc tính của quan hệ Q.
+B. Tập hợp các bản ghi của quan hệ Q.
+C. Tập hợp các phụ thuộc hàm của quan hệ Q.
+D. Tập hợp các khóa của quan hệ Q.
+177. Quy ước nào sau đây được áp dụng khi mô tả tập phụ thuộc hàm F?
+A. Mô tả tất cả các phụ thuộc hàm, bao gồm cả phụ thuộc hàm hiển nhiên.
+B. Mô tả tất cả các phụ thuộc hàm, loại trừ phụ thuộc hàm hiển nhiên.
+C. Mô tả tất cả các phụ thuộc hàm nguyên tố (phụ thuộc hàm đầy đủ).
+D. Mô tả tất cả các phụ thuộc hàm bắc cầu.
+178. Cho lược đồ quan hệ Q(A, B, C). Phụ thuộc hàm A xác định B. Ký hiệu A → B nếu:
+A. qᵢ.A ≠ qⱼ.A thì qᵢ.B = qⱼ.B
+B. qᵢ.A = qⱼ.A thì qᵢ.B ≠ qⱼ.B
+C. qᵢ.A = qⱼ.A thì qᵢ.B = qⱼ.B
+D. qᵢ.A ≠ qⱼ.A thì qᵢ.B ≠ qⱼ.B
+179. Trong lược đồ quan hệ SINHVIEN (MaNV, TenNV, DiaChi, ThanhPho), tập thuộc tính
+nào xác định thuộc tính DiaChi?
+A. MaNV
+B. TenNV
+C. {MaNV, DiaChi}
+D. ThanhPho
+180. Phụ thuộc hàm {MaNV, DiaChi} → DiaChi có ý nghĩa gì?
+A. Mã nhân viên xác định địa chỉ.
+B. Địa chỉ xác định mã nhân viên.
+C. Mã nhân viên và địa chỉ xác định địa chỉ.
+D. Thành phố xác định địa chỉ.
+181. Phụ thuộc hàm A → B được gọi là phụ thuộc hàm nguyên tố (phụ thuộc hàm đầy đủ)
+nếu:
+A. B ⊂ A
+B. A ⊂ B
+C. ∀A' ⊂ A, A' ≠ A và A' → B
+D. A = B
+182. Cho lược đồ quan hệ SINHVIEN (MaNV, TenNV, Lớp, Khoa). Phụ thuộc hàm MSSV
+→ TênSV có nghĩa là gì?
+A. Nếu biết Mã số sinh viên (MSSV) thì không thể xác định được Tên sinh viên (TênSV).
+B. Nếu biết Mã số sinh viên (MSSV) thì có thể xác định được Tên sinh viên (TênSV).
+C. Nếu biết Tên sinh viên (TênSV) thì có thể xác định được Mã số sinh viên (MSSV).
+D. Mã số sinh viên (MSSV) và Tên sinh viên (TênSV) không liên quan đến nhau.
+183. Trong lược đồ quan hệ SINHVIEN (MaNV, TenNV, Lớp, Khoa), thuộc tính nào xác
+định duy nhất thuộc tính TênSV?
+A. MaNV
+B. TênSV
+C. Lớp
+D. Khoa
+184. Phụ thuộc hàm MSSV → TênSV có ý nghĩa gì?
+A. Mỗi mã số sinh viên xác định duy nhất một lớp.
+B. Mỗi mã số sinh viên xác định duy nhất một khoa.
+C. Mỗi mã số sinh viên xác định duy nhất một tên sinh viên.
+D. Mỗi mã số sinh viên xác định duy nhất một mã số sinh viên khác.
+185. Phụ thuộc hàm nào sau đây là phụ thuộc hàm bắc cầu?
+A. MSSV → TênSV
+B. MSSV → Lớp
+C. Lớp → Khoa
+D. MSSV → Khoa
+186. Phụ thuộc hàm nào sau đây là phụ thuộc hàm nguyên tố?
+A. MSSV → Khoa
+B. MSSV → Lớp → Khoa
+C. MSSV → TênSV
+D. MSSV, Lớp → Khoa
+187. Tập phụ thuộc hàm (F) của quan hệ SinhVien bao gồm những phụ thuộc hàm nào?
+A. MSSV → TênSV, MSSV → Lớp, Lớp → Khoa
+B. MSSV → TênSV, MSSV → Lớp, MSSV → Khoa
+C. MSSV → Lớp, Lớp → Khoa, MSSV → Khoa
+D. MSSV → TênSV, Lớp → Khoa, MSSV → Khoa
+188. Trong quan hệ SinhVien, có phụ thuộc hàm hiển nhiên nào không?
+A. Có
+B. Không
+C. Không thể xác định
+D. Tất cả các đáp án đều sai
+189. Hệ tiên đề Amstrong bao gồm bao nhiêu luật cơ bản?
+A. 2
+B. 3
+C. 4
+D. 5
+190. Luật 1 của hệ tiên đề Amstrong phát biểu rằng nếu Y là tập con của X thì: *
+A. X → Y
+B. Y → X
+C. X = Y
+D. X ≠ Y
+191. Luật 2 của hệ tiên đề Amstrong liên quan đến việc kết hợp thuộc tính nào?
+A. Thuộc tính giống nhau
+B. Thuộc tính khác nhau
+C. Thuộc tính con
+D. Thuộc tính cha
+192. Luật 4 của hệ tiên đề Amstrong cho phép phân tách phụ thuộc hàm nào?
+A. X → Y
+B. X → Z
+C. X → YZ
+D. YZ → X
+193. Luật nào sau đây không phải là luật suy ra từ 3 luật cơ bản của hệ tiên đề Amstrong?
+A. Luật 4
+B. Luật 5
+C. Luật 6
+D. Luật 7
+194. Hệ tiên đề Amstrong được sử dụng để làm gì?
+A. Phân tích dữ liệu
+B. Thiết kế cơ sở dữ liệu
+C. Tối ưu hóa truy vấn
+D. Kiểm tra tính nhất quán của dữ liệu
+195. Luật nào sau đây mô tả tính bắc cầu của phụ thuộc hàm?
+A. Luật 1
+B. Luật 2
+C. Luật 3
+D. Luật 4
+196. Luật 1 của hệ tiên đề Amstrong phát biểu rằng nếu Y là tập con của X thì: *
+A. X → Y
+B. Y → X
+C. X = Y
+D. X ≠ Y
+197. Phụ thuộc hàm {MaNV, TenNV, DiaChi} → {DiaChi} được gọi là gì?
+A. Phụ thuộc hàm bắc cầu
+B. Phụ thuộc hàm đầy đủ
+C. Phụ thuộc hàm hiển nhiên
+D. Phụ thuộc hàm một phần
+198. Luật 1 của hệ tiên đề Amstrong được áp dụng khi nào?
+A. Khi X và Y không có phần tử chung
+B. Khi Y là tập con của X
+C. Khi X là tập con của Y
+D. Khi X và Y là hai tập hợp độc lập
+199. Luật 2 của hệ tiên đề Amstrong phát biểu rằng nếu X → Y và Z ⊆ W thì: *
+A. XZ → YW
+B. XW → YZ
+C. YZ → XW
+D. YW → XZ
+200. Phụ thuộc hàm {MaNV, DiaChi, ThanhPho} → {TenNV, ThanhPho} được suy ra từ luật
+nào?
+A. Luật 1
+B. Luật 2
+C. Luật 3
+D. Luật 4
+201. Luật 2 của hệ tiên đề Amstrong được sử dụng để làm gì?
+A. Phân tách phụ thuộc hàm
+B. Kết hợp phụ thuộc hàm
+C. Mở rộng các phụ thuộc hàm đã biết
+D. Kiểm tra tính nhất quán của dữ liệu
+202. Luật 3 của hệ tiên đề Amstrong phát biểu rằng nếu X → Y và Y → Z thì: *
+A. X → YZ
+B. X → Z
+C. YZ → X
+D. Z → X
+203. Phụ thuộc hàm {MSSV} → {Khoa} được suy ra từ luật nào?
+A. Luật 1
+B. Luật 2
+C. Luật 3
+D. Luật 4
+204. Phụ thuộc hàm {MSSV} → {Khoa} được gọi là gì?
+A. Phụ thuộc hàm đầy đủ
+B. Phụ thuộc hàm một phần
+C. Phụ thuộc hàm bắc cầu
+D. Phụ thuộc hàm hiển nhiên
