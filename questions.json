@@ -1,2041 +1,1451 @@
 [
   {
-    "question": "1. Từ khóa SQL nào được sử dụng để lấy các bản ghi duy nhất?",
+    "question": "Từ khóa SQL nào được sử dụng để lấy các bản ghi duy nhất?",
     "options": [
-      "A. DISTINCT",
-      "B. UNIQUE",
-      "C. SELECT",
-      "D. DIFFERENT"
+      "DISTINCT",
+      "UNIQUE",
+      "SELECT",
+      "DIFFERENT"
     ],
     "answer": "A"
   },
   {
-    "question": "2. Khóa chính trong cơ sở dữ liệu là gì?",
+    "question": "Khóa chính trong cơ sở dữ liệu là gì?",
     "options": [
-      "A. Một khóa dùng để sắp xếp các bản ghi.",
-      "B. Một khóa ngoại liên kết nhiều bảng.",
-      "C. Một định danh duy nhất cho mỗi bản ghi trong một bảng.",
-      "D. Một khóa dùng để mã hóa dữ liệu."
+      "Một khóa dùng để sắp xếp các bản ghi.",
+      "Một khóa ngoại liên kết nhiều bảng.",
+      "Một định danh duy nhất cho mỗi bản ghi trong một bảng.",
+      "Một khóa dùng để mã hóa dữ liệu."
     ],
     "answer": "C"
   },
   {
-    "question": "3. Đâu là mô hình cơ sở dữ liệu?",
+    "question": "Đâu là mô hình cơ sở dữ liệu?",
     "options": [
-      "A. Hierarchical",
-      "B. Flat-file",
-      "C. Network",
-      "D. Tất cả đúng"
+      "Hierarchical",
+      "Flat-file",
+      "Network",
+      "Tất cả đúng"
     ],
     "answer": "D"
   },
   {
-    "question": "4. Bảng ở dạng chuẩn nào thì không có bất kỳ bất thường nào (cao nhất)?",
+    "question": "Bảng ở dạng chuẩn nào thì không có bất kỳ bất thường nào (cao nhất)?",
     "options": [
-      "A. First Normal Form (1NF)",
-      "B. Second Normal Form (2NF)",
-      "C. Third Normal Form (3NF)",
-      "D. Boyce-Codd Normal Form (BCNF)"
+      "First Normal Form (1NF)",
+      "Second Normal Form (2NF)",
+      "Third Normal Form (3NF)",
+      "Boyce-Codd Normal Form (BCNF)"
     ],
     "answer": "A"
   },
   {
-    "question": "5. Câu lệnh SQL nào được sử dụng để lọc các bản ghi?",
+    "question": "Câu lệnh SQL nào được sử dụng để lọc các bản ghi?",
     "options": [
-      "A. WHERE",
-      "B. FILTER",
-      "C. SORT",
-      "D. SELECT"
+      "WHERE",
+      "FILTER",
+      "SORT",
+      "SELECT"
     ],
     "answer": "A"
   },
   {
-    "question": "6. Câu lệnh SQL nào được sử dụng để chèn dữ liệu mới vào cơ sở dữ liệu?",
+    "question": "Câu lệnh SQL nào được sử dụng để chèn dữ liệu mới vào cơ sở dữ liệu?",
     "options": [
-      "A. INSERT INTO",
-      "B. ADD NEW",
-      "C. UPDATE",
-      "D. CREATE"
+      "INSERT INTO",
+      "ADD NEW",
+      "UPDATE",
+      "CREATE"
     ],
     "answer": "A"
   },
   {
-    "question": "7. Khóa ngoại là gì?",
+    "question": "Khóa ngoại là gì?",
     "options": [
-      "A. Khóa để bảo vệ dữ liệu",
-      "B. Khóa tham chiếu đến khóa chính của bảng khác",
-      "C. Một kiểu dữ liệu",
-      "D. Một bảng phụ"
+      "Khóa để bảo vệ dữ liệu",
+      "Khóa tham chiếu đến khóa chính của bảng khác",
+      "Một kiểu dữ liệu",
+      "Một bảng phụ"
     ],
     "answer": "B"
   },
   {
-    "question": "8. Đâu là câu lệnh SQL tạo bảng mới?",
+    "question": "Đâu là câu lệnh SQL tạo bảng mới?",
     "options": [
-      "A. ADD TABLE",
-      "B. NEW TABLE",
-      "C. CREATE TABLE",
-      "D. TABLE CREATE"
+      "ADD TABLE",
+      "NEW TABLE",
+      "CREATE TABLE",
+      "TABLE CREATE"
     ],
     "answer": "C"
   },
   {
-    "question": "9. Các hàm nào sau đây KHÔNG phải là một hàm hợp lệ trong SQL?",
+    "question": "Các hàm nào sau đây KHÔNG phải là một hàm hợp lệ trong SQL?",
     "options": [
-      "A. SUM",
-      "B. AVG",
-      "C. COUNT",
-      "D. MAXLENGTH"
+      "SUM",
+      "AVG",
+      "COUNT",
+      "MAXLENGTH"
     ],
     "answer": "D"
   },
   {
-    "question": "10. Phép JOIN trong SQL được sử dụng để làm gì?",
+    "question": "Phép JOIN trong SQL được sử dụng để làm gì?",
     "options": [
-      "A. Để kết hợp các hàng từ hai hoặc nhiều bảng",
-      "B. Để thêm các cột mới vào một bảng",
-      "C. Để xóa các hàng khỏi một bảng",
-      "D. Để cập nhật các bản ghi hiện có"
+      "Để kết hợp các hàng từ hai hoặc nhiều bảng",
+      "Để thêm các cột mới vào một bảng",
+      "Để xóa các hàng khỏi một bảng",
+      "Để cập nhật các bản ghi hiện có"
     ],
     "answer": "A"
   },
   {
-    "question": "11. Cơ sở dữ liệu (CSDL) là gì?",
+    "question": "Cơ sở dữ liệu (CSDL) là gì?",
     "options": [
-      "A. Một tập hợp các chương trình máy tính",
-      "B. Một tập hợp các dữ liệu có cấu trúc và mối quan hệ với nhau",
-      "C. Một tập hợp các lệnh SQL",
-      "D. Một tập hợp các bảng dữ liệu"
+      "Một tập hợp các chương trình máy tính",
+      "Một tập hợp các dữ liệu có cấu trúc và mối quan hệ với nhau",
+      "Một tập hợp các lệnh SQL",
+      "Một tập hợp các bảng dữ liệu"
     ],
     "answer": "B"
   },
   {
-    "question": "12. điểm Đâu là ưu điểm của việc sử dụng CSDL?",
+    "question": "Điểm Đâu là ưu điểm của việc sử dụng CSDL?",
     "options": [
-      "A. Giảm thiểu sự trùng lặp dữ liệu",
-      "B. Tăng tính nhất quán của dữ liệu",
-      "C. Dễ dàng truy cập và quản lý dữ liệu",
-      "D. Tất cả các đáp án trên"
+      "Giảm thiểu sự trùng lặp dữ liệu",
+      "Tăng tính nhất quán của dữ liệu",
+      "Dễ dàng truy cập và quản lý dữ liệu",
+      "Tất cả các đáp án trên"
     ],
     "answer": "D"
   },
   {
-    "question": "13. Hệ quản trị cơ sở dữ liệu (DBMS) là gì?",
+    "question": "Hệ quản trị cơ sở dữ liệu (DBMS) là gì?",
     "options": [
-      "A. Một phần mềm dùng để tạo và quản lý CSDL",
-      "B. Một ngôn ngữ lập trình",
-      "C. Một loại phần cứng",
-      "D. Một tập hợp các quy tắc"
+      "Một phần mềm dùng để tạo và quản lý CSDL",
+      "Một ngôn ngữ lập trình",
+      "Một loại phần cứng",
+      "Một tập hợp các quy tắc"
     ],
     "answer": "A"
   },
   {
-    "question": "14. Đâu là một số DBMS phổ biến?",
+    "question": "Đâu là một số DBMS phổ biến?",
     "options": [
-      "A. MySQL, PostgreSQL, Oracle, SQL Server",
-      "B. Java, Python, C++",
-      "C. Windows, macOS, Linux",
-      "D. Word, Excel, PowerPoint"
+      "MySQL, PostgreSQL, Oracle, SQL Server",
+      "Java, Python, C++",
+      "Windows, macOS, Linux",
+      "Word, Excel, PowerPoint"
     ],
     "answer": "A"
   },
   {
-    "question": "15. Mô hình dữ liệu nào được sử dụng phổ biến nhất hiện nay?",
+    "question": "Mô hình dữ liệu nào được sử dụng phổ biến nhất hiện nay?",
     "options": [
-      "A. Mô hình quan hệ",
-      "B. Mô hình hướng đối tượng",
-      "C. Mô hình phân tán",
-      "D. Mô hình NoSQL"
+      "Mô hình quan hệ",
+      "Mô hình hướng đối tượng",
+      "Mô hình phân tán",
+      "Mô hình NoSQL"
     ],
     "answer": "A"
   },
   {
-    "question": "16. Bảng (table) trong mô hình quan hệ là gì?",
+    "question": "Bảng (table) trong mô hình quan hệ là gì?",
     "options": [
-      "A. Một tập hợp các bản ghi",
-      "B. Một tập hợp các thuộc tính",
-      "C. Một tập hợp các mối quan hệ",
-      "D. Một tập hợp các khóa"
+      "Một tập hợp các bản ghi",
+      "Một tập hợp các thuộc tính",
+      "Một tập hợp các mối quan hệ",
+      "Một tập hợp các khóa"
     ],
     "answer": "A"
   },
   {
-    "question": "17. Bản ghi (record) trong mô hình quan hệ là gì?",
+    "question": "Bản ghi (record) trong mô hình quan hệ là gì?",
     "options": [
-      "A. Một hàng trong bảng",
-      "B. Một cột trong bảng",
-      "C. Một giá trị trong bảng",
-      "D. Một mối quan hệ giữa các bảng"
+      "Một hàng trong bảng",
+      "Một cột trong bảng",
+      "Một giá trị trong bảng",
+      "Một mối quan hệ giữa các bảng"
     ],
     "answer": "A"
   },
   {
-    "question": "18. Thuộc tính (attribute) trong mô hình quan hệ là gì?",
+    "question": "Thuộc tính (attribute) trong mô hình quan hệ là gì?",
     "options": [
-      "A. Một cột trong bảng",
-      "B. Một hàng trong bảng",
-      "C. Một giá trị trong bảng",
-      "D. Một mối quan hệ giữa các bảng"
+      "Một cột trong bảng",
+      "Một hàng trong bảng",
+      "Một giá trị trong bảng",
+      "Một mối quan hệ giữa các bảng"
     ],
     "answer": "A"
   },
   {
-    "question": "19. Khóa chính (primary key) là gì?",
+    "question": "Khóa chính (primary key) là gì?",
     "options": [
-      "A. Một thuộc tính duy nhất định danh mỗi bản ghi",
-      "B. Một thuộc tính liên kết giữa các bảng",
-      "C. Một thuộc tính chứa dữ liệu",
-      "D. Một thuộc tính tùy chọn"
+      "Một thuộc tính duy nhất định danh mỗi bản ghi",
+      "Một thuộc tính liên kết giữa các bảng",
+      "Một thuộc tính chứa dữ liệu",
+      "Một thuộc tính tùy chọn"
     ],
     "answer": "A"
   },
   {
-    "question": "20. Khóa ngoại (foreign key) là gì?",
+    "question": "Khóa ngoại (foreign key) là gì?",
     "options": [
-      "A. Một thuộc tính liên kết giữa các bảng",
-      "B. Một thuộc tính duy nhất định danh mỗi bản ghi",
-      "C. Một thuộc tính chứa dữ liệu",
-      "D. Một thuộc tính tùy chọn"
+      "Một thuộc tính liên kết giữa các bảng",
+      "Một thuộc tính duy nhất định danh mỗi bản ghi",
+      "Một thuộc tính chứa dữ liệu",
+      "Một thuộc tính tùy chọn"
     ],
     "answer": "A"
   },
   {
-    "question": "21. SQL là gì?",
+    "question": "SQL là gì?",
     "options": [
-      "A. Ngôn ngữ truy vấn có cấu trúc",
-      "B. Ngôn ngữ lập trình",
-      "C. Ngôn ngữ đánh dấu",
-      "D. Ngôn ngữ kịch bản"
+      "Ngôn ngữ truy vấn có cấu trúc",
+      "Ngôn ngữ lập trình",
+      "Ngôn ngữ đánh dấu",
+      "Ngôn ngữ kịch bản"
     ],
     "answer": "A"
   },
   {
-    "question": "22. Lệnh nào được sử dụng để tạo bảng trong SQL?",
+    "question": "Lệnh nào được sử dụng để tạo bảng trong SQL?",
     "options": [
-      "A. CREATE TABLE",
-      "B. INSERT INTO",
-      "C. SELECT",
-      "D. UPDATE"
+      "CREATE TABLE",
+      "INSERT INTO",
+      "SELECT",
+      "UPDATE"
     ],
     "answer": "A"
   },
   {
-    "question": "23. Lệnh nào được sử dụng để chèn dữ liệu vào bảng trong SQL?",
+    "question": "Lệnh nào được sử dụng để chèn dữ liệu vào bảng trong SQL?",
     "options": [
-      "A. INSERT INTO",
-      "B. CREATE TABLE",
-      "C. SELECT",
-      "D. UPDATE"
+      "INSERT INTO",
+      "CREATE TABLE",
+      "SELECT",
+      "UPDATE"
     ],
     "answer": "A"
   },
   {
-    "question": "24. Lệnh nào được sử dụng để truy vấn dữ liệu từ bảng trong SQL?",
+    "question": "Lệnh nào được sử dụng để truy vấn dữ liệu từ bảng trong SQL?",
     "options": [
-      "A. SELECT",
-      "B. CREATE TABLE",
-      "C. INSERT INTO",
-      "D. UPDATE"
+      "SELECT",
+      "CREATE TABLE",
+      "INSERT INTO",
+      "UPDATE"
     ],
     "answer": "A"
   },
   {
-    "question": "25. Lệnh nào được sử dụng để cập nhật dữ liệu trong bảng SQL?",
+    "question": "Lệnh nào được sử dụng để cập nhật dữ liệu trong bảng SQL?",
     "options": [
-      "A. UPDATE",
-      "B. CREATE TABLE",
-      "C. INSERT INTO",
-      "D. SELECT"
+      "UPDATE",
+      "CREATE TABLE",
+      "INSERT INTO",
+      "SELECT"
     ],
     "answer": "A"
   },
   {
-    "question": "26. Chuẩn hóa dữ liệu (normalization) là gì?",
+    "question": "Chuẩn hóa dữ liệu (normalization) là gì?",
     "options": [
-      "A. Quá trình giảm thiểu sự trùng lặp dữ liệu",
-      "B. Quá trình tăng tính nhất quán của dữ liệu",
-      "C. Quá trình tối ưu hóa truy vấn",
-      "D. Tất cả các đáp án trên"
+      "Quá trình giảm thiểu sự trùng lặp dữ liệu",
+      "Quá trình tăng tính nhất quán của dữ liệu",
+      "Quá trình tối ưu hóa truy vấn",
+      "Tất cả các đáp án trên"
     ],
     "answer": "D"
   },
   {
-    "question": "27. Index là gì?",
+    "question": "Index là gì?",
     "options": [
-      "A. Một cấu trúc dữ liệu giúp tăng tốc độ truy vấn",
-      "B. Một loại khóa trong CSDL",
-      "C. Một ngôn ngữ truy vấn",
-      "D. Một mô hình dữ liệu"
+      "Một cấu trúc dữ liệu giúp tăng tốc độ truy vấn",
+      "Một loại khóa trong CSDL",
+      "Một ngôn ngữ truy vấn",
+      "Một mô hình dữ liệu"
     ],
     "answer": "A"
   },
   {
-    "question": "28. View là gì?",
+    "question": "View là gì?",
     "options": [
-      "A. Một bảng ảo được tạo từ kết quả truy vấn",
-      "B. Một loại khóa trong CSDL",
-      "C. Một ngôn ngữ truy vấn",
-      "D. Một mô hình dữ liệu"
+      "Một bảng ảo được tạo từ kết quả truy vấn",
+      "Một loại khóa trong CSDL",
+      "Một ngôn ngữ truy vấn",
+      "Một mô hình dữ liệu"
     ],
     "answer": "A"
   },
   {
-    "question": "29. Mô hình dữ liệu quan hệ được đề xuất bởi ai?",
+    "question": "Mô hình dữ liệu quan hệ được đề xuất bởi ai?",
     "options": [
-      "A. Bill Gates",
-      "B. Edgar F. Codd",
-      "C. Larry Ellison",
-      "D. Steve Jobs"
+      "Bill Gates",
+      "Edgar F. Codd",
+      "Larry Ellison",
+      "Steve Jobs"
     ],
     "answer": "B"
   },
   {
-    "question": "30. Thuộc tính khóa chính (Primary Key) trong cơ sở dữ liệu quan hệ có đặc điểm gì?",
+    "question": "Thuộc tính khóa chính (Primary Key) trong cơ sở dữ liệu quan hệ có đặc điểm gì?",
     "options": [
-      "A. Có thể chứa giá trị NULL",
-      "B. Phải là duy nhất và không được trùng lặp",
-      "C. Có thể trùng lặp",
-      "D. Không cần thiết trong bảng"
+      "Có thể chứa giá trị NULL",
+      "Phải là duy nhất và không được trùng lặp",
+      "Có thể trùng lặp",
+      "Không cần thiết trong bảng"
     ],
     "answer": "B"
   },
   {
-    "question": "31. Một bảng trong cơ sở dữ liệu quan hệ được gọi là gì?",
+    "question": "Một bảng trong cơ sở dữ liệu quan hệ được gọi là gì?",
     "options": [
-      "A. Query",
-      "B. Relation",
-      "C. Schema",
-      "D. Index"
+      "Query",
+      "Relation",
+      "Schema",
+      "Index"
     ],
     "answer": "B"
   },
   {
-    "question": "32. Một bảng có thể có bao nhiêu khóa chính?",
+    "question": "Một bảng có thể có bao nhiêu khóa chính?",
     "options": [
-      "A. 0",
-      "B. 1",
-      "C. 2",
-      "D. Nhiều hơn 2"
+      "0",
+      "1",
+      "2",
+      "Nhiều hơn 2"
     ],
     "answer": "B"
   },
   {
-    "question": "33. Câu lệnh SQL nào dùng để xóa toàn bộ dữ liệu trong bảng nhưng không xóa cấu trúc",
+    "question": "Câu lệnh SQL nào dùng để xóa toàn bộ dữ liệu trong bảng nhưng không xóa cấu trúc",
     "options": [
-      "A. DELETE",
-      "B. DROP TABLE",
-      "C. TRUNCATE TABLE",
-      "D. REMOVE"
+      "DELETE",
+      "DROP TABLE",
+      "TRUNCATE TABLE",
+      "REMOVE"
     ],
     "answer": "C"
   },
   {
-    "question": "34. Ràng buộc toàn vẹn thực thể (Entity Integrity) đảm bảo điều gì?",
+    "question": "Ràng buộc toàn vẹn thực thể (Entity Integrity) đảm bảo điều gì?",
     "options": [
-      "A. Khóa chính không được NULL",
-      "B. Khóa ngoại không được NULL",
-      "C. Dữ liệu phải nhất quán",
-      "D. Dữ liệu phải duy nhất"
+      "Khóa chính không được NULL",
+      "Khóa ngoại không được NULL",
+      "Dữ liệu phải nhất quán",
+      "Dữ liệu phải duy nhất"
     ],
     "answer": "A"
   },
   {
-    "question": "35. Ràng buộc toàn vẹn tham chiếu (Referential Integrity) đảm bảo điều gì?",
+    "question": "Ràng buộc toàn vẹn tham chiếu (Referential Integrity) đảm bảo điều gì?",
     "options": [
-      "A. Khóa chính không được NULL",
-      "B. Khóa ngoại phải tham chiếu đến một khóa chính tồn tại",
-      "C. Dữ liệu phải nhất quán",
-      "D. Dữ liệu phải duy nhất"
+      "Khóa chính không được NULL",
+      "Khóa ngoại phải tham chiếu đến một khóa chính tồn tại",
+      "Dữ liệu phải nhất quán",
+      "Dữ liệu phải duy nhất"
     ],
     "answer": "B"
   },
   {
-    "question": "36. Ràng buộc toàn vẹn miền (Domain Integrity) đảm bảo điều gì?",
+    "question": "Ràng buộc toàn vẹn miền (Domain Integrity) đảm bảo điều gì?",
     "options": [
-      "A. Dữ liệu phải thuộc một miền giá trị cụ thể",
-      "B. Khóa chính không được NULL",
-      "C. Khóa ngoại phải tham chiếu đến một khóa chính tồn tại",
-      "D. Dữ liệu phải duy nhất"
+      "Dữ liệu phải thuộc một miền giá trị cụ thể",
+      "Khóa chính không được NULL",
+      "Khóa ngoại phải tham chiếu đến một khóa chính tồn tại",
+      "Dữ liệu phải duy nhất"
     ],
     "answer": "A"
   },
   {
-    "question": "37. Ràng buộc NOT NULL trong SQL đảm bảo điều gì?",
+    "question": "Ràng buộc NOT NULL trong SQL đảm bảo điều gì?",
     "options": [
-      "A. Dữ liệu trong cột không được NULL",
-      "B. Dữ liệu trong cột phải là duy nhất",
-      "C. Dữ liệu trong cột phải tham chiếu đến một khóa chính",
-      "D. Dữ liệu trong cột phải thuộc một miền giá trị cụ thể"
+      "Dữ liệu trong cột không được NULL",
+      "Dữ liệu trong cột phải là duy nhất",
+      "Dữ liệu trong cột phải tham chiếu đến một khóa chính",
+      "Dữ liệu trong cột phải thuộc một miền giá trị cụ thể"
     ],
     "answer": "A"
   },
   {
-    "question": "38. Chuẩn hóa cơ sở dữ liệu nhằm mục đích gì?",
+    "question": "Chuẩn hóa cơ sở dữ liệu nhằm mục đích gì?",
     "options": [
-      "A. Giảm dư thừa dữ liệu",
-      "B. Tăng tốc độ truy vấn",
-      "C. Tăng tính bảo mật",
-      "D. Tăng tính nhất quán"
+      "Giảm dư thừa dữ liệu",
+      "Tăng tốc độ truy vấn",
+      "Tăng tính bảo mật",
+      "Tăng tính nhất quán"
     ],
     "answer": "A"
   },
   {
-    "question": "39. Dạng chuẩn 1NF (First Normal Form) yêu cầu điều gì?",
+    "question": "Dạng chuẩn 1NF (First Normal Form) yêu cầu điều gì?",
     "options": [
-      "A. Mỗi cột phải chứa dữ liệu nguyên tử",
-      "B. Mỗi bảng phải có khóa chính",
-      "C. Mỗi bảng phải có khóa ngoại",
-      "D. Mỗi bảng phải có ít nhất một cột"
+      "Mỗi cột phải chứa dữ liệu nguyên tử",
+      "Mỗi bảng phải có khóa chính",
+      "Mỗi bảng phải có khóa ngoại",
+      "Mỗi bảng phải có ít nhất một cột"
     ],
     "answer": "A"
   },
   {
-    "question": "40. Dạng chuẩn 2NF (Second Normal Form) yêu cầu điều gì?",
+    "question": "Dạng chuẩn 2NF (Second Normal Form) yêu cầu điều gì?",
     "options": [
-      "A. Bảng phải đạt 1NF và mọi thuộc tính không khóa phải phụ thuộc đầy đủ vào khóa chính",
-      "B. Bảng phải đạt 1NF và mọi thuộc tính không khóa phải phụ thuộc trực tiếp vào khóa chính",
-      "C. Bảng phải đạt 1NF và mọi thuộc tính không khóa phải phụ thuộc vào khóa ngoại",
-      "D. Bảng phải đạt 1NF và mọi thuộc tính không khóa phải phụ thuộc vào một thuộc tính khác"
+      "Bảng phải đạt 1NF và mọi thuộc tính không khóa phải phụ thuộc đầy đủ vào khóa chính",
+      "Bảng phải đạt 1NF và mọi thuộc tính không khóa phải phụ thuộc trực tiếp vào khóa chính",
+      "Bảng phải đạt 1NF và mọi thuộc tính không khóa phải phụ thuộc vào khóa ngoại",
+      "Bảng phải đạt 1NF và mọi thuộc tính không khóa phải phụ thuộc vào một thuộc tính khác"
     ],
     "answer": "A"
   },
   {
-    "question": "41. Dạng chuẩn 3NF (Third Normal Form) yêu cầu điều gì?",
+    "question": "Dạng chuẩn 3NF (Third Normal Form) yêu cầu điều gì?",
     "options": [
-      "A. Bảng phải đạt 2NF và mọi thuộc tính không khóa phải không phụ thuộc bắc cầu vào khóa",
-      "B. Bảng phải đạt 2NF và mọi thuộc tính không khóa phải phụ thuộc trực tiếp vào khóa chính",
-      "C. Bảng phải đạt 2NF và mọi thuộc tính không khóa phải phụ thuộc vào khóa ngoại",
-      "D. Bảng phải đạt 2NF và mọi thuộc tính không khóa phải phụ thuộc vào một thuộc tính khác"
+      "Bảng phải đạt 2NF và mọi thuộc tính không khóa phải không phụ thuộc bắc cầu vào khóa",
+      "Bảng phải đạt 2NF và mọi thuộc tính không khóa phải phụ thuộc trực tiếp vào khóa chính",
+      "Bảng phải đạt 2NF và mọi thuộc tính không khóa phải phụ thuộc vào khóa ngoại",
+      "Bảng phải đạt 2NF và mọi thuộc tính không khóa phải phụ thuộc vào một thuộc tính khác"
     ],
     "answer": "A"
   },
   {
-    "question": "42. Dạng chuẩn BCNF (Boyce-Codd Normal Form) yêu cầu điều gì?",
+    "question": "Dạng chuẩn BCNF (Boyce-Codd Normal Form) yêu cầu điều gì?",
     "options": [
-      "A. Bảng phải đạt 3NF và mọi phụ thuộc hàm phải có vế trái là siêu khóa",
-      "B. Bảng phải đạt 3NF và mọi phụ thuộc hàm phải có vế trái là khóa chính",
-      "C. Bảng phải đạt 3NF và mọi phụ thuộc hàm phải có vế trái là khóa ngoại",
-      "D. Bảng phải đạt 3NF và mọi phụ thuộc hàm phải có vế trái là một thuộc tính"
+      "Bảng phải đạt 3NF và mọi phụ thuộc hàm phải có vế trái là siêu khóa",
+      "Bảng phải đạt 3NF và mọi phụ thuộc hàm phải có vế trái là khóa chính",
+      "Bảng phải đạt 3NF và mọi phụ thuộc hàm phải có vế trái là khóa ngoại",
+      "Bảng phải đạt 3NF và mọi phụ thuộc hàm phải có vế trái là một thuộc tính"
     ],
     "answer": "A"
   },
   {
-    "question": "43. Giao dịch (Transaction) trong cơ sở dữ liệu là gì?",
+    "question": "Giao dịch (Transaction) trong cơ sở dữ liệu là gì?",
     "options": [
-      "A. Một chuỗi các thao tác trên cơ sở dữ liệu được thực hiện như một đơn vị công việc",
-      "B. Một câu lệnh SQL",
-      "C. Một bảng trong cơ sở dữ liệu",
-      "D. Một khóa chính"
+      "Một chuỗi các thao tác trên cơ sở dữ liệu được thực hiện như một đơn vị công việc",
+      "Một câu lệnh SQL",
+      "Một bảng trong cơ sở dữ liệu",
+      "Một khóa chính"
     ],
     "answer": "A"
   },
   {
-    "question": "44. Câu lệnh SQL nào dùng để cấp quyền cho người dùng?",
+    "question": "Câu lệnh SQL nào dùng để cấp quyền cho người dùng?",
     "options": [
-      "A. GRANT",
-      "B. REVOKE",
-      "C. ALLOW",
-      "D. PERMIT"
+      "GRANT",
+      "REVOKE",
+      "ALLOW",
+      "PERMIT"
     ],
     "answer": "A"
   },
   {
-    "question": "45. Câu lệnh SQL nào dùng để thu hồi quyền của người dùng?",
+    "question": "Câu lệnh SQL nào dùng để thu hồi quyền của người dùng?",
     "options": [
-      "A. GRANT",
-      "B. REVOKE",
-      "C. DENY",
-      "D. REMOVE"
+      "GRANT",
+      "REVOKE",
+      "DENY",
+      "REMOVE"
     ],
     "answer": "B"
   },
   {
-    "question": "46. Vai trò (Role) trong cơ sở dữ liệu là gì?",
+    "question": "Vai trò (Role) trong cơ sở dữ liệu là gì?",
     "options": [
-      "A. Một tập hợp các quyền được gán cho người dùng",
-      "B. Một tập hợp các bảng trong cơ sở dữ liệu",
-      "C. Một tập hợp các câu lệnh SQL",
-      "D. Một tập hợp các khóa chính"
+      "Một tập hợp các quyền được gán cho người dùng",
+      "Một tập hợp các bảng trong cơ sở dữ liệu",
+      "Một tập hợp các câu lệnh SQL",
+      "Một tập hợp các khóa chính"
     ],
     "answer": "A"
   },
   {
-    "question": "47. Câu lệnh SQL nào dùng để tạo vai trò?",
+    "question": "Câu lệnh SQL nào dùng để tạo vai trò?",
     "options": [
-      "A. CREATE ROLE",
-      "B. CREATE USER",
-      "C. CREATE PRIVILEGE",
-      "D. CREATE PERMISSION"
+      "CREATE ROLE",
+      "CREATE USER",
+      "CREATE PRIVILEGE",
+      "CREATE PERMISSION"
     ],
     "answer": "A"
   },
   {
-    "question": "48. Câu lệnh SQL nào dùng để xóa vai trò?",
+    "question": "Câu lệnh SQL nào dùng để xóa vai trò?",
     "options": [
-      "A. DROP ROLE",
-      "B. DELETE ROLE",
-      "C. REMOVE ROLE",
-      "D. CREATE ROLE"
+      "DROP ROLE",
+      "DELETE ROLE",
+      "REMOVE ROLE",
+      "CREATE ROLE"
     ],
     "answer": "A"
   },
   {
-    "question": "49. Khóa (Lock) trong điều khiển tương tranh dùng để làm gì?",
+    "question": "Khóa (Lock) trong điều khiển tương tranh dùng để làm gì?",
     "options": [
-      "A. Đảm bảo tính nhất quán của dữ liệu khi có nhiều giao dịch cùng truy cập Đảm bảo tính",
-      "B. của dữ liệu khi có một giao dịch truy cập",
-      "C. Đảm bảo tính nhất quán của dữ liệu khi không có giao dịch nào truy cập Đảm bảo tính nhất",
-      "D. của dữ liệu khi có lỗi xảy ra"
+      "Đảm bảo tính nhất quán của dữ liệu khi có nhiều giao dịch cùng truy cập Đảm bảo tính",
+      "của dữ liệu khi có một giao dịch truy cập",
+      "Đảm bảo tính nhất quán của dữ liệu khi không có giao dịch nào truy cập Đảm bảo tính nhất",
+      "của dữ liệu khi có lỗi xảy ra"
     ],
     "answer": "A"
   },
   {
-    "question": "50. Một hệ quản trị CSDL không có chức năng nào trong các chức năng dưới đây?",
+    "question": "Một hệ quản trị CSDL không có chức năng nào trong các chức năng dưới đây?",
     "options": [
-      "A. Cung cấp môi trường tạo lập CSDL",
-      "B. Cung cấp môi trường cập nhật và khai thác dữ liệu",
-      "C. Cung cấp công cụ quản lí bộ nhớ",
-      "D. Cung cấp công cụ kiểm soát, điều khiển truy cập vào CSDL."
+      "Cung cấp môi trường tạo lập CSDL",
+      "Cung cấp môi trường cập nhật và khai thác dữ liệu",
+      "Cung cấp công cụ quản lí bộ nhớ",
+      "Cung cấp công cụ kiểm soát, điều khiển truy cập vào CSDL."
     ],
     "answer": "C"
   },
   {
-    "question": "51. Trong cơ sở dữ liệu bán hàng với các quan hệ HH, KH, DDH, và CTDDH, ràng buộc",
+    "question": "Trong cơ sở dữ liệu bán hàng với các quan hệ HH, KH, DDH, và CTDDH, ràng buộc",
     "options": [
-      "A. Mã số khách hàng (MSKH) trong bảng KH phải là duy nhất.",
-      "B. Số lượng hàng tồn kho (SoTon) trong bảng HH phải lớn hơn hoặc bằng 0.",
-      "C. Mã số đơn đặt hàng (SODDH) trong bảng DDH phải tồn tại trong bảng CTDDH.",
-      "D. Tất cả các đáp án trên."
+      "Mã số khách hàng (MSKH) trong bảng KH phải là duy nhất.",
+      "Số lượng hàng tồn kho (SoTon) trong bảng HH phải lớn hơn hoặc bằng 0.",
+      "Mã số đơn đặt hàng (SODDH) trong bảng DDH phải tồn tại trong bảng CTDDH.",
+      "Tất cả các đáp án trên."
     ],
     "answer": "D"
   },
   {
-    "question": "52. Yếu tố nào sau đây không phải là một phần của ràng buộc toàn vẹn (RBTV)?",
+    "question": "Yếu tố nào sau đây không phải là một phần của ràng buộc toàn vẹn (RBTV)?",
     "options": [
-      "A. Bối cảnh của RBTV",
-      "B. Điều kiện của RBTV",
-      "C. Bảng tầm ảnh hưởng",
-      "D. Ngôn ngữ lập trình"
+      "Bối cảnh của RBTV",
+      "Điều kiện của RBTV",
+      "Bảng tầm ảnh hưởng",
+      "Ngôn ngữ lập trình"
     ],
     "answer": "D"
   },
   {
-    "question": "53. Ràng buộc toàn vẹn RB1 được mô tả như sau: \"Trong quan hệ HH, mỗi mặt hàng phải",
+    "question": "Ràng buộc toàn vẹn RB1 được mô tả như sau: \"Trong quan hệ HH, mỗi mặt hàng phải",
     "options": [
-      "A. ∀q,q ∈ HH: q.MSHH = q.MSHH => i = j",
-      "B. ∀q,q ∈ HH: MSHH <> q.MSHH => i <> j",
-      "C. ∀q ∈ HH: q.MSHH <> NULL",
-      "D. ∀q,q ∈ HH: q.MSHH > q.MSHH"
+      "∀q,q ∈ HH: q.MSHH = q.MSHH => i = j",
+      "∀q,q ∈ HH: MSHH <> q.MSHH => i <> j",
+      "∀q ∈ HH: q.MSHH <> NULL",
+      "∀q,q ∈ HH: q.MSHH > q.MSHH"
     ],
     "answer": "B"
   },
   {
-    "question": "54. Biểu thức:",
+    "question": "Biểu thức:",
     "options": [
-      "A. Điểm phải là một số nguyên từ 0 đến 10.",
-      "B. Điểm có thể là NULL hoặc một số thực từ 0 đến 10 và chia hết cho 0.5.",
-      "C. Điểm phải là một số thực dương bất kỳ.",
-      "D. Điểm phải là một chuỗi ký tự không rỗng."
+      "Điểm phải là một số nguyên từ 0 đến 10.",
+      "Điểm có thể là NULL hoặc một số thực từ 0 đến 10 và chia hết cho 0.5.",
+      "Điểm phải là một số thực dương bất kỳ.",
+      "Điểm phải là một chuỗi ký tự không rỗng."
     ],
     "answer": "B"
   },
   {
-    "question": "55. Ràng buộc liên bộ trên một quan hệ trong bảng GIAOVIEN(MaGV, TenGV, Hocvi,",
+    "question": "Ràng buộc liên bộ trên một quan hệ trong bảng GIAOVIEN(MaGV, TenGV, Hocvi,",
     "options": [
-      "A. ∀gv,gv ∈ GIAOVIEN: (gv.Hocvi = gv.Hocvi) => (gv.Mucluong = gv.Mucluong)",
-      "B. ∀gv,gv ∈ GIAOVIEN: (gv.Heso = gv.Heso) => (gv.Mucluong = gv.Mucluong)",
-      "C. ∀gv,gv ∈ GIAOVIEN: (gv.Hocvi = gv.Hocvi) ^ (gv.Heso = gv.Heso) => (gv.Mucluong",
-      "D. ∀gv,gv ∈ GIAOVIEN: (gv.Hocvi ≠ gv.Hocvi) v (gv.Heso ≠ gv.Heso) =>"
+      "∀gv,gv ∈ GIAOVIEN: (gv.Hocvi = gv.Hocvi) => (gv.Mucluong = gv.Mucluong)",
+      "∀gv,gv ∈ GIAOVIEN: (gv.Heso = gv.Heso) => (gv.Mucluong = gv.Mucluong)",
+      "∀gv,gv ∈ GIAOVIEN: (gv.Hocvi = gv.Hocvi) ^ (gv.Heso = gv.Heso) => (gv.Mucluong",
+      "∀gv,gv ∈ GIAOVIEN: (gv.Hocvi ≠ gv.Hocvi) v (gv.Heso ≠ gv.Heso) =>"
     ],
     "answer": "C"
   },
   {
-    "question": "56. Ràng buộc liên bộ liên quan hệ nào sau đây được mô tả trong ví dụ về bảng HoaDon và",
+    "question": "Ràng buộc liên bộ liên quan hệ nào sau đây được mô tả trong ví dụ về bảng HoaDon và",
     "options": [
-      "A. Tổng số lượng hàng trong ChiTietHoaDon phải bằng số lượng hàng trong HoaDon.",
-      "B.Trị giá của mỗi hóa đơn trong HoaDon phải bằng tổng số lượng nhân với đơn giá của các",
-      "C. Mã khách hàng (MaKH) trong HoaDon phải tồn tại trong ChiTietHoaDon.",
-      "D. Ngày hóa đơn (NgayHD) trong HoaDon phải sau ngày mua hàng trong ChiTietHoaDon."
+      "Tổng số lượng hàng trong ChiTietHoaDon phải bằng số lượng hàng trong HoaDon.",
+      "Trị giá của mỗi hóa đơn trong HoaDon phải bằng tổng số lượng nhân với đơn giá của các",
+      "Mã khách hàng (MaKH) trong HoaDon phải tồn tại trong ChiTietHoaDon.",
+      "Ngày hóa đơn (NgayHD) trong HoaDon phải sau ngày mua hàng trong ChiTietHoaDon."
     ],
     "answer": "B"
   },
   {
-    "question": "57. Ràng buộc phụ thuộc tồn tại (tham chiếu, khóa ngoại) được mô tả như thế nào trong ví",
+    "question": "Ràng buộc phụ thuộc tồn tại (tham chiếu, khóa ngoại) được mô tả như thế nào trong ví",
     "options": [
-      "A. Mã môn học (MaMH) trong bảng KETQUATHI phải là duy nhất.",
-      "B. Mã sinh viên (MaSV) trong bảng KETQUATHI phải tồn tại trong bảng MONHOC.",
-      "C. Mã môn học (MaMH) trong bảng KETQUATHI phải tồn tại trong bảng MONHOC.",
-      "D. Điểm (Diem) trong bảng KETQUATHI phải lớn hơn 0."
+      "Mã môn học (MaMH) trong bảng KETQUATHI phải là duy nhất.",
+      "Mã sinh viên (MaSV) trong bảng KETQUATHI phải tồn tại trong bảng MONHOC.",
+      "Mã môn học (MaMH) trong bảng KETQUATHI phải tồn tại trong bảng MONHOC.",
+      "Điểm (Diem) trong bảng KETQUATHI phải lớn hơn 0."
     ],
     "answer": "C"
   },
   {
-    "question": "58. Ràng buộc phụ thuộc tồn tại giữa hai bảng KETQUATHI và MONHOC được thể hiện",
+    "question": "Ràng buộc phụ thuộc tồn tại giữa hai bảng KETQUATHI và MONHOC được thể hiện",
     "options": [
-      "A. ∀k ∈ KETQUATHI: k.MaMH ∈ MONHOC.MaMH",
-      "B. ∀m ∈ MONHOC: m.MaMH ∈ KETQUATHI.MaMH",
-      "C. ∃k ∈ KETQUATHI: k.MaMH = MONHOC.MaMH",
-      "D. ∃m ∈ MONHOC: m.MaMH = KETQUATHI.MaMH"
+      "∀k ∈ KETQUATHI: k.MaMH ∈ MONHOC.MaMH",
+      "∀m ∈ MONHOC: m.MaMH ∈ KETQUATHI.MaMH",
+      "∃k ∈ KETQUATHI: k.MaMH = MONHOC.MaMH",
+      "∃m ∈ MONHOC: m.MaMH = KETQUATHI.MaMH"
     ],
     "answer": "A"
   },
   {
-    "question": "59. Ràng buộc liên bộ liên quan hệ nào sau đây được mô tả trong ví dụ về bảng HoaDon và",
+    "question": "Ràng buộc liên bộ liên quan hệ nào sau đây được mô tả trong ví dụ về bảng HoaDon và",
     "options": [
-      "A. Tổng số lượng hàng trong ChiTietHoaDon phải bằng số lượng hàng trong HoaDon.",
-      "B. Trị giá của mỗi hóa đơn trong HoaDon phải bằng tổng số lượng nhân với đơn giá của các",
-      "C. Mã khách hàng (MaKH) trong HoaDon phải tồn tại trong ChiTietHoaDon.",
-      "D. Ngày hóa đơn (NgayHD) trong HoaDon phải sau ngày mua hàng trong ChiTietHoaDon."
+      "Tổng số lượng hàng trong ChiTietHoaDon phải bằng số lượng hàng trong HoaDon.",
+      "Trị giá của mỗi hóa đơn trong HoaDon phải bằng tổng số lượng nhân với đơn giá của các",
+      "Mã khách hàng (MaKH) trong HoaDon phải tồn tại trong ChiTietHoaDon.",
+      "Ngày hóa đơn (NgayHD) trong HoaDon phải sau ngày mua hàng trong ChiTietHoaDon."
     ],
     "answer": "B"
   },
   {
-    "question": "60. Ràng buộc liên thuộc tính - liên quan hệ nào sau đây được mô tả trong ví dụ về bảng HH",
+    "question": "Ràng buộc liên thuộc tính - liên quan hệ nào sau đây được mô tả trong ví dụ về bảng HH",
     "options": [
-      "A. Mã số hàng hóa (MsHH) trong bảng HH phải là duy nhất.",
-      "B. Số lượng hàng bán (SL) trong bảng CTDDH phải lớn hơn 0.",
-      "C. Đối với cùng mặt hàng, số lượng bán trong CTDDH phải nhỏ hơn hoặc bằng số lượng tồn",
-      "D. Đơn giá bán (DG_Ban) trong bảng CTDDH phải lớn hơn đơn giá mua (ĐG_Mua) trong"
+      "Mã số hàng hóa (MsHH) trong bảng HH phải là duy nhất.",
+      "Số lượng hàng bán (SL) trong bảng CTDDH phải lớn hơn 0.",
+      "Đối với cùng mặt hàng, số lượng bán trong CTDDH phải nhỏ hơn hoặc bằng số lượng tồn",
+      "Đơn giá bán (DG_Ban) trong bảng CTDDH phải lớn hơn đơn giá mua (ĐG_Mua) trong"
     ],
     "answer": "C"
   },
   {
-    "question": "61. Trong biểu diễn lược đồ cơ sở dữ liệu (CSDL) dưới dạng đồ thị, điều kiện nào sau đây",
+    "question": "Trong biểu diễn lược đồ cơ sở dữ liệu (CSDL) dưới dạng đồ thị, điều kiện nào sau đây",
     "options": [
-      "A. Đồ thị có một đường thẳng nối tất cả các quan hệ.",
-      "B. Đồ thị có một đường khép kín với số đỉnh quan hệ lớn hơn hoặc bằng 3.",
-      "C. Đồ thị có một đỉnh quan hệ duy nhất.",
-      "D. Đồ thị có một đường khép kín với số đỉnh thuộc tính lớn hơn hoặc bằng 3."
+      "Đồ thị có một đường thẳng nối tất cả các quan hệ.",
+      "Đồ thị có một đường khép kín với số đỉnh quan hệ lớn hơn hoặc bằng 3.",
+      "Đồ thị có một đỉnh quan hệ duy nhất.",
+      "Đồ thị có một đường khép kín với số đỉnh thuộc tính lớn hơn hoặc bằng 3."
     ],
     "answer": "B"
   },
   {
-    "question": "62. Trong lược đồ cơ sở dữ liệu với các quan hệ GIAOVIEN, GIANGDAY và MONHOC,",
+    "question": "Trong lược đồ cơ sở dữ liệu với các quan hệ GIAOVIEN, GIANGDAY và MONHOC,",
     "options": [
-      "A. Quan hệ GIAOVIEN liên kết trực tiếp với quan hệ MONHOC.",
-      "B. Quan hệ GIANGDAY liên kết trực tiếp với quan hệ MONHOC.",
-      "C. Có một đường khép kín đi qua các quan hệ GIAOVIEN, GIANGDAY và MONHOC.",
-      "D. Tất cả các quan hệ đều có thuộc tính khóa ngoại tham chiếu đến nhau."
+      "Quan hệ GIAOVIEN liên kết trực tiếp với quan hệ MONHOC.",
+      "Quan hệ GIANGDAY liên kết trực tiếp với quan hệ MONHOC.",
+      "Có một đường khép kín đi qua các quan hệ GIAOVIEN, GIANGDAY và MONHOC.",
+      "Tất cả các quan hệ đều có thuộc tính khóa ngoại tham chiếu đến nhau."
     ],
     "answer": "C"
   },
   {
-    "question": "63. Trong lược đồ cơ sở dữ liệu với các quan hệ GIAOVIEN, GIANGDAY và MONHOC,",
+    "question": "Trong lược đồ cơ sở dữ liệu với các quan hệ GIAOVIEN, GIANGDAY và MONHOC,",
     "options": [
-      "A. Giáo viên chỉ được phân công giảng dạy những môn thuộc khoa giáo viên đó phụ trách.",
-      "B. Giáo viên phải được phân công giảng dạy tất cả những môn thuộc khoa giáo viên đó phụ",
-      "C. Có thể phân công giáo viên giảng dạy bất kỳ môn học nào.",
-      "D. Tất cả các đáp án trên."
+      "Giáo viên chỉ được phân công giảng dạy những môn thuộc khoa giáo viên đó phụ trách.",
+      "Giáo viên phải được phân công giảng dạy tất cả những môn thuộc khoa giáo viên đó phụ",
+      "Có thể phân công giáo viên giảng dạy bất kỳ môn học nào.",
+      "Tất cả các đáp án trên."
     ],
     "answer": "A"
   },
   {
-    "question": "64. Có tất cả bao nhiêu loại ràng buộc có thể có trong một cơ sở dữ liệu?",
+    "question": "Có tất cả bao nhiêu loại ràng buộc có thể có trong một cơ sở dữ liệu?",
     "options": [
-      "A. 2",
-      "B. 4",
-      "C. 5",
-      "D. 7"
+      "2",
+      "4",
+      "5",
+      "7"
     ],
     "answer": "C"
   },
   {
-    "question": "65. Cho một phần cơ sở dữ liệu quản lý sinh viên gồm các lo quan hệ sau:",
+    "question": "Cho một phần cơ sở dữ liệu quản lý sinh viên gồm các lo quan hệ sau:",
     "options": [
-      "A. Ràng buộc liên quan đến miền giá trị",
-      "B. Ràng buộc liên thuộc tính",
-      "C. Ràng buộc liên thuộc tính-Liên quan hệ",
-      "D. Ràng buộc thuộc tính tổng hợp"
+      "Ràng buộc liên quan đến miền giá trị",
+      "Ràng buộc liên thuộc tính",
+      "Ràng buộc liên thuộc tính-Liên quan hệ",
+      "Ràng buộc thuộc tính tổng hợp"
     ],
     "answer": "C"
   },
   {
-    "question": "66. Ba yếu tố của ràng buộc toàn vẹn gồm: *",
+    "question": "Ba yếu tố của ràng buộc toàn vẹn gồm: *",
     "options": [
-      "A. Thuộc tính, tân từ, dữ liệu",
-      "B. Thuộc tính, bối cảnh, tầm ảnh hưởng",
-      "C. Bối cảnh, điều kiện, bảng tầm ảnh hưởng",
-      "D. Bối cảnh, điều kiện, phát biểu"
+      "Thuộc tính, tân từ, dữ liệu",
+      "Thuộc tính, bối cảnh, tầm ảnh hưởng",
+      "Bối cảnh, điều kiện, bảng tầm ảnh hưởng",
+      "Bối cảnh, điều kiện, phát biểu"
     ],
     "answer": "C"
   },
   {
-    "question": "67. Cho lược đồ quan hệ VATTU(MAVT, TENVT, SLTON). Ràng buộc: “Tên vật tư là duy",
+    "question": "Cho lược đồ quan hệ VATTU(MAVT, TENVT, SLTON). Ràng buộc: “Tên vật tư là duy",
     "options": [
-      "A. Liên quan đến miền giá trị",
-      "B. Liên bộ",
-      "C. Liên thuộc tính",
-      "D. Phụ thuộc tồn tại"
+      "Liên quan đến miền giá trị",
+      "Liên bộ",
+      "Liên thuộc tính",
+      "Phụ thuộc tồn tại"
     ],
     "answer": "B"
   },
   {
-    "question": "68. Cho một phần cơ sở dữ liệu quản lý bán hàng gồm các quan hệ sau:",
+    "question": "Cho một phần cơ sở dữ liệu quản lý bán hàng gồm các quan hệ sau:",
     "options": [
-      "A. Liên quan đến miền giá trị",
-      "B. Liên thuộc tính",
-      "C. Liên thuộc tính-Liên quan hệ",
-      "D. Thuộc tính tổng hợp"
+      "Liên quan đến miền giá trị",
+      "Liên thuộc tính",
+      "Liên thuộc tính-Liên quan hệ",
+      "Thuộc tính tổng hợp"
     ],
     "answer": "C"
   },
   {
-    "question": "69. Cho lược đồ quan hệ VATTU(MAVT, TENVT, SLTON). Ràng buộc: “số lượng tồn",
+    "question": "Cho lược đồ quan hệ VATTU(MAVT, TENVT, SLTON). Ràng buộc: “số lượng tồn",
     "options": [
-      "A. Ràng buộc miền giá trị",
-      "B. Ràng buộc liên bộ",
-      "C. Ràng buộc liên thuộc tính",
-      "D. Ràng buộc phụ thuộc tồn tại"
+      "Ràng buộc miền giá trị",
+      "Ràng buộc liên bộ",
+      "Ràng buộc liên thuộc tính",
+      "Ràng buộc phụ thuộc tồn tại"
     ],
     "answer": "A"
   },
   {
-    "question": "70. Mô tả: Khi khách hàng (KHACHHANG) có nhu cầu mua hàng, một hóa đơn",
+    "question": "Mô tả: Khi khách hàng (KHACHHANG) có nhu cầu mua hàng, một hóa đơn",
     "options": [
-      "A. Ràng buộc liên bộ",
-      "B. Ràng buộc miền giá trị",
-      "C. Ràng buộc liên thuộc tính",
-      "D. Ràng buộc liên thuộc tính liên quan hệ"
+      "Ràng buộc liên bộ",
+      "Ràng buộc miền giá trị",
+      "Ràng buộc liên thuộc tính",
+      "Ràng buộc liên thuộc tính liên quan hệ"
     ],
     "answer": "D"
   },
   {
-    "question": "71. Cho lược đồ cơ sở dữ liệu sau: NhaCungCap(MaNCC, TenNCC, ThanhPho)",
+    "question": "Cho lược đồ cơ sở dữ liệu sau: NhaCungCap(MaNCC, TenNCC, ThanhPho)",
     "options": [
-      "A. Giá trị MaNCC hoặc MaHang trong CungUng được phép nhận giá trị NULL",
-      "B. SoLuong trong CungUng luôn có giá trị > 0",
-      "C. Giá trị MaHang trong CungUng được phép lặp lại nhiều lần",
-      "D. MaHang trong HangHoa không được phép có giá trị trùng nhau"
+      "Giá trị MaNCC hoặc MaHang trong CungUng được phép nhận giá trị NULL",
+      "SoLuong trong CungUng luôn có giá trị > 0",
+      "Giá trị MaHang trong CungUng được phép lặp lại nhiều lần",
+      "MaHang trong HangHoa không được phép có giá trị trùng nhau"
     ],
     "answer": "A"
   },
   {
-    "question": "72. Cho loại quan hệ SINHVIEN(MSSV, HoTen, Ngaysinh, NgayVaoDoan). Phát biểu:",
+    "question": "Cho loại quan hệ SINHVIEN(MSSV, HoTen, Ngaysinh, NgayVaoDoan). Phát biểu:",
     "options": [
-      "A. Miền giá trị của thuộc tính",
-      "B. Liên thuộc tính trên cùng loại quan hệ",
-      "C. Liên thuộc tính liên quan hệ",
-      "D. Do thuộc tính tổng hợp"
+      "Miền giá trị của thuộc tính",
+      "Liên thuộc tính trên cùng loại quan hệ",
+      "Liên thuộc tính liên quan hệ",
+      "Do thuộc tính tổng hợp"
     ],
     "answer": "B"
   },
   {
-    "question": "73. Cho lược đồ quan hệ sau: BIENLAI(Số_BL, MãHV, Điểm, Kếtquả, Xếploại)",
+    "question": "Cho lược đồ quan hệ sau: BIENLAI(Số_BL, MãHV, Điểm, Kếtquả, Xếploại)",
     "options": [
-      "A. Tham chiếu",
-      "B. Liên thuộc tính trên cùng loại quan hệ",
-      "C. Liên bộ - Liên quan hệ",
-      "D. Miền giá trị của thuộc tính"
+      "Tham chiếu",
+      "Liên thuộc tính trên cùng loại quan hệ",
+      "Liên bộ - Liên quan hệ",
+      "Miền giá trị của thuộc tính"
     ],
     "answer": "B"
   },
   {
-    "question": "74. Câu nào sai trong các câu dưới đây?",
+    "question": "Câu nào sai trong các câu dưới đây?",
     "options": [
-      "A. Mỗi bảng chỉ có một khóa",
-      "B. Nên chọn khóa chính là khóa có ít thuộc tính nhất",
-      "C. Trong một bảng có thể có nhiều khóa chính",
-      "D. Việc xác định khóa có thể dùng phụ thuộc hàm"
+      "Mỗi bảng chỉ có một khóa",
+      "Nên chọn khóa chính là khóa có ít thuộc tính nhất",
+      "Trong một bảng có thể có nhiều khóa chính",
+      "Việc xác định khóa có thể dùng phụ thuộc hàm"
     ],
     "answer": "C"
   },
   {
-    "question": "75. Khóa ngoại trong một quan hệ dùng để?",
+    "question": "Khóa ngoại trong một quan hệ dùng để?",
     "options": [
-      "A. Liên kết các quan hệ, tạo ràng buộc tồn tại",
-      "B. Bảo đám tính đúng của dữ liệu trong quan hệ đó",
-      "C. Không cần thiết có khóa ngoại",
-      "D. Khi nhập dữ liệu thì kiểm tra khóa ngoại"
+      "Liên kết các quan hệ, tạo ràng buộc tồn tại",
+      "Bảo đám tính đúng của dữ liệu trong quan hệ đó",
+      "Không cần thiết có khóa ngoại",
+      "Khi nhập dữ liệu thì kiểm tra khóa ngoại"
     ],
     "answer": "A"
   },
   {
-    "question": "76. Tại sao khóa chính không cho phép có giá trị NULL?",
+    "question": "Tại sao khóa chính không cho phép có giá trị NULL?",
     "options": [
-      "A. Khó xác định khóa ngoại",
-      "B. Khó xác định tính duy nhất của các cột",
-      "C. Khó kết nối các bảng",
-      "D. Khó xác định tính duy nhất của các hàng"
+      "Khó xác định khóa ngoại",
+      "Khó xác định tính duy nhất của các cột",
+      "Khó kết nối các bảng",
+      "Khó xác định tính duy nhất của các hàng"
     ],
     "answer": "D"
   },
   {
-    "question": "77. … của một loại quan hệ sẽ trở thành các cột trong một Table tương ứng. *",
+    "question": "… của một loại quan hệ sẽ trở thành các cột trong một Table tương ứng. *",
     "options": [
-      "A. Các bộ (tupe)",
-      "B. Các kiểu dữ liệu",
-      "C. Các thuộc tính",
-      "D. Các miền giá trị"
+      "Các bộ (tupe)",
+      "Các kiểu dữ liệu",
+      "Các thuộc tính",
+      "Các miền giá trị"
     ],
     "answer": "C"
   },
   {
-    "question": "78. Cho quan hệ R=(ABCD) với ABCD là các thuộc tính, phát biểu B phải nằm trong",
+    "question": "Cho quan hệ R=(ABCD) với ABCD là các thuộc tính, phát biểu B phải nằm trong",
     "options": [
-      "A. Liên thuộc tính trên một quan hệ",
-      "B. Miền giá trị của thuộc tính",
-      "C. Liên bộ trên một quan hệ",
-      "D. Thuộc tính tổng hợp"
+      "Liên thuộc tính trên một quan hệ",
+      "Miền giá trị của thuộc tính",
+      "Liên bộ trên một quan hệ",
+      "Thuộc tính tổng hợp"
     ],
     "answer": "B"
   },
   {
-    "question": "79. Cho hai quan hệ Sinh_Viên và Bảng_Điểm phát biểu : ‘Sinh viên chỉ có điểm của những",
+    "question": "Cho hai quan hệ Sinh_Viên và Bảng_Điểm phát biểu : ‘Sinh viên chỉ có điểm của những",
     "options": [
-      "A. Liên thuộc tính, liên quan hệ",
-      "B. Tham chiếu",
-      "C. Liên bộ, liên quan hệ",
-      "D. Miền giá trị của thuộc tính"
+      "Liên thuộc tính, liên quan hệ",
+      "Tham chiếu",
+      "Liên bộ, liên quan hệ",
+      "Miền giá trị của thuộc tính"
     ],
     "answer": "A"
   },
   {
-    "question": "80. Cho 2 quan hệ Hóa_Đơn và Chi_Tiết_Hóa_Đơn, phát biểu: ‘Trị giá hóa đơn phải bằng",
+    "question": "Cho 2 quan hệ Hóa_Đơn và Chi_Tiết_Hóa_Đơn, phát biểu: ‘Trị giá hóa đơn phải bằng",
     "options": [
-      "A. Tham chiếu",
-      "B. Liên thuộc tính, liên quan hệ",
-      "C. Thuộc tính tổng hợp",
-      "D. Miền giá trị"
+      "Tham chiếu",
+      "Liên thuộc tính, liên quan hệ",
+      "Thuộc tính tổng hợp",
+      "Miền giá trị"
     ],
     "answer": "B"
   },
   {
-    "question": "81. Cho lược đồ quan hệ Q(A, B, C) và phụ thuộc hàm A → B. Phát biểu nào sau đây là",
+    "question": "Để thực hiện phép giao giữa 2 loại quan hệ, trong SQL, ta sử dụng toán tử.",
     "options": [
-      "A. Nếu q .A ≠ q .A thì q .B = q .B",
-      "B. Nếu q .A = q .A thì q .B = q .B",
-      "C. A → B là phụ thuộc hàm hiển nhiên khi A ⊆ B",
-      "D. A → B là phụ thuộc hàm hiển nhiên khi A ∩ B = ∅"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "82. Cho lược đồ quan hệ Q(A, B, C) và phụ thuộc hàm A → B. Phát biểu nào sau đây là",
-    "options": [
-      "A. Tồn tại A' là tập con của A sao cho A' → B.",
-      "B. Không tồn tại A' là tập con thực sự của A sao cho A' → B.",
-      "C. A → B là phụ thuộc hàm hiển nhiên.",
-      "D. B không phụ thuộc vào A."
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "83. Cho lược đồ quan hệ Q. Tập phụ thuộc hàm của Q được ký hiệu là F . Phát biểu nào",
-    "options": [
-      "A. F là một phụ thuộc hàm duy nhất trên Q.",
-      "B. F là tập hợp tất cả các thuộc tính của Q.",
-      "C. F là tập hợp tất cả các phụ thuộc hàm xác định trên Q.",
-      "D. F là tập hợp các bộ giá trị của Q."
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "84. Cho lược đồ quan hệ SINHVIEN(MaNV, TenNV, DiaChi, ThanhPho) và phụ thuộc hàm",
-    "options": [
-      "A. Phụ thuộc hàm này là phụ thuộc hàm nguyên tố.",
-      "B. Phụ thuộc hàm này là phụ thuộc hàm đầy đủ.",
-      "C. Phụ thuộc hàm này là phụ thuộc hàm hiển nhiên.",
-      "D. Phụ thuộc hàm này không tồn tại."
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "85. Cho lược đồ quan hệ SINHVIEN(MaNV, TenNV, Lop, Khoa) với MaNV là mã số sinh",
-    "options": [
-      "A. Hai sinh viên có cùng MSSV chắc chắn có cùng TenNV.",
-      "B. Hai sinh viên có cùng TenNV chắc chắn có cùng MSSV.",
-      "C. Phụ thuộc hàm MSSV → TenNV là phụ thuộc hàm hiển nhiên.",
-      "D. Phụ thuộc hàm MSSV → TenNV là phụ thuộc hàm nguyên tố."
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "86. Cho lược đồ quan hệ SinhVien(MSSV, TênSV, Lớp, Khoa) và các phụ thuộc hàm đã",
-    "options": [
-      "A. MSSV → Khoa là một phụ thuộc hàm bắc cầu.",
-      "B. Không có phụ thuộc hàm hiển nhiên nào trong lược đồ quan hệ SinhVien.",
-      "C. MSSV → TênSV là một phụ thuộc hàm nguyên tố.",
-      "D. TênSV → MSSV là một phụ thuộc hàm nguyên tố."
+      "ADD",
+      "MINUS",
+      "EXCEPT",
+      "INTERSECT"
     ],
     "answer": "D"
   },
   {
-    "question": "87. Cho quan hệ R có tập thuộc tính Q = {a, b, c, d, e} và dữ liệu quan hệ như trong bảng.",
+    "question": "Kết nối bằng nhau các quan hệ theo thuộc tính là *",
     "options": [
-      "A. a → b",
-      "B. a → d",
-      "C. c → a",
-      "D. c → d"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "88. Cho X = {MaNV, TenNV, DiaChi} và Y = {DiaChi}. Phát biểu nào sau đây là đúng khi",
-    "options": [
-      "A. X → Y là phụ thuộc hàm nguyên tố.",
-      "B. X → Y là phụ thuộc hàm đầy đủ.",
-      "C. X → Y là phụ thuộc hàm hiển nhiên.",
-      "D. X → Y không phải là phụ thuộc hàm."
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "89. Cho lược đồ quan hệ NhanVien(MaNV, TenNV, DiaChi, ThanhPho) và các tập thuộc",
-    "options": [
-      "A. {MaNV, DiaChi} → {TenNV, DiaChi}",
-      "B. {MaNV, DiaChi} → {TenNV, ThanhPho}",
-      "C. {MaNV, ThanhPho} → {TenNV, DiaChi}",
-      "D. {MaNV, DiaChi, ThanhPho} → {TenNV, ThanhPho}"
+      "Thực hiện tích Đề Các và phép chọn",
+      "Thực hiện tích Đề Các và phép chiếu",
+      "Thực hiện phép chiếu và chia",
+      "Thực hiện phép chiếu và phép chọn"
     ],
     "answer": "A"
   },
   {
-    "question": "90. Cho lược đồ quan hệ NhanVien(MSSV, Lớp, Khoa) và các tập thuộc tính X = {MSSV},",
+    "question": "Phép chọn được thực hiện trong mệnh đề nào?",
     "options": [
-      "A. MSSV → Lớp",
-      "B. Lớp → Khoa",
-      "C. MSSV → Khoa",
-      "D. Khoa → MSSV"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "91. Cho lược đồ quan hệ NhanVien(MaNV, TenNV, PhongBan, DiaChi) và các tập thuộc",
-    "options": [
-      "A. MaNV → TenNV",
-      "B. MaNV → PhongBan",
-      "C. TenNV → PhongBan",
-      "D. Không có phụ thuộc hàm nào khác ngoài a và b."
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "92. Cho lược đồ quan hệ NhanVien(MaNV, TenNV, PhongBan, DiaChi) và các tập thuộc",
-    "options": [
-      "A. MaNV → TenNV",
-      "B. MaNV → PhongBan",
-      "C. MaNV → {TenNV, PhongBan}",
-      "D. TenNV → PhongBan"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "93. Cho lược đồ quan hệ NhanVien(MaNV, PhongBan, TruongPhong, DiaChi) và các tập",
-    "options": [
-      "A. MaNV → TruongPhong",
-      "B. PhongBan → TruongPhong",
-      "C. {MaNV, DiaChi} → TruongPhong",
-      "D. DiaChi → TruongPhong"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "94. thuộc tính không khóa của R(U) là?",
-    "options": [
-      "A. {B,E}",
-      "B. {B,C,E}",
-      "C. {B,C,D,E}",
-      "D. {}"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "95. Xét lược đồ quan hệ u= < R,F > , với R = {M,T,G,A,H,D,L} và F = {H → D, M → T, MA",
-    "options": [
-      "A. {AMG}",
-      "B. {HMA}",
-      "C. {MTG}",
-      "D. {AGT}"
+      "GROUP BY HAVING",
+      "WHERE",
+      "SELECT",
+      "FROM"
     ],
     "answer": "B"
   },
   {
-    "question": "96. Cho lược đồ quan hệ u= < Q,F > với Q=(a,b,c,d,e) và F={a→b, b→ac, ad→e, e→b}. Tìm",
+    "question": "Để nhóm dữ liệu ta sử dụng mệnh đề nào?",
     "options": [
-      "A. {ad, bd}",
-      "B. {bd}",
-      "C. {ed,ad,bd}",
-      "D. {bde,ace}"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "97. Cho lược đồ quan hệ R=(Q,F) với Q=(A,B,C,D,E,G,H) và F ={B → A; DA → CE; D →",
-    "options": [
-      "A. {ACDEH}",
-      "B. {ABCDEH}",
-      "C. {ACEH}",
-      "D. {ACDE}"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "98. Cho lược đồ quan hệ u= < Q,F > với Q=(a,b,c,d,e,g) và F={ad→b, eg→a, bc→g} xác định",
-    "options": [
-      "A. {acde, bcde}",
-      "B. {acd, cde, cdeg}",
-      "C. {cdeg,bcde, acde}",
-      "D. {bcdg, bcde,bcda}"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "99. Cho lược đồ quan hệ u= < Q,F > với Q=(a,b,c,d,e,g,h) và F={b→ac, hd→ae, ac→be,",
-    "options": [
-      "A. {bdg,acg}",
-      "B. {bg,cdg}",
-      "C. {bdg, cdg}",
-      "D. {acg,bg,cdg}"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "100. Cho lược đồ quan hệ u= < Q,F > với Q=(a,b,c,d,e,h) vàF={bc→e, d→a,c→a,",
-    "options": [
-      "A. {bc,be}",
-      "B. {bc,bd}",
-      "C. {be,ae}",
-      "D. {cd,ae}"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "101. Cho lược đồ quan hệ u= < Q,F> với Q=(a,b,c,d,e) và F={ac→e, de→b, bc→d}. Tìm tập",
-    "options": [
-      "A. {ac}",
-      "B. {bc,ac}",
-      "C. {acd, ace}",
-      "D. {abc, acd}"
+      "SELECT",
+      "FROM",
+      "GROUP BY",
+      "WHERE"
     ],
     "answer": "C"
   },
   {
-    "question": "102. Cho lược đồ quan hệ u= < Q,F > với Q=(a,b,c,d,e,g,h) và F={d→b, de→h, g→c, ch→g,",
+    "question": "Câu lệnh nào được dùng để tính tổng số dòng trong bảng NHANVIEN?",
     "options": [
-      "A. {cde,dgh}",
-      "B. {dghe, dghc}",
-      "C. {cde,cdh, deg}",
-      "D. {dce,dch,deg,dgh}"
+      "Select rowcount from NHANVIEN",
+      "Select sum(*) from NHANVIEN",
+      "Select count(*) from NHANVIEN",
+      "Select count_rows from NHANVIEN"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Giả sử bảng KHACHHANG chưa có mẩu tin MAKH với giá trị 10, dùng câu lệnh nào",
+    "options": [
+      "INSERT INTO KHACHHANG VALUES (‘KH010’,’Lan’, ‘Truong Thi’, ’TP.HCM’,",
+      "INSERT INTO KHACHHANG (MAKH, TENKH, HOKH, City, Country) VALUES",
+      "INSERT INTO KHACHHANG VALUE (‘KH010’,’Lan’, ‘Truong Thi’,’TP.HCM’,",
+      "INSERT INTO KHACHHANG (‘KH010’,’Lan’, ‘Truong Thi’,’TP.HCM’, ‘TP.HCM’,"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Chúng ta muốn liệt kê tất cả các hàng trong bảng KHACHHANG nhưng chỉ lấy giá trị",
+    "options": [
+      "SELECT DISTINCT TENKH, HOKH FROM KHACHHANG",
+      "SELECT ALL TENKH, HOKH FROM KHACHHANG",
+      "SELECT TENKH, HOKH FROM KHACHHANG",
+      "SELECT TENKH.*, HOKH .* FROM KHACHHANG"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Câu lệnh nào dùng để xóa trong bảng KHACHHANG các khách hàng có cột TEN là",
+    "options": [
+      "DELETE * FROM KHACHHANG WHERE TEN='Lan' and DIACHI =’TP.HCM’",
+      "DELETE ALL FROM KHACHHANG WHERE TEN='Lan' and diachi=’TP.HCM’",
+      "DELETE *.* FROM KHACHHANG WHERE TEN='Lan' and DIACHI =’TP.HCM’",
+      "DELETE FROM KHACHHANG WHERE TEN='Lan' and diachi =’TP.HCM’"
     ],
     "answer": "D"
   },
   {
-    "question": "103. Cho u= < R,F > với R=(A,B,C,D,E,G) và tập phụ thuộc hàm F = {AE → C, CG → A, BE",
+    "question": "Câu lệnh nào trả về từ bảng BÁNH các mặt hàng TÊN là ‘Chocolate’ hoặc ‘Chocopie’?",
     "options": [
-      "A. {A}",
-      "B. {B}",
-      "C. {C}",
-      "D. {D}"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "104. Cho lược đồ quan hệ r=(U,F), với U=(A,B,C,D,E) và F= {A→BC, C→DE}. Khóa của r",
-    "options": [
-      "A. {A}",
-      "B. {A,C}",
-      "C. {A,D}",
-      "D. {A,B,C}"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "105. Cho lược đồ quan hệ u=(Q,F) với Q=(a,b,c,d,e,g,h) và F={cd→h, e→b, d→g, bh→e,",
-    "options": [
-      "A. {cdh, bcd}",
-      "B. {ace, abd}",
-      "C. {cde, bce}",
-      "D. {cde,bch}"
+      "Select * from BÁNH where TÊN LIKE ‘Choco*’",
+      "Select from BÁNH where TÊN = ‘Choco%’",
+      "Select * from BÁNH where TÊN LIKE ‘Choco%’",
+      "Select * from BÁNH where TÊN LIKE ‘%Choco?’"
     ],
     "answer": "C"
   },
   {
-    "question": "106. Cho lược đồ cơ sở dữ liệu sau. NhaCungCap(MaNCC, TenNCC, ThanhPho),",
+    "question": "Chỉ ra câu lệnh đồng loạt tăng giá sách (Book_Price) lên 10% trong bảng BookDetail",
     "options": [
-      "A. Giá trị MaNCC hoặc MaHang trong CungUng được phép nhận giá trị NULL",
-      "B. SoLuong trong CungUng luôn có giá trị > 0",
-      "C. Giá trị MaHang trong CungUng được phép lặp lại nhiều lần",
-      "D. MaHang trong HangHoa không được phép có giá trị trùng nhau"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "107. Cho loại quan hệ SINHVIEN(MSSV, HoTen, Ngaysinh, NgayVaoDoan). Phát biểu:",
-    "options": [
-      "A. Miền giá trị của thuộc tính",
-      "B. Liên thuộc tính trên cùng loại quan hệ",
-      "C. Liên thuộc tính liên quan hệ",
-      "D. Do thuộc tính tổng hợp"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "108. Cho lược đồ quan hệ sau: BIENLAI(Số_BL, MãHV, Điểm, Kếtquả, Xếploại)",
-    "options": [
-      "A. Tham chiếu",
-      "B. Liên thuộc tính trên cùng loại quan hệ",
-      "C. Liên bộ - Liên quan hệ",
-      "D. Miền giá trị của thuộc tính"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "109. Câu nào sai trong các câu dưới đây?",
-    "options": [
-      "A. Mỗi bảng chỉ có một khóa",
-      "B. Nên chọn khóa chính là khóa có ít thuộc tính nhất",
-      "C. Trong một bảng có thể có nhiều khóa chính",
-      "D. Việc xác định khóa có thể dùng phụ thuộc hàm"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "110. Khóa ngoại trong một quan hệ dùng để?",
-    "options": [
-      "A. Liên kết các quan hệ, tạo ràng buộc tồn tại",
-      "B. Bảo đám tính đúng của dữ liệu trong quan hệ đó",
-      "C. Không cần thiết có khóa ngoại",
-      "D. Khi nhập dữ liệu thì kiểm tra khóa ngoại"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "111. Tại sao khóa chính không cho phép có giá trị NULL?",
-    "options": [
-      "A. Khó xác định khóa ngoại",
-      "B. Khó xác định tính duy nhất của các cột",
-      "C. Khó kết nối các bảng",
-      "D. Khó xác định tính duy nhất của các hàng"
+      "UPDATE BookDetails SET Book_Price*10/100",
+      "UPDATE BookDetails SET Book_Price=Book_Price*10/100",
+      "UPDATE Book_Price=Book_Price+Book_Price*10/100 FROM BookDetails",
+      "UPDATE BookDetails SET Book_Price=Book_Price+Book_Price*10/100"
     ],
     "answer": "D"
   },
   {
-    "question": "112. … của một loại quan hệ sẽ trở thành các cột trong một Table tương ứng. *",
+    "question": "Trong bảng BIENLAI, để xem thông tin trong khoảng từ 10/02/2011 đến 20/02/2011, ta",
     "options": [
-      "A. Các bộ (tupe)",
-      "B. Các kiểu dữ liệu",
-      "C. Các thuộc tính",
-      "D. Các miền giá trị"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "113. Cho quan hệ R=(ABCD) với ABCD là các thuộc tính, phát biểu B phải nằm trong",
-    "options": [
-      "A. Liên thuộc tính trên một quan hệ",
-      "B. Miền giá trị của thuộc tính",
-      "C. Liên bộ trên một quan hệ",
-      "D. Thuộc tính tổng hợp"
+      "SELECT * FROM BIENLAI WHERE NGAY_DK BETWEEN ‘10/02/2011’ or",
+      "SELECT * FROM BIENLAI WHERE NGAY_DK BETWEEN ‘10/02/2011’ AND",
+      "SELECT * FROM BIENLAI WHERE NGAY_DK NOT BETWEEN ‘10/02/2011’ AND",
+      "SELECT * FROM BIENLAI WHERE ‘10/02/2011’ <= NGAY_DK <= ‘20/02/2011’ 38."
     ],
     "answer": "B"
   },
   {
-    "question": "114. Cho hai quan hệ Sinh_Viên và Bảng_Điểm phát biểu : ‘Sinh viên chỉ có điểm của những",
+    "question": "Cho bảng NHANVIEN(MANV, TENNV, PHONG, MUCLUONG). Câu lệnh nào dưới",
     "options": [
-      "A. Liên thuộc tính, liên quan hệ",
-      "B. Tham chiếu",
-      "C. Liên bộ, liên quan hệ",
-      "D. Miền giá trị của thuộc tính"
+      "Select count(MANV) from NHANVIEN",
+      "Select sum(MANV) from NHANVIEN",
+      "Select max(MANV) from NHANVIEN",
+      "Select MANV from NHANVIEN where count(MANV) > 0"
     ],
     "answer": "A"
   },
   {
-    "question": "115. Cho 2 quan hệ Hóa_Đơn và Chi_Tiết_Hóa_Đơn, phát biểu: ‘Trị giá hóa đơn phải bằng",
+    "question": "Trong lược đồ quan hệ CHUYÊN_MÔN (MÃGV, MÔN), thuộc tính nào không phải là",
     "options": [
-      "A. Tham chiếu",
-      "B. Liên thuộc tính, liên quan hệ",
-      "C. Thuộc tính tổng hợp",
-      "D. Miền giá trị"
+      "MÃGV",
+      "MÔN",
+      "Cả hai thuộc tính đều là thuộc tính đơn",
+      "Không có thuộc tính nào là thuộc tính đơn"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Lược đồ quan hệ CHUYÊN_MÔN (MÃGV, MÔN) ở hình sau KHÔNG đạt dạng chuẩn",
+    "options": [
+      "Thuộc tính MÃGV không phải là thuộc tính đơn.",
+      "Thuộc tính MÔN không phải là thuộc tính đơn.",
+      "Cả hai thuộc tính MÃGV và MÔN đều không phải là thuộc tính đơn.",
+      "Lược đồ quan hệ này đã đạt dạng chuẩn 1."
     ],
     "answer": "B"
   },
   {
-    "question": "116. Để thực hiện phép giao giữa 2 loại quan hệ, trong SQL, ta sử dụng toán tử.",
+    "question": "Điều kiện nào sau đây là bắt buộc để một lược đồ quan hệ Q đạt dạng chuẩn 1 (1NF)?",
     "options": [
-      "A. ADD",
-      "B. MINUS",
-      "C. EXCEPT",
-      "D. INTERSECT"
+      "Lược đồ quan hệ Q phải có khóa chính.",
+      "Tất cả các thuộc tính của Q phải là thuộc tính đơn.",
+      "Lược đồ quan hệ Q phải có ít nhất một thuộc tính.",
+      "Lược đồ quan hệ Q phải có ít nhất một dòng dữ liệu."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Thế nào là phụ thuộc đầy đủ của thuộc tính A vào tập thuộc tính X?",
+    "options": [
+      "X → A là phụ thuộc hàm bất kỳ.",
+      "X → A là phụ thuộc hàm nguyên tố và không tồn tại X' ⊂ X mà X' → A.",
+      "X → A là phụ thuộc hàm không nguyên tố.",
+      "A → X là phụ thuộc hàm nguyên tố."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Lược đồ quan hệ Q ở dạng chuẩn 2 (2NF) khi nào?",
+    "options": [
+      "Q ở dạng chuẩn 1 và mọi thuộc tính không khóa của Q đều phụ thuộc hàm vào khóa của Q.",
+      "Q ở dạng chuẩn 1 và mọi thuộc tính không khóa của Q đều phụ thuộc đầy đủ vào các khóa",
+      "Q ở dạng chuẩn 1 và mọi thuộc tính không khóa của Q đều phụ thuộc hàm vào khóa của Q.",
+      "Q ở dạng chuẩn 1 và mọi thuộc tính của Q đều phụ thuộc đầy đủ vào các khóa của Q."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Thuộc tính không khóa là thuộc tính như thế nào?",
+    "options": [
+      "Thuộc tính tham gia vào khóa chính.",
+      "Thuộc tính không tham gia vào khóa chính.",
+      "Thuộc tính có giá trị duy nhất.",
+      "Thuộc tính có nhiều giá trị."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Điều kiện nào sau đây là bắt buộc để lược đồ quan hệ Q đạt dạng chuẩn 2 (2NF)?",
+    "options": [
+      "Q phải ở dạng chuẩn 1.",
+      "Mọi thuộc tính không khóa của Q phải phụ thuộc đầy đủ vào khóa của Q.",
+      "Cả A và B đều đúng.",
+      "Q phải có ít nhất một thuộc tính không khóa."
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Mục đích của dạng chuẩn 2 (2NF) là gì?",
+    "options": [
+      "Loại bỏ sự dư thừa dữ liệu do phụ thuộc hàm không đầy đủ.",
+      "Loại bỏ sự dư thừa dữ liệu do phụ thuộc hàm bắc cầu.",
+      "Loại bỏ sự dư thừa dữ liệu do thuộc tính đa trị.",
+      "Loại bỏ sự dư thừa dữ liệu do thuộc tính phức tạp."
     ],
     "answer": "D"
   },
   {
-    "question": "117. Kết nối bằng nhau các quan hệ theo thuộc tính là *",
+    "question": "Trong quan hệ QLHT (MSSV, TEN, NS, PHAI, ĐC, MSLOP, TENLOP, MSMH,",
     "options": [
-      "A. Thực hiện tích Đề Các và phép chọn",
-      "B. Thực hiện tích Đề Các và phép chiếu",
-      "C. Thực hiện phép chiếu và chia",
-      "D. Thực hiện phép chiếu và phép chọn"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "118. Phép chọn được thực hiện trong mệnh đề nào?",
-    "options": [
-      "A. GROUP BY HAVING",
-      "B. WHERE",
-      "C. SELECT",
-      "D. FROM"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "119. Để nhóm dữ liệu ta sử dụng mệnh đề nào?",
-    "options": [
-      "A. SELECT",
-      "B. FROM",
-      "C. GROUP BY",
-      "D. WHERE"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "120. Câu lệnh nào được dùng để tính tổng số dòng trong bảng NHANVIEN?",
-    "options": [
-      "A. Select rowcount from NHANVIEN",
-      "B. Select sum(*) from NHANVIEN",
-      "C. Select count(*) from NHANVIEN",
-      "D. Select count_rows from NHANVIEN"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "121. Giả sử bảng KHACHHANG chưa có mẩu tin MAKH với giá trị 10, dùng câu lệnh nào",
-    "options": [
-      "A. INSERT INTO KHACHHANG VALUES (‘KH010’,’Lan’, ‘Truong Thi’, ’TP.HCM’,",
-      "B. INSERT INTO KHACHHANG (MAKH, TENKH, HOKH, City, Country) VALUES",
-      "C. INSERT INTO KHACHHANG VALUE (‘KH010’,’Lan’, ‘Truong Thi’,’TP.HCM’,",
-      "D. INSERT INTO KHACHHANG (‘KH010’,’Lan’, ‘Truong Thi’,’TP.HCM’, ‘TP.HCM’,"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "122. Chúng ta muốn liệt kê tất cả các hàng trong bảng KHACHHANG nhưng chỉ lấy giá trị",
-    "options": [
-      "A. SELECT DISTINCT TENKH, HOKH FROM KHACHHANG",
-      "B. SELECT ALL TENKH, HOKH FROM KHACHHANG",
-      "C. SELECT TENKH, HOKH FROM KHACHHANG",
-      "D. SELECT TENKH.*, HOKH .* FROM KHACHHANG"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "123. Câu lệnh nào dùng để xóa trong bảng KHACHHANG các khách hàng có cột TEN là",
-    "options": [
-      "A. DELETE * FROM KHACHHANG WHERE TEN='Lan' and DIACHI =’TP.HCM’",
-      "B. DELETE ALL FROM KHACHHANG WHERE TEN='Lan' and diachi=’TP.HCM’",
-      "C. DELETE *.* FROM KHACHHANG WHERE TEN='Lan' and DIACHI =’TP.HCM’",
-      "D. DELETE FROM KHACHHANG WHERE TEN='Lan' and diachi =’TP.HCM’"
+      "MSSV",
+      "MSLOP",
+      "MSMH",
+      "{MSMH, MSSV}"
     ],
     "answer": "D"
   },
   {
-    "question": "124. Câu lệnh nào trả về từ bảng BÁNH các mặt hàng TÊN là ‘Chocolate’ hoặc ‘Chocopie’?",
+    "question": "Tại sao quan hệ QLHT (MSSV, TEN, NS, PHAI, ĐC, MSLOP, TENLOP, MSMH,",
     "options": [
-      "A. Select * from BÁNH where TÊN LIKE ‘Choco*’",
-      "B. Select from BÁNH where TÊN = ‘Choco%’",
-      "C. Select * from BÁNH where TÊN LIKE ‘Choco%’",
-      "D. Select * from BÁNH where TÊN LIKE ‘%Choco?’"
+      "Do có thuộc tính không khóa phụ thuộc hàm bắc cầu vào khóa chính.",
+      "Do có thuộc tính không khóa phụ thuộc hàm không đầy đủ vào khóa chính.",
+      "Do có thuộc tính khóa phụ thuộc vào thuộc tính không khóa.",
+      "Do quan hệ chưa đạt dạng chuẩn 1."
     ],
-    "answer": "C"
+    "answer": "B"
   },
   {
-    "question": "125. Chỉ ra câu lệnh đồng loạt tăng giá sách (Book_Price) lên 10% trong bảng BookDetail",
+    "question": "Cho quan hệ QLHT(MSSV, TEN, NS, PHAI, ĐC, MSLOP, TENLOP, MSMH,",
     "options": [
-      "A. UPDATE BookDetails SET Book_Price*10/100",
-      "B. UPDATE BookDetails SET Book_Price=Book_Price*10/100",
-      "C. UPDATE Book_Price=Book_Price+Book_Price*10/100 FROM BookDetails",
-      "D. UPDATE BookDetails SET Book_Price=Book_Price+Book_Price*10/100"
+      "TEN",
+      "DIEM",
+      "TENMH",
+      "TENLOP"
     ],
     "answer": "D"
   },
   {
-    "question": "126. Trong bảng BIENLAI, để xem thông tin trong khoảng từ 10/02/2011 đến 20/02/2011, ta",
+    "question": "Thế nào là phụ thuộc hàm bắc cầu A → C trong ví dụ F = {A → B, B → C}?",
     "options": [
-      "A. SELECT * FROM BIENLAI WHERE NGAY_DK BETWEEN ‘10/02/2011’ or",
-      "B. SELECT * FROM BIENLAI WHERE NGAY_DK BETWEEN ‘10/02/2011’ AND",
-      "C. SELECT * FROM BIENLAI WHERE NGAY_DK NOT BETWEEN ‘10/02/2011’ AND",
-      "D. SELECT * FROM BIENLAI WHERE ‘10/02/2011’ <= NGAY_DK <= ‘20/02/2011’ 38."
+      "A phụ thuộc trực tiếp vào C.",
+      "A phụ thuộc gián tiếp vào C thông qua B.",
+      "A và C không có mối quan hệ phụ thuộc.",
+      "A chỉ phụ thuộc vào B."
     ],
     "answer": "B"
   },
   {
-    "question": "127. Cho bảng NHANVIEN(MANV, TENNV, PHONG, MUCLUONG). Câu lệnh nào dưới",
+    "question": "Điều kiện nào sau đây dẫn đến việc chọn một phụ thuộc hàm X → A để phân rã lược đồ",
     "options": [
-      "A. Select count(MANV) from NHANVIEN",
-      "B. Select sum(MANV) from NHANVIEN",
-      "C. Select max(MANV) from NHANVIEN",
-      "D. Select MANV from NHANVIEN where count(MANV) > 0"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "128. Trong lược đồ quan hệ CHUYÊN_MÔN (MÃGV, MÔN), thuộc tính nào không phải là",
-    "options": [
-      "A. MÃGV",
-      "B. MÔN",
-      "C. Cả hai thuộc tính đều là thuộc tính đơn",
-      "D. Không có thuộc tính nào là thuộc tính đơn"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "129. Lược đồ quan hệ CHUYÊN_MÔN (MÃGV, MÔN) ở hình sau KHÔNG đạt dạng chuẩn",
-    "options": [
-      "A. Thuộc tính MÃGV không phải là thuộc tính đơn.",
-      "B. Thuộc tính MÔN không phải là thuộc tính đơn.",
-      "C. Cả hai thuộc tính MÃGV và MÔN đều không phải là thuộc tính đơn.",
-      "D. Lược đồ quan hệ này đã đạt dạng chuẩn 1."
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "130. Điều kiện nào sau đây là bắt buộc để một lược đồ quan hệ Q đạt dạng chuẩn 1 (1NF)?",
-    "options": [
-      "A. Lược đồ quan hệ Q phải có khóa chính.",
-      "B. Tất cả các thuộc tính của Q phải là thuộc tính đơn.",
-      "C. Lược đồ quan hệ Q phải có ít nhất một thuộc tính.",
-      "D. Lược đồ quan hệ Q phải có ít nhất một dòng dữ liệu."
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "131. Thế nào là phụ thuộc đầy đủ của thuộc tính A vào tập thuộc tính X?",
-    "options": [
-      "A. X → A là phụ thuộc hàm bất kỳ.",
-      "B. X → A là phụ thuộc hàm nguyên tố và không tồn tại X' ⊂ X mà X' → A.",
-      "C. X → A là phụ thuộc hàm không nguyên tố.",
-      "D. A → X là phụ thuộc hàm nguyên tố."
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "132. Lược đồ quan hệ Q ở dạng chuẩn 2 (2NF) khi nào?",
-    "options": [
-      "A. Q ở dạng chuẩn 1 và mọi thuộc tính không khóa của Q đều phụ thuộc hàm vào khóa của Q.",
-      "B. Q ở dạng chuẩn 1 và mọi thuộc tính không khóa của Q đều phụ thuộc đầy đủ vào các khóa",
-      "C. Q ở dạng chuẩn 1 và mọi thuộc tính của Q đều phụ thuộc hàm vào khóa của Q.",
-      "D. Q ở dạng chuẩn 1 và mọi thuộc tính của Q đều phụ thuộc đầy đủ vào các khóa của Q."
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "133. Thuộc tính không khóa là thuộc tính như thế nào?",
-    "options": [
-      "A. Thuộc tính tham gia vào khóa chính.",
-      "B. Thuộc tính không tham gia vào khóa chính.",
-      "C. Thuộc tính có giá trị duy nhất.",
-      "D. Thuộc tính có nhiều giá trị."
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "134. Điều kiện nào sau đây là bắt buộc để lược đồ quan hệ Q đạt dạng chuẩn 2 (2NF)?",
-    "options": [
-      "A. Q phải ở dạng chuẩn 1.",
-      "B. Mọi thuộc tính không khóa của Q phải phụ thuộc đầy đủ vào khóa của Q.",
-      "C. Cả A và B đều đúng.",
-      "D. Q phải có ít nhất một thuộc tính không khóa."
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "135. Mục đích của dạng chuẩn 2 (2NF) là gì?",
-    "options": [
-      "A. Loại bỏ sự dư thừa dữ liệu do phụ thuộc hàm không đầy đủ.",
-      "B. Loại bỏ sự dư thừa dữ liệu do phụ thuộc hàm bắc cầu.",
-      "C. Loại bỏ sự dư thừa dữ liệu do thuộc tính đa trị.",
-      "D. Loại bỏ sự dư thừa dữ liệu do thuộc tính phức tạp."
+      "S đã ở dạng chuẩn BCNF.",
+      "X là siêu khóa của S.",
+      "X không là siêu khóa của S và A ⊆ X.",
+      "X không là siêu khóa của S và A ⊂ X."
     ],
     "answer": "D"
   },
   {
-    "question": "136. Trong quan hệ QLHT (MSSV, TEN, NS, PHAI, ĐC, MSLOP, TENLOP, MSMH,",
+    "question": "Tại sao thuật toán phân rã chỉ chọn phụ thuộc hàm vi phạm định nghĩa BCNF?",
     "options": [
-      "A. MSSV",
-      "B. MSLOP",
-      "C. MSMH",
-      "D. {MSMH, MSSV}"
+      "Để đảm bảo tính toàn vẹn dữ liệu.",
+      "Để giảm thiểu số lượng lược đồ quan hệ sau phân rã.",
+      "Để lược đồ quan hệ đạt dạng chuẩn cao nhất có thể.",
+      "Để đơn giản hóa quá trình phân rã."
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Nếu lược đồ quan hệ S đã ở dạng chuẩn BCNF, bước tiếp theo của thuật toán là gì?",
+    "options": [
+      "Chọn một phụ thuộc hàm vi phạm 3NF.",
+      "Phân rã S thành hai lược đồ con.",
+      "Kiểm tra lược đồ quan hệ tiếp theo trong phép tách.",
+      "Kết thúc thuật toán."
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Thuật toán phân rã tiếp tục cho đến khi nào?",
+    "options": [
+      "Khi tất cả các lược đồ quan hệ đều ở dạng chuẩn 3NF.",
+      "Khi tất cả các lược đồ quan hệ đều ở dạng chuẩn BCNF.",
+      "Khi không còn phụ thuộc hàm nào vi phạm BCNF.",
+      "Khi đạt được một số lượng lược đồ quan hệ nhất định."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Phép chiếu của F lên lược đồ quan hệ con được sử dụng để làm gì?",
+    "options": [
+      "Kiểm tra xem lược đồ con có bảo toàn phụ thuộc hàm hay không.",
+      "Tính toán khóa chính cho lược đồ con.",
+      "Tối ưu hóa truy vấn trên lược đồ con.",
+      "Xác định các ràng buộc toàn vẹn cho lược đồ con."
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Lợi ích chính của việc chuẩn hóa lược đồ quan hệ bằng phương pháp phân rã là gì?",
+    "options": [
+      "Tăng tốc độ truy vấn dữ liệu.",
+      "Giảm dung lượng lưu trữ dữ liệu.",
+      "Loại bỏ sự dư thừa dữ liệu và đảm bảo tính nhất quán.",
+      "Tăng tính bảo mật của dữ liệu."
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Nhận xét nào sau đây về phương pháp phân rã lược đồ quan hệ là đúng?",
+    "options": [
+      "Phương pháp phân rã luôn bảo toàn thông tin và bảo toàn phụ thuộc hàm.",
+      "Phương pháp phân rã luôn bảo toàn thông tin nhưng có khả năng không bảo toàn phụ thuộc",
+      "Phương pháp phân rã không bảo toàn thông tin nhưng luôn bảo toàn phụ thuộc hàm.",
+      "Phương pháp phân rã không bảo toàn thông tin và không bảo toàn phụ thuộc hàm."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Quy tắc Amstrong được sử dụng để làm gì trong quá trình phân rã lược đồ quan hệ?",
+    "options": [
+      "Xác định khóa chính của lược đồ quan hệ.",
+      "Kiểm tra tính dư thừa dữ liệu trong lược đồ quan hệ.",
+      "Suy ra các phụ thuộc hàm (PTH) mới từ các PTH đã biết.",
+      "Xác định dạng chuẩn của lược đồ quan hệ."
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Trong lược đồ quan hệ u = <Q, F> với Q = (CTHRSG) và tập phụ thuộc hàm",
+    "options": [
+      "1NF",
+      "2NF",
+      "3NF",
+      "BCNF"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Trong lược đồ quan hệ Q(A, B, C), phụ thuộc hàm A → B được gọi là phụ thuộc hàm",
+    "options": [
+      "A = B",
+      "A ⊂ B",
+      "B ⊂ A",
+      "A ∩ B = Ø"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Trong lược đồ quan hệ Q(A, B, C), phụ thuộc hàm A → B có nghĩa là: *",
+    "options": [
+      "Giá trị của thuộc tính A xác định duy nhất giá trị của thuộc tính C.",
+      "Giá trị của thuộc tính B xác định duy nhất giá trị của thuộc tính A.",
+      "Giá trị của thuộc tính A xác định duy nhất giá trị của thuộc tính B.",
+      "Giá trị của thuộc tính B xác định duy nhất giá trị của thuộc tính C."
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Phụ thuộc hàm A → B được gọi là phụ thuộc hàm nguyên tố (phụ thuộc hàm đầy đủ)",
+    "options": [
+      "Không tồn tại A' ⊂ A sao cho A' → B.",
+      "Tồn tại A' ⊂ A sao cho A' → B.",
+      "A = B.",
+      "A ∩ B = ∅."
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Tập phụ thuộc hàm <F,Q> là: *",
+    "options": [
+      "Tập hợp tất cả các thuộc tính của quan hệ Q.",
+      "Tập hợp các bản ghi của quan hệ Q.",
+      "Tập hợp các phụ thuộc hàm của quan hệ Q.",
+      "Tập hợp các khóa của quan hệ Q."
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Quy ước nào sau đây được áp dụng khi mô tả tập phụ thuộc hàm F?",
+    "options": [
+      "Mô tả tất cả các phụ thuộc hàm, bao gồm cả phụ thuộc hàm hiển nhiên.",
+      "Mô tả tất cả các phụ thuộc hàm, loại trừ phụ thuộc hàm hiển nhiên.",
+      "Mô tả tất cả các phụ thuộc hàm nguyên tố (phụ thuộc hàm đầy đủ).",
+      "Mô tả tất cả các phụ thuộc hàm bắc cầu."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Cho lược đồ quan hệ Q(A, B, C). Phụ thuộc hàm A xác định B. Ký hiệu A → B nếu:",
+    "options": [
+      "qᵢ.A ≠ qⱼ.A thì qᵢ.B = qⱼ.B",
+      "qᵢ.A = qⱼ.A thì qᵢ.B ≠ qⱼ.B",
+      "qᵢ.A = qⱼ.A thì qᵢ.B = qⱼ.B",
+      "qᵢ.A ≠ qⱼ.A thì qᵢ.B ≠ qⱼ.B"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Trong lược đồ quan hệ SINHVIEN (MaNV, TenNV, DiaChi, ThanhPho), tập thuộc tính",
+    "options": [
+      "MaNV",
+      "TenNV",
+      "{MaNV, DiaChi}",
+      "ThanhPho"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Phụ thuộc hàm {MaNV, DiaChi} → DiaChi có ý nghĩa gì?",
+    "options": [
+      "Mã nhân viên xác định địa chỉ.",
+      "Địa chỉ xác định mã nhân viên.",
+      "Mã nhân viên và địa chỉ xác định địa chỉ.",
+      "Thành phố xác định địa chỉ."
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Phụ thuộc hàm A → B được gọi là phụ thuộc hàm nguyên tố (phụ thuộc hàm đầy đủ)",
+    "options": [
+      "B ⊂ A",
+      "A ⊂ B",
+      "∀A' ⊂ A, A' ≠ A và A' → B",
+      "A = B"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Cho lược đồ quan hệ SINHVIEN (MaNV, TenNV, Lớp, Khoa). Phụ thuộc hàm MSSV",
+    "options": [
+      "Nếu biết Mã số sinh viên (MSSV) thì không thể xác định được Tên sinh viên (TênSV).",
+      "Nếu biết Mã số sinh viên (MSSV) thì có thể xác định được Tên sinh viên (TênSV).",
+      "Nếu biết Tên sinh viên (TênSV) thì có thể xác định được Mã số sinh viên (MSSV).",
+      "Mã số sinh viên (MSSV) và Tên sinh viên (TênSV) không liên quan đến nhau."
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Trong lược đồ quan hệ SINHVIEN (MaNV, TenNV, Lớp, Khoa), thuộc tính nào xác",
+    "options": [
+      "MaNV",
+      "TênSV",
+      "Lớp",
+      "Khoa"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Phụ thuộc hàm MSSV → TênSV có ý nghĩa gì?",
+    "options": [
+      "Mỗi mã số sinh viên xác định duy nhất một lớp.",
+      "Mỗi mã số sinh viên xác định duy nhất một khoa.",
+      "Mỗi mã số sinh viên xác định duy nhất một tên sinh viên.",
+      "Mỗi mã số sinh viên xác định duy nhất một mã số sinh viên khác."
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Phụ thuộc hàm nào sau đây là phụ thuộc hàm bắc cầu?",
+    "options": [
+      "MSSV → TênSV",
+      "MSSV → Lớp",
+      "Lớp → Khoa",
+      "MSSV → Khoa"
     ],
     "answer": "D"
   },
   {
-    "question": "137. Tại sao quan hệ QLHT (MSSV, TEN, NS, PHAI, ĐC, MSLOP, TENLOP, MSMH,",
+    "question": "Phụ thuộc hàm nào sau đây là phụ thuộc hàm nguyên tố?",
     "options": [
-      "A. Do có thuộc tính không khóa phụ thuộc hàm bắc cầu vào khóa chính.",
-      "B. Do có thuộc tính không khóa phụ thuộc hàm không đầy đủ vào khóa chính.",
-      "C. Do có thuộc tính khóa phụ thuộc vào thuộc tính không khóa.",
-      "D. Do quan hệ chưa đạt dạng chuẩn 1."
+      "MSSV → Khoa",
+      "MSSV → Lớp → Khoa",
+      "MSSV → TênSV",
+      "MSSV, Lớp → Khoa"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Tập phụ thuộc hàm (F) của quan hệ SinhVien bao gồm những phụ thuộc hàm nào?",
+    "options": [
+      "MSSV → TênSV, MSSV → Lớp, Lớp → Khoa",
+      "MSSV → TênSV, MSSV → Lớp, MSSV → Khoa",
+      "MSSV → Lớp, Lớp → Khoa, MSSV → Khoa",
+      "MSSV → TênSV, Lớp → Khoa, MSSV → Khoa"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Trong quan hệ SinhVien, có phụ thuộc hàm hiển nhiên nào không?",
+    "options": [
+      "Có",
+      "Không",
+      "Không thể xác định",
+      "Tất cả các đáp án đều sai"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Hệ tiên đề Amstrong bao gồm bao nhiêu luật cơ bản?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
     ],
     "answer": "B"
   },
   {
-    "question": "138. Cho quan hệ QLHT(MSSV, TEN, NS, PHAI, ĐC, MSLOP, TENLOP, MSMH,",
+    "question": "Luật 1 của hệ tiên đề Amstrong phát biểu rằng nếu Y là tập con của X thì: *",
     "options": [
-      "A. TEN",
-      "B. DIEM",
-      "C. TENMH",
-      "D. TENLOP"
+      "X → Y",
+      "Y → X",
+      "X = Y",
+      "X ≠ Y"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Luật 2 của hệ tiên đề Amstrong liên quan đến việc kết hợp thuộc tính nào?",
+    "options": [
+      "Thuộc tính giống nhau",
+      "Thuộc tính khác nhau",
+      "Thuộc tính con",
+      "Thuộc tính cha"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Luật 4 của hệ tiên đề Amstrong cho phép phân tách phụ thuộc hàm nào?",
+    "options": [
+      "X → Y",
+      "X → Z",
+      "X → YZ",
+      "YZ → X"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Luật nào sau đây không phải là luật suy ra từ 3 luật cơ bản của hệ tiên đề Amstrong?",
+    "options": [
+      "Luật 4",
+      "Luật 5",
+      "Luật 6",
+      "Luật 7"
     ],
     "answer": "D"
   },
   {
-    "question": "139. Thế nào là phụ thuộc hàm bắc cầu A → C trong ví dụ F = {A → B, B → C}?",
+    "question": "Hệ tiên đề Amstrong được sử dụng để làm gì?",
     "options": [
-      "A. A phụ thuộc trực tiếp vào C.",
-      "B. A phụ thuộc gián tiếp vào C thông qua B.",
-      "C. A và C không có mối quan hệ phụ thuộc.",
-      "D. A chỉ phụ thuộc vào B."
+      "Phân tích dữ liệu",
+      "Thiết kế cơ sở dữ liệu",
+      "Tối ưu hóa truy vấn",
+      "Kiểm tra tính nhất quán của dữ liệu"
     ],
     "answer": "B"
   },
   {
-    "question": "140. Điều kiện nào sau đây là bắt buộc để một thuộc tính A phụ thuộc bắc cầu vào tập thuộc",
+    "question": "Luật nào sau đây mô tả tính bắc cầu của phụ thuộc hàm?",
     "options": [
-      "A. X → Y và Y → A",
-      "B. X → Y và Y → A, đồng thời Y không phụ thuộc hàm vào X.",
-      "C. X → A và Y → A.",
-      "D. X → A và X → Y."
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "141. Thuộc tính A được gọi là phụ thuộc bắc cầu vào tập thuộc tính X nếu thỏa mãn điều",
-    "options": [
-      "A. X → A",
-      "B. Tồn tại Y sao cho X → Y và Y → A, đồng thời Y phụ thuộc hàm vào X.",
-      "C. Tồn tại Y sao cho X → Y và Y → A, đồng thời Y không phụ thuộc hàm vào X và A không",
-      "D. Tồn tại Y sao cho X → Y và A → Y."
+      "Luật 1",
+      "Luật 2",
+      "Luật 3",
+      "Luật 4"
     ],
     "answer": "C"
   },
   {
-    "question": "142. Điều kiện nào sau đây là bắt buộc để một lược đồ quan hệ Q đạt dạng chuẩn 3 (3NF)?",
+    "question": "Luật 1 của hệ tiên đề Amstrong phát biểu rằng nếu Y là tập con của X thì: *",
     "options": [
-      "A. Q phải ở dạng chuẩn 1 và chuẩn 2.",
-      "B. Q phải ở dạng chuẩn 1 và mọi thuộc tính không khóa đều không phụ thuộc hàm vào bất kỳ",
-      "C. Q phải ở dạng chuẩn 1 và mọi thuộc tính không khóa đều không phụ thuộc bắc cầu vào bất",
-      "D. Tất cả các đáp án trên đều đúng."
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "143. Mục đích của dạng chuẩn 3 (3NF) là gì?",
-    "options": [
-      "A. Loại bỏ sự dư thừa dữ liệu do phụ thuộc hàm không đầy đủ.",
-      "B. Loại bỏ sự dư thừa dữ liệu do phụ thuộc hàm bắc cầu.",
-      "C. Loại bỏ sự dư thừa dữ liệu do thuộc tính đa trị.",
-      "D. Loại bỏ sự dư thừa dữ liệu do thuộc tính phức tạp."
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "144. Thuộc tính không khóa trong lược đồ quan hệ Q ở dạng chuẩn 3 (3NF) phải thỏa mãn",
-    "options": [
-      "A. Phụ thuộc đầy đủ vào khóa chính.",
-      "B. Không phụ thuộc bắc cầu vào khóa chính.",
-      "C. Phụ thuộc hàm vào khóa chính.",
-      "D. Cả A và B."
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "145. Trong quan hệ SINHVIEN (MsSV, Ten, NS, Phai, ĐC, MsLop, tenLop), khóa chính là:",
-    "options": [
-      "A. MsSV",
-      "B. MsLop",
-      "C. {MsSV, MsLop}",
-      "D. tenLop"
+      "X → Y",
+      "Y → X",
+      "X = Y",
+      "X ≠ Y"
     ],
     "answer": "A"
   },
   {
-    "question": "146. Tại sao quan hệ SINHVIEN (MsSV, Ten, NS, Phai, ĐC, MsLop, tenLop) không đạt",
+    "question": "Phụ thuộc hàm {MaNV, TenNV, DiaChi} → {DiaChi} được gọi là gì?",
     "options": [
-      "A. Do có thuộc tính không khóa phụ thuộc hàm không đầy đủ vào khóa chính.",
-      "B. Do có thuộc tính không khóa phụ thuộc hàm bắc cầu vào khóa chính.",
-      "C. Do có thuộc tính không khóa phụ thuộc hàm vào thuộc tính không khóa khác.",
-      "D. Do quan hệ chưa đạt dạng chuẩn 2."
+      "Phụ thuộc hàm bắc cầu",
+      "Phụ thuộc hàm đầy đủ",
+      "Phụ thuộc hàm hiển nhiên",
+      "Phụ thuộc hàm một phần"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Luật 1 của hệ tiên đề Amstrong được áp dụng khi nào?",
+    "options": [
+      "Khi X và Y không có phần tử chung",
+      "Khi Y là tập con của X",
+      "Khi X là tập con của Y",
+      "Khi X và Y là hai tập hợp độc lập"
     ],
     "answer": "B"
   },
   {
-    "question": "147. Thuộc tính nào sau đây gây ra sự trùng lặp thông tin trong quan hệ SINHVIEN (MsSV,",
+    "question": "Luật 2 của hệ tiên đề Amstrong phát biểu rằng nếu X → Y và Z ⊆ W thì: *",
     "options": [
-      "A. Ten",
-      "B. NS",
-      "C. MsLop",
-      "D. tenLop"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "148. Điều kiện nào sau đây là bắt buộc để một lược đồ quan hệ Q đạt dạng chuẩn Boyce-",
-    "options": [
-      "A. Q phải ở dạng chuẩn 1 và mọi thuộc tính không khóa đều không phụ thuộc hàm vào bất kỳ",
-      "B. Q phải ở dạng chuẩn 1 và mọi phụ thuộc hàm không hiển nhiên xác định trên Q đều có vế",
-      "C. Q phải ở dạng chuẩn 1 và mọi thuộc tính không khóa đều không phụ thuộc bắc cầu vào bất",
-      "D. Tất cả các đáp án trên đều đúng."
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "149. Siêu khóa là gì?",
-    "options": [
-      "A. Một thuộc tính duy nhất xác định mỗi bản ghi trong quan hệ.",
-      "B. Một tập hợp các thuộc tính xác định duy nhất mỗi bản ghi trong quan hệ.",
-      "C. Một thuộc tính không khóa.",
-      "D. Một tập hợp các thuộc tính không khóa."
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "150. Tại sao lược đồ quan hệ ĐẶT_HÀNG (SỐĐH, NgàyĐH, MãKH),",
-    "options": [
-      "A. Vì lược đồ quan hệ này chỉ có một thuộc tính khóa chính.",
-      "B. Vì tất cả các thuộc tính đều phụ thuộc hàm vào khóa chính SỐĐH.",
-      "C. Vì không có phụ thuộc hàm bắc cầu trong lược đồ quan hệ.",
-      "D. Vì vế trái của phụ thuộc hàm là siêu khóa."
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "151. Dạng chuẩn của lược đồ cơ sở dữ liệu (LĐCSDL) được xác định như thế nào?",
-    "options": [
-      "A. Dạng chuẩn cao nhất trong số các lược đồ quan hệ của LĐCSDL.",
-      "B. Dạng chuẩn trung bình trong số các lược đồ quan hệ của LĐCSDL.",
-      "C. Dạng chuẩn thấp nhất trong số các lược đồ quan hệ của LĐCSDL.",
-      "D. Dạng chuẩn bất kỳ trong số các lược đồ quan hệ của LĐCSDL."
+      "XZ → YW",
+      "XW → YZ",
+      "YZ → XW",
+      "YW → XZ"
     ],
     "answer": "A"
   },
   {
-    "question": "152. Dạng chuẩn cao nhất của lược đồ quan hệ Q1(ABC) với F1 = {A → BC, C → B} là:",
+    "question": "Phụ thuộc hàm {MaNV, DiaChi, ThanhPho} → {TenNV, ThanhPho} được suy ra từ luật",
     "options": [
-      "A. 1NF",
-      "B. 2NF",
-      "C. 3NF",
-      "D. BCNF"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "153. Lược đồ quan hệ Q2(BC) với F2 = {C → B} ở dạng chuẩn nào?",
-    "options": [
-      "A. 1NF",
-      "B. 2NF",
-      "C. 3NF",
-      "D. BCNF"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "154. Cho lược đồ CSDL gồm hai lược đồ quan hệ sau :",
-    "options": [
-      "A. 1NF",
-      "B. 2NF",
-      "C. 3NF",
-      "D. BCNF"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "155. Cho lược đồ CSDL gồm hai lược đồ quan hệ sau :",
-    "options": [
-      "A. Do có phụ thuộc hàm không đầy đủ.",
-      "B. Do có phụ thuộc hàm bắc cầu vào khóa.",
-      "C. Do có thuộc tính đa trị.",
-      "D. Do có thuộc tính phức tạp."
+      "Luật 1",
+      "Luật 2",
+      "Luật 3",
+      "Luật 4"
     ],
     "answer": "B"
   },
   {
-    "question": "156. Cho lược đồ quan hệ r = (U, F), với U = {A, B, C, D} và F = {A → BC, C → D}.",
+    "question": "Luật 2 của hệ tiên đề Amstrong được sử dụng để làm gì?",
     "options": [
-      "A. Dạng chuẩn 1 (1NF)",
-      "B. Dạng chuẩn 2 (2NF)",
-      "C. Dạng chuẩn 3 (3NF)",
-      "D. Dạng chuẩn Boyce-Codd (BCNF)"
+      "Phân tách phụ thuộc hàm",
+      "Kết hợp phụ thuộc hàm",
+      "Mở rộng các phụ thuộc hàm đã biết",
+      "Kiểm tra tính nhất quán của dữ liệu"
     ],
     "answer": "C"
   },
   {
-    "question": "157. Phương pháp phân rã lược đồ quan hệ nhằm mục đích: *",
+    "question": "Luật 3 của hệ tiên đề Amstrong phát biểu rằng nếu X → Y và Y → Z thì: *",
     "options": [
-      "A. Loại bỏ dữ liệu trùng lặp.",
-      "B. Chuẩn hóa lược đồ quan hệ để đạt các dạng chuẩn cao hơn (3NF, BCNF).",
-      "C. Bảo toàn thông tin và phụ thuộc hàm.",
-      "D. Tất cả các đáp án trên."
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "158. Theo định lý Delobel (1973), nếu A → B thuộc F+ trong lược đồ quan hệ",
-    "options": [
-      "A. R = π (R) và R = π (R)",
-      "B. R = π (R) và R = π (R)",
-      "C. R = π (R) và R = π (R)",
-      "D. R = π (R) và R = π (R)"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "159. Theo định lý Rissanen (1977), điều kiện nào sau đây đảm bảo phép phân rã p(R1, R2)",
-    "options": [
-      "A. R1 ∩ R2 → R1",
-      "B. R1 ∩ R2 → R2",
-      "C. R2 ∩ R1 → R2",
-      "D. Tất cả các đáp án trên."
+      "X → YZ",
+      "X → Z",
+      "YZ → X",
+      "Z → X"
     ],
     "answer": "B"
   },
   {
-    "question": "160. Phương pháp phân rã lược đồ quan hệ nhằm mục đích chính là gì?",
+    "question": "Phụ thuộc hàm {MSSV} → {Khoa} được suy ra từ luật nào?",
     "options": [
-      "A. Tăng tốc độ truy vấn dữ liệu.",
-      "B. Chuẩn hóa lược đồ quan hệ để đạt các dạng chuẩn cao hơn.",
-      "C. Giảm dung lượng lưu trữ cơ sở dữ liệu.",
-      "D. Tăng tính bảo mật của dữ liệu."
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "161. Lược đồ quan hệ đầu vào của phương pháp phân rã bao gồm những thành phần nào?",
-    "options": [
-      "A. Tập thuộc tính Q và tập phụ thuộc hàm F.",
-      "B. Tập các bản ghi dữ liệu.",
-      "C. Tập các khóa chính và khóa ngoại.",
-      "D. Tập các ràng buộc toàn vẹn."
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "162. Kết quả đầu ra của phương pháp phân rã là gì?",
-    "options": [
-      "A. Một lược đồ quan hệ duy nhất ở dạng chuẩn cao nhất.",
-      "B. Tập các lược đồ quan hệ (QF) sao cho mỗi lược đồ đều là phép chiếu của F.",
-      "C. Tập các ràng buộc toàn vẹn mới.",
-      "D. Tập các chỉ mục (index) để tối ưu truy vấn."
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "163. Bước đầu tiên của thuật toán phân rã là gì?",
-    "options": [
-      "A. Chọn một phụ thuộc hàm vi phạm BCNF.",
-      "B. Phân rã lược đồ quan hệ ban đầu thành hai lược đồ con.",
-      "C. Khởi tạo phép tách chỉ bao gồm lược đồ quan hệ ban đầu.",
-      "D. Kiểm tra xem lược đồ quan hệ đã ở dạng chuẩn BCNF hay chưa."
+      "Luật 1",
+      "Luật 2",
+      "Luật 3",
+      "Luật 4"
     ],
     "answer": "C"
   },
   {
-    "question": "164. Điều kiện nào sau đây dẫn đến việc chọn một phụ thuộc hàm X → A để phân rã lược đồ",
+    "question": "Phụ thuộc hàm {MSSV} → {Khoa} được gọi là gì?",
     "options": [
-      "A. S đã ở dạng chuẩn BCNF.",
-      "B. X là siêu khóa của S.",
-      "C. X không là siêu khóa của S và A ⊆ X.",
-      "D. X không là siêu khóa của S và A ⊂ X."
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "165. Tại sao thuật toán phân rã chỉ chọn phụ thuộc hàm vi phạm định nghĩa BCNF?",
-    "options": [
-      "A. Để đảm bảo tính toàn vẹn dữ liệu.",
-      "B. Để giảm thiểu số lượng lược đồ quan hệ sau phân rã.",
-      "C. Để lược đồ quan hệ đạt dạng chuẩn cao nhất có thể.",
-      "D. Để đơn giản hóa quá trình phân rã."
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "166. Nếu lược đồ quan hệ S đã ở dạng chuẩn BCNF, bước tiếp theo của thuật toán là gì?",
-    "options": [
-      "A. Chọn một phụ thuộc hàm vi phạm 3NF.",
-      "B. Phân rã S thành hai lược đồ con.",
-      "C. Kiểm tra lược đồ quan hệ tiếp theo trong phép tách.",
-      "D. Kết thúc thuật toán."
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "167. Thuật toán phân rã tiếp tục cho đến khi nào?",
-    "options": [
-      "A. Khi tất cả các lược đồ quan hệ đều ở dạng chuẩn 3NF.",
-      "B. Khi tất cả các lược đồ quan hệ đều ở dạng chuẩn BCNF.",
-      "C. Khi không còn phụ thuộc hàm nào vi phạm BCNF.",
-      "D. Khi đạt được một số lượng lược đồ quan hệ nhất định."
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "168. Phép chiếu của F lên lược đồ quan hệ con được sử dụng để làm gì?",
-    "options": [
-      "A. Kiểm tra xem lược đồ con có bảo toàn phụ thuộc hàm hay không.",
-      "B. Tính toán khóa chính cho lược đồ con.",
-      "C. Tối ưu hóa truy vấn trên lược đồ con.",
-      "D. Xác định các ràng buộc toàn vẹn cho lược đồ con."
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "169. Lợi ích chính của việc chuẩn hóa lược đồ quan hệ bằng phương pháp phân rã là gì?",
-    "options": [
-      "A. Tăng tốc độ truy vấn dữ liệu.",
-      "B. Giảm dung lượng lưu trữ dữ liệu.",
-      "C. Loại bỏ sự dư thừa dữ liệu và đảm bảo tính nhất quán.",
-      "D. Tăng tính bảo mật của dữ liệu."
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "170. Nhận xét nào sau đây về phương pháp phân rã lược đồ quan hệ là đúng?",
-    "options": [
-      "A. Phương pháp phân rã luôn bảo toàn thông tin và bảo toàn phụ thuộc hàm.",
-      "B. Phương pháp phân rã luôn bảo toàn thông tin nhưng có khả năng không bảo toàn phụ thuộc",
-      "C. Phương pháp phân rã không bảo toàn thông tin nhưng luôn bảo toàn phụ thuộc hàm.",
-      "D. Phương pháp phân rã không bảo toàn thông tin và không bảo toàn phụ thuộc hàm."
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "171. Quy tắc Amstrong được sử dụng để làm gì trong quá trình phân rã lược đồ quan hệ?",
-    "options": [
-      "A. Xác định khóa chính của lược đồ quan hệ.",
-      "B. Kiểm tra tính dư thừa dữ liệu trong lược đồ quan hệ.",
-      "C. Suy ra các phụ thuộc hàm (PTH) mới từ các PTH đã biết.",
-      "D. Xác định dạng chuẩn của lược đồ quan hệ."
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "172. Trong lược đồ quan hệ u = <Q, F> với Q = (CTHRSG) và tập phụ thuộc hàm",
-    "options": [
-      "A. 1NF",
-      "B. 2NF",
-      "C. 3NF",
-      "D. BCNF"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "173. Trong lược đồ quan hệ Q(A, B, C), phụ thuộc hàm A → B được gọi là phụ thuộc hàm",
-    "options": [
-      "A. A = B",
-      "B. A ⊂ B",
-      "C. B ⊂ A",
-      "D. A ∩ B = Ø"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "174. Trong lược đồ quan hệ Q(A, B, C), phụ thuộc hàm A → B có nghĩa là: *",
-    "options": [
-      "A. Giá trị của thuộc tính A xác định duy nhất giá trị của thuộc tính C.",
-      "B. Giá trị của thuộc tính B xác định duy nhất giá trị của thuộc tính A.",
-      "C. Giá trị của thuộc tính A xác định duy nhất giá trị của thuộc tính B.",
-      "D. Giá trị của thuộc tính B xác định duy nhất giá trị của thuộc tính C."
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "175. Phụ thuộc hàm A → B được gọi là phụ thuộc hàm nguyên tố (phụ thuộc hàm đầy đủ)",
-    "options": [
-      "A. Không tồn tại A' ⊂ A sao cho A' → B.",
-      "B. Tồn tại A' ⊂ A sao cho A' → B.",
-      "C. A = B.",
-      "D. A ∩ B = ∅."
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "176. Tập phụ thuộc hàm <F,Q> là: *",
-    "options": [
-      "A. Tập hợp tất cả các thuộc tính của quan hệ Q.",
-      "B. Tập hợp các bản ghi của quan hệ Q.",
-      "C. Tập hợp các phụ thuộc hàm của quan hệ Q.",
-      "D. Tập hợp các khóa của quan hệ Q."
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "177. Quy ước nào sau đây được áp dụng khi mô tả tập phụ thuộc hàm F?",
-    "options": [
-      "A. Mô tả tất cả các phụ thuộc hàm, bao gồm cả phụ thuộc hàm hiển nhiên.",
-      "B. Mô tả tất cả các phụ thuộc hàm, loại trừ phụ thuộc hàm hiển nhiên.",
-      "C. Mô tả tất cả các phụ thuộc hàm nguyên tố (phụ thuộc hàm đầy đủ).",
-      "D. Mô tả tất cả các phụ thuộc hàm bắc cầu."
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "178. Cho lược đồ quan hệ Q(A, B, C). Phụ thuộc hàm A xác định B. Ký hiệu A → B nếu:",
-    "options": [
-      "A. qᵢ.A ≠ qⱼ.A thì qᵢ.B = qⱼ.B",
-      "B. qᵢ.A = qⱼ.A thì qᵢ.B ≠ qⱼ.B",
-      "C. qᵢ.A = qⱼ.A thì qᵢ.B = qⱼ.B",
-      "D. qᵢ.A ≠ qⱼ.A thì qᵢ.B ≠ qⱼ.B"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "179. Trong lược đồ quan hệ SINHVIEN (MaNV, TenNV, DiaChi, ThanhPho), tập thuộc tính",
-    "options": [
-      "A. MaNV",
-      "B. TenNV",
-      "C. {MaNV, DiaChi}",
-      "D. ThanhPho"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "180. Phụ thuộc hàm {MaNV, DiaChi} → DiaChi có ý nghĩa gì?",
-    "options": [
-      "A. Mã nhân viên xác định địa chỉ.",
-      "B. Địa chỉ xác định mã nhân viên.",
-      "C. Mã nhân viên và địa chỉ xác định địa chỉ.",
-      "D. Thành phố xác định địa chỉ."
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "181. Phụ thuộc hàm A → B được gọi là phụ thuộc hàm nguyên tố (phụ thuộc hàm đầy đủ)",
-    "options": [
-      "A. B ⊂ A",
-      "B. A ⊂ B",
-      "C. ∀A' ⊂ A, A' ≠ A và A' → B",
-      "D. A = B"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "182. Cho lược đồ quan hệ SINHVIEN (MaNV, TenNV, Lớp, Khoa). Phụ thuộc hàm MSSV",
-    "options": [
-      "A. Nếu biết Mã số sinh viên (MSSV) thì không thể xác định được Tên sinh viên (TênSV).",
-      "B. Nếu biết Mã số sinh viên (MSSV) thì có thể xác định được Tên sinh viên (TênSV).",
-      "C. Nếu biết Tên sinh viên (TênSV) thì có thể xác định được Mã số sinh viên (MSSV).",
-      "D. Mã số sinh viên (MSSV) và Tên sinh viên (TênSV) không liên quan đến nhau."
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "183. Trong lược đồ quan hệ SINHVIEN (MaNV, TenNV, Lớp, Khoa), thuộc tính nào xác",
-    "options": [
-      "A. MaNV",
-      "B. TênSV",
-      "C. Lớp",
-      "D. Khoa"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "184. Phụ thuộc hàm MSSV → TênSV có ý nghĩa gì?",
-    "options": [
-      "A. Mỗi mã số sinh viên xác định duy nhất một lớp.",
-      "B. Mỗi mã số sinh viên xác định duy nhất một khoa.",
-      "C. Mỗi mã số sinh viên xác định duy nhất một tên sinh viên.",
-      "D. Mỗi mã số sinh viên xác định duy nhất một mã số sinh viên khác."
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "185. Phụ thuộc hàm nào sau đây là phụ thuộc hàm bắc cầu?",
-    "options": [
-      "A. MSSV → TênSV",
-      "B. MSSV → Lớp",
-      "C. Lớp → Khoa",
-      "D. MSSV → Khoa"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "186. Phụ thuộc hàm nào sau đây là phụ thuộc hàm nguyên tố?",
-    "options": [
-      "A. MSSV → Khoa",
-      "B. MSSV → Lớp → Khoa",
-      "C. MSSV → TênSV",
-      "D. MSSV, Lớp → Khoa"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "187. Tập phụ thuộc hàm (F) của quan hệ SinhVien bao gồm những phụ thuộc hàm nào?",
-    "options": [
-      "A. MSSV → TênSV, MSSV → Lớp, Lớp → Khoa",
-      "B. MSSV → TênSV, MSSV → Lớp, MSSV → Khoa",
-      "C. MSSV → Lớp, Lớp → Khoa, MSSV → Khoa",
-      "D. MSSV → TênSV, Lớp → Khoa, MSSV → Khoa"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "188. Trong quan hệ SinhVien, có phụ thuộc hàm hiển nhiên nào không?",
-    "options": [
-      "A. Có",
-      "B. Không",
-      "C. Không thể xác định",
-      "D. Tất cả các đáp án đều sai"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "189. Hệ tiên đề Amstrong bao gồm bao nhiêu luật cơ bản?",
-    "options": [
-      "A. 2",
-      "B. 3",
-      "C. 4",
-      "D. 5"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "190. Luật 1 của hệ tiên đề Amstrong phát biểu rằng nếu Y là tập con của X thì: *",
-    "options": [
-      "A. X → Y",
-      "B. Y → X",
-      "C. X = Y",
-      "D. X ≠ Y"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "191. Luật 2 của hệ tiên đề Amstrong liên quan đến việc kết hợp thuộc tính nào?",
-    "options": [
-      "A. Thuộc tính giống nhau",
-      "B. Thuộc tính khác nhau",
-      "C. Thuộc tính con",
-      "D. Thuộc tính cha"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "192. Luật 4 của hệ tiên đề Amstrong cho phép phân tách phụ thuộc hàm nào?",
-    "options": [
-      "A. X → Y",
-      "B. X → Z",
-      "C. X → YZ",
-      "D. YZ → X"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "193. Luật nào sau đây không phải là luật suy ra từ 3 luật cơ bản của hệ tiên đề Amstrong?",
-    "options": [
-      "A. Luật 4",
-      "B. Luật 5",
-      "C. Luật 6",
-      "D. Luật 7"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "194. Hệ tiên đề Amstrong được sử dụng để làm gì?",
-    "options": [
-      "A. Phân tích dữ liệu",
-      "B. Thiết kế cơ sở dữ liệu",
-      "C. Tối ưu hóa truy vấn",
-      "D. Kiểm tra tính nhất quán của dữ liệu"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "195. Luật nào sau đây mô tả tính bắc cầu của phụ thuộc hàm?",
-    "options": [
-      "A. Luật 1",
-      "B. Luật 2",
-      "C. Luật 3",
-      "D. Luật 4"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "196. Luật 1 của hệ tiên đề Amstrong phát biểu rằng nếu Y là tập con của X thì: *",
-    "options": [
-      "A. X → Y",
-      "B. Y → X",
-      "C. X = Y",
-      "D. X ≠ Y"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "197. Phụ thuộc hàm {MaNV, TenNV, DiaChi} → {DiaChi} được gọi là gì?",
-    "options": [
-      "A. Phụ thuộc hàm bắc cầu",
-      "B. Phụ thuộc hàm đầy đủ",
-      "C. Phụ thuộc hàm hiển nhiên",
-      "D. Phụ thuộc hàm một phần"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "198. Luật 1 của hệ tiên đề Amstrong được áp dụng khi nào?",
-    "options": [
-      "A. Khi X và Y không có phần tử chung",
-      "B. Khi Y là tập con của X",
-      "C. Khi X là tập con của Y",
-      "D. Khi X và Y là hai tập hợp độc lập"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "199. Luật 2 của hệ tiên đề Amstrong phát biểu rằng nếu X → Y và Z ⊆ W thì: *",
-    "options": [
-      "A. XZ → YW",
-      "B. XW → YZ",
-      "C. YZ → XW",
-      "D. YW → XZ"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "200. Phụ thuộc hàm {MaNV, DiaChi, ThanhPho} → {TenNV, ThanhPho} được suy ra từ luật",
-    "options": [
-      "A. Luật 1",
-      "B. Luật 2",
-      "C. Luật 3",
-      "D. Luật 4"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "201. Luật 2 của hệ tiên đề Amstrong được sử dụng để làm gì?",
-    "options": [
-      "A. Phân tách phụ thuộc hàm",
-      "B. Kết hợp phụ thuộc hàm",
-      "C. Mở rộng các phụ thuộc hàm đã biết",
-      "D. Kiểm tra tính nhất quán của dữ liệu"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "202. Luật 3 của hệ tiên đề Amstrong phát biểu rằng nếu X → Y và Y → Z thì: *",
-    "options": [
-      "A. X → YZ",
-      "B. X → Z",
-      "C. YZ → X",
-      "D. Z → X"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "203. Phụ thuộc hàm {MSSV} → {Khoa} được suy ra từ luật nào?",
-    "options": [
-      "A. Luật 1",
-      "B. Luật 2",
-      "C. Luật 3",
-      "D. Luật 4"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "204. Phụ thuộc hàm {MSSV} → {Khoa} được gọi là gì?",
-    "options": [
-      "A. Phụ thuộc hàm đầy đủ",
-      "B. Phụ thuộc hàm một phần",
-      "C. Phụ thuộc hàm bắc cầu",
-      "D. Phụ thuộc hàm hiển nhiên"
+      "Phụ thuộc hàm đầy đủ",
+      "Phụ thuộc hàm một phần",
+      "Phụ thuộc hàm bắc cầu",
+      "Phụ thuộc hàm hiển nhiên"
     ],
     "answer": "C"
   }
