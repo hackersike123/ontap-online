@@ -96,3 +96,25 @@ button {
 button:hover {
   background: #333;
 }
+/* Add these styles */
+.answer-review-container {
+    margin-top: 20px;
+}
+
+.answer-review {
+    margin-bottom: 16px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.answer-selected {
+    /* Base style for selected answer */
+}
+
+.answer-correct {
+    color: #228B22; /* Green color for correct answers */
+}
+
+.answer-incorrect {
+    color: #d00; /* Red color for incorrect selected answers */
+}
