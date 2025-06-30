@@ -53,7 +53,6 @@ function submitAllAnswers() {
     // Tìm đáp án đúng theo vị trí đã xáo trộn
     let correctText = q.options[q.answer.charCodeAt(0) - 65];
     let shuffledCorrectIdx = q._shuffled.findIndex(opt => opt === correctText);
-    let userSelectedText = answer;
     let userSelectedIdx = answer ? q._shuffled.findIndex(opt => opt === answer) : -1;
     if (shuffledCorrectIdx === -1) shuffledCorrectIdx = 0;
     if (answer === correctText) score++;
@@ -63,7 +62,10 @@ function submitAllAnswers() {
       correct: String.fromCharCode(65 + shuffledCorrectIdx),
       correctText: q._shuffled[shuffledCorrectIdx],
       selected: userSelectedIdx !== -1 ? String.fromCharCode(65 + userSelectedIdx) : null,
-      selectedText: userSelectedIdx !== -1 ? q._shuffled[userSelectedIdx] : null
+      selectedText: userSelectedIdx !== -1 ? q._shuffled[userSelectedIdx] : null,
+      // Thêm nội dung đáp án gốc để hiển thị đầy đủ
+      correctOriginText: correctText,
+      selectedOriginText: answer
     });
   });
   showSummary(score, userAnswers);
@@ -109,7 +111,12 @@ function showSummary(score, userAnswers) {
     } else {
       html += 'Không chọn';
     }
-    html += `</b> | Đáp án đúng: <b style='color:#228B22'>`;
+    html += `</b>`;
+    // Hiển thị thêm nội dung đáp án bạn chọn (nếu có)
+    if(ans.selectedText) {
+      html += ` <span style="color:#888">(Nội dung: ${ans.selectedText})</span>`;
+    }
+    html += ` | Đáp án đúng: <b style='color:#228B22'>`;
     if(ans.correct && ans.correctText) {
       html += `${ans.correct} - ${ans.correctText}`;
     } else if(ans.correct) {
@@ -117,7 +124,12 @@ function showSummary(score, userAnswers) {
     } else {
       html += 'Không xác định';
     }
-    html += `</b></span>`;
+    html += `</b>`;
+    // Hiển thị thêm nội dung đáp án đúng (nếu có)
+    if(ans.correctText) {
+      html += ` <span style="color:#888">(Nội dung: ${ans.correctText})</span>`;
+    }
+    html += `</span>`;
     html += '</div>';
   });
   html += '</div>';
