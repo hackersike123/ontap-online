@@ -111,12 +111,7 @@ function showSummary(score, userAnswers) {
     } else {
       html += 'Không chọn';
     }
-    html += `</b>`;
-    // Hiển thị thêm nội dung đáp án bạn chọn (nếu có)
-    if(ans.selectedText) {
-      html += ` <span style="color:#888">(Nội dung: ${ans.selectedText})</span>`;
-    }
-    html += ` | Đáp án đúng: <b style='color:#228B22'>`;
+    html += `</b> | Đáp án đúng: <b style='color:#228B22'>`;
     if(ans.correct && ans.correctText) {
       html += `${ans.correct} - ${ans.correctText}`;
     } else if(ans.correct) {
@@ -124,12 +119,7 @@ function showSummary(score, userAnswers) {
     } else {
       html += 'Không xác định';
     }
-    html += `</b>`;
-    // Hiển thị thêm nội dung đáp án đúng (nếu có)
-    if(ans.correctText) {
-      html += ` <span style="color:#888">(Nội dung: ${ans.correctText})</span>`;
-    }
-    html += `</span>`;
+    html += `</b></span>`;
     html += '</div>';
   });
   html += '</div>';
