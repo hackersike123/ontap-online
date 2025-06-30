@@ -102,15 +102,18 @@ function showSummary(score, userAnswers) {
     html += `<div class='answer-review' style='margin-bottom:16px;padding:10px 0;border-bottom:1px solid #eee'>`;
     html += `<b>Câu ${idx+1}:</b> ${ans.question}<br>`;
     html += `<span>Đáp án bạn chọn: <b style='color:${ans.selected === ans.correct ? '#228B22':'#d00'}'>`;
-    if(ans.selected) {
+    if(ans.selected && ans.selectedText) {
       html += `${ans.selected} - ${ans.selectedText}`;
+    } else if(ans.selected) {
+      html += `${ans.selected}`;
     } else {
       html += 'Không chọn';
     }
-    html += `</b></span><br>`;
-    html += `<span>Đáp án đúng: <b style='color:#228B22'>`;
-    if(ans.correct) {
+    html += `</b> | Đáp án đúng: <b style='color:#228B22'>`;
+    if(ans.correct && ans.correctText) {
       html += `${ans.correct} - ${ans.correctText}`;
+    } else if(ans.correct) {
+      html += `${ans.correct}`;
     } else {
       html += 'Không xác định';
     }
