@@ -68,36 +68,46 @@ function submitAllAnswers() {
   showSummary(score, userAnswers);
 }
 
+function saveHistory(score, userAnswers) {
+  let history = JSON.parse(localStorage.getItem('quizHistory') || '[]');
+  history.push({
+    date: new Date().toLocaleString(),
+    score: score,
+    total: questions.length,
+    answers: userAnswers
+  });
+  localStorage.setItem('quizHistory', JSON.stringify(history));
+}
+
+function showHistory() {
+  let history = JSON.parse(localStorage.getItem('quizHistory') || '[]');
+  if (history.length === 0) return '';
+  let html = '<div class="history"><b>Lịch sử làm bài:</b><ul>';
+  history.slice(-5).reverse().forEach(h => {
+    html += `<li>${h.date}: <b>${h.score}/${h.total}</b></li>`;
+  });
+  html += '</ul></div>';
+  return html;
+}
+
 function showSummary(score, userAnswers) {
   const quiz = document.getElementById('quiz-container');
   const result = document.getElementById('result');
   quiz.innerHTML = '';
   let html = `<div>Bạn đã trả lời đúng <b>${score}/${questions.length}</b> câu.</div>`;
-  let wrongs = userAnswers.filter(ans => ans.selected !== ans.correct);
-  if (wrongs.length > 0) {
-    html += '<div style="margin-top:16px;"><b>Các câu trả lời sai:</b><ol>';
-    wrongs.forEach((ans, idx) => {
-      let correctText = ans.correctText ? `${ans.correct}. ${ans.correctText}` : 'Không xác định';
-      html += `<li><div style='margin-bottom:4px;'>${ans.question}</div>`;
-      html += `<div>Đáp án đúng: <b>${correctText}</b></div>`;
-      html += '</li>';
-    });
-    html += '</ol></div>';
-  }
-  // Hiển thị đáp án đúng của mình nếu chọn đúng
-  let corrects = userAnswers.filter(ans => ans.selected === ans.correct);
-  if (corrects.length > 0) {
-    html += '<div style="margin-top:16px;"><b>Các câu trả lời đúng:</b><ol>';
-    corrects.forEach((ans, idx) => {
-      let selectedText = ans.selectedText ? `${ans.selected}. ${ans.selectedText}` : 'Không chọn';
-      html += `<li><div style='margin-bottom:4px;'>${ans.question}</div>`;
-      html += `<div>Đáp án đúng của bạn: <b>${selectedText}</b></div>`;
-      html += '</li>';
-    });
-    html += '</ol></div>';
-  }
+  html += showHistory();
+  html += '<div style="margin-top:20px">';
+  userAnswers.forEach((ans, idx) => {
+    html += `<div class='answer-review' style='margin-bottom:16px;padding:10px 0;border-bottom:1px solid #eee'>`;
+    html += `<b>Câu ${idx+1}:</b> ${ans.question}<br>`;
+    html += `Đáp án bạn chọn là: <b style='color:${ans.selected === ans.correct ? '#228B22':'#d00'}'>${ans.selected ? ans.selected : 'Không chọn'}</b><br>`;
+    html += `Đáp án đúng là: <b>${ans.correct ? ans.correct : 'Không xác định'}</b>`;
+    html += '</div>';
+  });
+  html += '</div>';
   document.getElementById('restart-btn').style.display = 'inline-block';
   result.innerHTML = html;
+  saveHistory(score, userAnswers);
 }
 
 document.getElementById('restart-btn').onclick = function() {
