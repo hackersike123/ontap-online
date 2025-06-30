@@ -100,8 +100,7 @@ function showSummary(score, userAnswers) {
   userAnswers.forEach((ans, idx) => {
     html += `<div class='answer-review' style='margin-bottom:16px;padding:10px 0;border-bottom:1px solid #eee'>`;
     html += `<b>Câu ${idx+1}:</b> ${ans.question}<br>`;
-    html += `Đáp án bạn chọn là: <b style='color:${ans.selected === ans.correct ? '#228B22':'#d00'}'>${ans.selected ? ans.selected : 'Không chọn'}</b><br>`;
-    html += `Đáp án đúng là: <b>${ans.correct ? ans.correct : 'Không xác định'}</b>`;
+    html += `<span>Đáp án bạn chọn: <b style='color:${ans.selected === ans.correct ? '#228B22':'#d00'}'>${ans.selected ? ans.selected : 'Không chọn'}</b> | Đáp án đúng: <b style='color:#228B22'>${ans.correct ? ans.correct : 'Không xác định'}</b></span>`;
     html += '</div>';
   });
   html += '</div>';
