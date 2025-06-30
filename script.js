@@ -54,15 +54,16 @@ function submitAllAnswers() {
     let correctText = q.options[q.answer.charCodeAt(0) - 65];
     let shuffledCorrectIdx = q._shuffled.findIndex(opt => opt === correctText);
     let userSelectedText = answer;
+    let userSelectedIdx = answer ? q._shuffled.findIndex(opt => opt === answer) : -1;
     if (shuffledCorrectIdx === -1) shuffledCorrectIdx = 0;
     if (answer === correctText) score++;
     userAnswers.push({
       question: q.question.replace(/^\d+\.?\s*/, ''),
       options: q._shuffled,
       correct: String.fromCharCode(65 + shuffledCorrectIdx),
-      correctText: correctText,
-      selected: answer ? String.fromCharCode(65 + q._shuffled.findIndex(opt => opt === answer)) : null,
-      selectedText: userSelectedText
+      correctText: q._shuffled[shuffledCorrectIdx],
+      selected: userSelectedIdx !== -1 ? String.fromCharCode(65 + userSelectedIdx) : null,
+      selectedText: userSelectedIdx !== -1 ? q._shuffled[userSelectedIdx] : null
     });
   });
   showSummary(score, userAnswers);
